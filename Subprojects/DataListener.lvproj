@@ -84,31 +84,31 @@
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
-			<Item Name="8601 UTC Date-Time String.vi" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/Time/8601 UTC Date-Time String.vi"/>
-			<Item Name="Command.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/Command/Command.lvclass"/>
+			<Item Name="8601 UTC Date-Time String.vi" Type="VI" URL="../../ComponentTemplateCore/Time/8601 UTC Date-Time String.vi"/>
+			<Item Name="Command.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Command/Command.lvclass"/>
 			<Item Name="CommandFactory.lvclass" Type="LVClass" URL="../../CommandFactory/CommandFactory.lvclass"/>
 			<Item Name="Commands.lvlib" Type="Library" URL="../../Commands/Commands.lvlib"/>
 			<Item Name="CommandThisComponent.lvclass" Type="LVClass" URL="../../CommandThisComponent/CommandThisComponent.lvclass"/>
-			<Item Name="CommunicationConfig.ctl" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/Typedefs/CommunicationConfig.ctl"/>
-			<Item Name="ConfigurationFileReaderDT.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModelDT/ConfigurationFileReaderDT/ConfigurationFileReaderDT.lvclass"/>
-			<Item Name="Context.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/Context/Context.lvclass"/>
-			<Item Name="ContextID.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/ContextID/ContextID.lvclass"/>
-			<Item Name="DataListener.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/DataListener/DataListener.lvclass"/>
-			<Item Name="DataListenerGlobals.lvlib" Type="Library" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/DataListenerGlobals/DataListenerGlobals.lvlib"/>
+			<Item Name="CommunicationConfig.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/CommunicationConfig.ctl"/>
+			<Item Name="ConfigurationFileReaderDT.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelDT/ConfigurationFileReaderDT/ConfigurationFileReaderDT.lvclass"/>
+			<Item Name="Context.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Context/Context.lvclass"/>
+			<Item Name="ContextID.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/ContextID/ContextID.lvclass"/>
+			<Item Name="DataListener.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/DataListener/DataListener.lvclass"/>
+			<Item Name="DataListenerGlobals.lvlib" Type="Library" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/DataListenerGlobals/DataListenerGlobals.lvlib"/>
 			<Item Name="EXACommunications.lvlib" Type="Library" URL="../../Communications/EXACommunications.lvlib"/>
 			<Item Name="EXATypedefs.lvlib" Type="Library" URL="../../Typedefs/EXATypedefs.lvlib"/>
-			<Item Name="HeartbeatConfig.ctl" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/Typedefs/HeartbeatConfig.ctl"/>
+			<Item Name="HeartbeatConfig.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/HeartbeatConfig.ctl"/>
 			<Item Name="ICommandFactory.lvclass" Type="LVClass" URL="../../ICommandFactory/ICommandFactory.lvclass"/>
 			<Item Name="IContextThisComponent.lvclass" Type="LVClass" URL="../../IContextThisComponent/IContextThisComponent.lvclass"/>
-			<Item Name="IDataListener.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/IDataListener/IDataListener.lvclass"/>
-			<Item Name="Library.ctl" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/Typedefs/Library.ctl"/>
-			<Item Name="Messenger.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/Messenger/Messenger.lvclass"/>
+			<Item Name="IDataListener.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/IDataListener/IDataListener.lvclass"/>
+			<Item Name="Library.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/Library.ctl"/>
+			<Item Name="Messenger.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Messenger/Messenger.lvclass"/>
 			<Item Name="NVIORef.dll" Type="Document" URL="NVIORef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="SharedVariableHandler.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/SharedVariableHandler/SharedVariableHandler.lvclass"/>
-			<Item Name="SVMessenger.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/SVMessenger/SVMessenger.lvclass"/>
-			<Item Name="SVProcessConfig.ctl" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/Typedefs/SVProcessConfig.ctl"/>
+			<Item Name="SharedVariableHandler.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/SharedVariableHandler/SharedVariableHandler.lvclass"/>
+			<Item Name="SVMessenger.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/SVMessenger/SVMessenger.lvclass"/>
+			<Item Name="SVProcessConfig.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/SVProcessConfig.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
