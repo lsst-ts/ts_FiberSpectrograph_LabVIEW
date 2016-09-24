@@ -121,7 +121,6 @@
 			<Item Name="ComponentStateValues.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ComponentStateValues.ctl"/>
 			<Item Name="Configuration.lvlib" Type="Library" URL="../../ComponentTemplateCore/ConfigurationWithXML/MyComputer/Configuration/Configuration.lvlib"/>
 			<Item Name="ConfigurationFileReaderDT.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelDT/ConfigurationFileReaderDT/ConfigurationFileReaderDT.lvclass"/>
-			<Item Name="ConfigurationTabUI.lvclass" Type="LVClass" URL="/../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ConfigurationWithXML/MyComputer/Configuration/ConfigurationTabUI/ConfigurationTabUI.lvclass"/>
 			<Item Name="ExampleConfiguration.lvlib" Type="Library" URL="../../ConfigurationTC/ExampleConfiguration.lvlib"/>
 			<Item Name="EXATypedefs.lvlib" Type="Library" URL="../../Typedefs/EXATypedefs.lvlib"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
