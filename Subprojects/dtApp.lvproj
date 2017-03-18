@@ -7,7 +7,6 @@
 	<Property Name="varPersistentID:{4452D9B7-5E8E-49A1-9F16-D854B7417683}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/reset mode</Property>
 	<Property Name="varPersistentID:{571F0E53-25A2-493D-BA17-6640116F1C66}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/error out</Property>
 	<Property Name="varPersistentID:{578E2233-7B29-4861-BACD-7203C9A7FF35}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/elapsed time (ms)</Property>
-	<Property Name="varPersistentID:{6F811EB8-CA1C-48EB-B8AF-06D65A7CC4BE}" Type="Ref"></Property>
 	<Property Name="varPersistentID:{7002E14E-7985-4218-88B7-C88F68E6A8C4}" Type="Ref"></Property>
 	<Property Name="varPersistentID:{7ADB6D45-D9DD-46C7-AD9F-D8F9BE0F1964}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/error in</Property>
 	<Item Name="My Computer" Type="My Computer">

@@ -7,6 +7,7 @@
 	<Property Name="varPersistentID:{03B6CC23-AB25-4ED4-8774-9348D2CF59C0}" Type="Ref">/My Computer/EXASubDataSV.lvlib/Enable</Property>
 	<Property Name="varPersistentID:{05995060-19FD-495D-BCC9-7A69E8B7B19C}" Type="Ref">/My Computer/EXAPubDataSV.lvlib/SummaryState</Property>
 	<Property Name="varPersistentID:{0A4283D5-314E-42DF-B58A-401E7AFF9564}" Type="Ref">/My Computer/EXAPubDataSV.lvlib/Heartbeat</Property>
+	<Property Name="varPersistentID:{1DC632D6-1EFB-4BF8-8D05-F7DF74516A8F}" Type="Ref">/My Computer/EXAPubDataSV.lvlib/RejectedCommand</Property>
 	<Property Name="varPersistentID:{4C09EAE0-C8FD-428C-9E37-699EAA1A5D19}" Type="Ref">/My Computer/EXASubDataSV.lvlib/HeartbeatIn</Property>
 	<Property Name="varPersistentID:{4EF93911-459C-4AD1-B062-26ABBCD965D4}" Type="Ref">/My Computer/EXAPubDataSV.lvlib/LoopTimeOutOfRange</Property>
 	<Property Name="varPersistentID:{50EB029A-4EE9-421E-B254-B3B5FEA04ADB}" Type="Ref">/My Computer/EXAPubDataSV.lvlib/Timestamp</Property>
@@ -39,7 +40,9 @@
 		<Item Name="EXACommandSV.lvlib" Type="Library" URL="../../SharedVariables/EXACommandSV.lvlib"/>
 		<Item Name="EXAPubDataSV.lvlib" Type="Library" URL="../../SharedVariables/EXAPubDataSV.lvlib"/>
 		<Item Name="EXASubDataSV.lvlib" Type="Library" URL="../../SharedVariables/EXASubDataSV.lvlib"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="EXATypedefs.lvlib" Type="Library" URL="../../Typedefs/EXATypedefs.lvlib"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>

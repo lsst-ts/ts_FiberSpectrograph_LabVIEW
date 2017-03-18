@@ -38,6 +38,7 @@
 	<Item Name="displayErrorMessage.vi" Type="VI" URL="../displayErrorMessage.vi"/>
 	<Item Name="displayHeartbeat.vi" Type="VI" URL="../displayHeartbeat.vi"/>
 	<Item Name="displayIndicatorElement.vi" Type="VI" URL="../displayIndicatorElement.vi"/>
+	<Item Name="displayRejectedCommand.vi" Type="VI" URL="../displayRejectedCommand.vi"/>
 	<Item Name="displaySummaryState.vi" Type="VI" URL="../displaySummaryState.vi"/>
 	<Item Name="displayWarnings.vi" Type="VI" URL="../displayWarnings.vi"/>
 </Library>
