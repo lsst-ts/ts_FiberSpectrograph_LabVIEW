@@ -3,9 +3,9 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
-	<Property Name="varPersistentID:{3F04749A-B44A-485B-BB79-7A27BC4E6E19}" Type="Ref">/My Computer/Dependencies/Configuration.lvlib/ConfigurationDataSV/ConfigurationCommand</Property>
-	<Property Name="varPersistentID:{70F2D2D0-E720-4B66-A4B3-22D1ABED6D3C}" Type="Ref">/My Computer/Dependencies/Configuration.lvlib/ConfigurationDataSV/ConfigTabUIObject</Property>
-	<Property Name="varPersistentID:{87D455FD-F479-44F6-A9BD-934CCBC9DBC9}" Type="Ref">/My Computer/Dependencies/Configuration.lvlib/ConfigurationDataSV/stopViewIsTrue</Property>
+	<Property Name="varPersistentID:{5E408FBF-7AE4-4B8C-81F2-873F95930E33}" Type="Ref">/My Computer/Dependencies/Configuration.lvlib/ConfigurationDataSV/stopViewIsTrue</Property>
+	<Property Name="varPersistentID:{899A025A-3697-4AC3-81DC-51EEFC271EDD}" Type="Ref">/My Computer/Dependencies/Configuration.lvlib/ConfigurationDataSV/ConfigurationCommand</Property>
+	<Property Name="varPersistentID:{F0F21736-8BD3-4452-840E-5577CE4D1278}" Type="Ref">/My Computer/Dependencies/Configuration.lvlib/ConfigurationDataSV/ConfigTabUIObject</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -34,8 +34,12 @@
 			<Item Name="EXAViewElements.lvlib" Type="Library" URL="../../View/ViewElements/EXAViewElements.lvlib"/>
 		</Item>
 		<Item Name="exaViewMain.vi" Type="VI" URL="../exaViewMain.vi"/>
-		<Item Name="Internet.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/Internet/Internet.lvclass"/>
+		<Item Name="HeartbeatConfig.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/HeartbeatConfig.ctl"/>
+		<Item Name="IRQConfig.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/ComponentConfigurationTypedefs/IRQConfig.ctl"/>
+		<Item Name="LoopConfig.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/ComponentConfigurationTypedefs/LoopConfig.ctl"/>
+		<Item Name="RIOConfig.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/ComponentConfigurationTypedefs/RIOConfig.ctl"/>
 		<Item Name="viewMainMenu.rtm" Type="Document" URL="../../View/viewMainMenu.rtm"/>
+		<Item Name="warningsConfigDialog.vi" Type="VI" URL="../../ComponentTemplateCore/GUI/WarningsConfigDialog/warningsConfigDialog.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -110,39 +114,35 @@
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
-			<Item Name="8601 UTC Date-Time String.vi" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/Time/8601 UTC Date-Time String.vi"/>
-			<Item Name="AlarmsTreeDisplay.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/AlarmsTreeDisplay/AlarmsTreeDisplay/AlarmsTreeDisplay.lvclass"/>
-			<Item Name="CommunicationConfig.ctl" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/Typedefs/CommunicationConfig.ctl"/>
-			<Item Name="ComponentStateValues.ctl" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/Typedefs/ComponentStateValues.ctl"/>
-			<Item Name="Configuration.lvlib" Type="Library" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ConfigurationWithXML/MyComputer/Configuration/Configuration.lvlib"/>
-			<Item Name="ConfigurationFileReaderDT.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModelDT/ConfigurationFileReaderDT/ConfigurationFileReaderDT.lvclass"/>
+			<Item Name="8601 UTC Date-Time String.vi" Type="VI" URL="../../ComponentTemplateCore/Time/8601 UTC Date-Time String.vi"/>
+			<Item Name="AlarmsTreeDisplay.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/AlarmsTreeDisplay/AlarmsTreeDisplay/AlarmsTreeDisplay.lvclass"/>
+			<Item Name="CommunicationConfig.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/CommunicationConfig.ctl"/>
+			<Item Name="ComponentStateValues.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ComponentStateValues.ctl"/>
+			<Item Name="Configuration.lvlib" Type="Library" URL="../../ComponentTemplateCore/ConfigurationWithXML/MyComputer/Configuration/Configuration.lvlib"/>
+			<Item Name="ConfigurationFileReaderDT.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelDT/ConfigurationFileReaderDT/ConfigurationFileReaderDT.lvclass"/>
 			<Item Name="ExampleConfiguration.lvlib" Type="Library" URL="../../ConfigurationTC/ExampleConfiguration.lvlib"/>
 			<Item Name="EXATypedefs.lvlib" Type="Library" URL="../../Typedefs/EXATypedefs.lvlib"/>
-			<Item Name="HeartbeatConfig.ctl" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/Typedefs/HeartbeatConfig.ctl"/>
-			<Item Name="IRQConfig.ctl" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModelRT/ComponentConfigurationTypedefs/IRQConfig.ctl"/>
+			<Item Name="Internet.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/Internet/Internet.lvclass"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Library.ctl" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/Typedefs/Library.ctl"/>
-			<Item Name="LoopConfig.ctl" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModelRT/ComponentConfigurationTypedefs/LoopConfig.ctl"/>
-			<Item Name="MessageValidation.lvlib" Type="Library" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/MessageValidation/MessageValidation.lvlib"/>
-			<Item Name="Messenger.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/Messenger/Messenger.lvclass"/>
+			<Item Name="Library.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/Library.ctl"/>
+			<Item Name="MessageValidation.lvlib" Type="Library" URL="../../ComponentTemplateCore/MessageValidation/MessageValidation.lvlib"/>
+			<Item Name="Messenger.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Messenger/Messenger.lvclass"/>
 			<Item Name="NVIORef.dll" Type="Document" URL="NVIORef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RIOConfig.ctl" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModelRT/ComponentConfigurationTypedefs/RIOConfig.ctl"/>
-			<Item Name="SharedVariableHandler.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/SharedVariableHandler/SharedVariableHandler.lvclass"/>
-			<Item Name="Subpanel.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/Subpanel/Subpanel.lvclass"/>
-			<Item Name="SummaryStatePictRing.ctl" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/GUI/SummaryStateIndicator/SummaryStatePictRing.ctl"/>
-			<Item Name="SVMessenger.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/SVMessenger/SVMessenger.lvclass"/>
-			<Item Name="SVProcessConfig.ctl" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/Typedefs/SVProcessConfig.ctl"/>
-			<Item Name="SVUserEvent.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/SVUserEvent/SVUserEvent.lvclass"/>
+			<Item Name="SharedVariableHandler.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/SharedVariableHandler/SharedVariableHandler.lvclass"/>
+			<Item Name="Subpanel.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Subpanel/Subpanel.lvclass"/>
+			<Item Name="SummaryStatePictRing.ctl" Type="VI" URL="../../ComponentTemplateCore/GUI/SummaryStateIndicator/SummaryStatePictRing.ctl"/>
+			<Item Name="SVMessenger.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/SVMessenger/SVMessenger.lvclass"/>
+			<Item Name="SVProcessConfig.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/SVProcessConfig.ctl"/>
+			<Item Name="SVUserEvent.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/SVUserEvent/SVUserEvent.lvclass"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="View.lvclass" Type="LVClass" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/View/View.lvclass"/>
-			<Item Name="ViewUserEvent.ctl" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/ComponentModel/ComponentModel/Typedefs/ViewUserEvent.ctl"/>
-			<Item Name="warningsConfigDialog.vi" Type="VI" URL="../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2012/user.lib/Common/GUI/WarningsConfigDialog/warningsConfigDialog.vi"/>
+			<Item Name="View.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/View/View.lvclass"/>
+			<Item Name="ViewUserEvent.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ViewUserEvent.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

@@ -205,6 +205,29 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"5!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="RejectedCommand" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Logging,Network,Real-Time Features</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">False</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">3</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typedefName1" Type="Str">EXATypedefs.lvlib:CommandValue.ctl</Property>
+		<Property Name="typedefName2" Type="Str">EXATypedefs.lvlib:RejectedCommand.ctl</Property>
+		<Property Name="typedefName3" Type="Str">EXATypedefs.lvlib:StateValue.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../Typedefs/CommandValue.ctl</Property>
+		<Property Name="typedefPath2" Type="PathRel">../../Typedefs/RejectedCommand.ctl</Property>
+		<Property Name="typedefPath3" Type="PathRel">../../Typedefs/StateValue.ctl</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'KJA%!!"5!A!!!!!!%!+9!]&gt;4S)R-!!!!#%569162Z='6E:7:T,GRW&lt;'FC%%.P&lt;7VB&lt;G2797RV:3ZD&gt;'Q!?U!7!!E+1WRF98*&amp;=H*P=A&gt;%;8.B9GRF"E6O97*M:12&amp;?'FU#U&gt;P6'^4&gt;'&amp;O:'*Z#U^O3'6B=H2C:7&amp;U'%^O37ZD&lt;WVJ&lt;G&gt;.:8.T97&gt;J&lt;G&gt;&amp;=H*P=AN0&lt;EFO&gt;'6S=H6Q&gt;!64&gt;'&amp;S&gt;!!-1W^N&lt;7&amp;O:&amp;:B&lt;(6F!!"]!0(+TU&lt;C!!!!!B&amp;&amp;7%&amp;5?8"F:'6G=SZM&gt;GRJ9AZ4&gt;'&amp;U:6:B&lt;(6F,G.U&lt;!"41"9!"1V%;8.B9GRF:&amp;.U982F$%6O97*M:724&gt;'&amp;U:1J'986M&gt;&amp;.U982F#%^G:F.U982F$&amp;.U97ZE9HF4&gt;'&amp;U:1!+5X2B&gt;'6797RV:1!!%E"5!!9+6'FN:3"4&gt;'&amp;N=!!!4A$RV0*$5A!!!!)226B"6(FQ:72F:H-O&lt;(:M;7)45G6K:7.U:72$&lt;WVN97ZE,G.U&lt;!!A1&amp;!!!Q!!!!%!!A^3:7JF9X2F:%.P&lt;7VB&lt;G1!!1!$!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="SummaryState" Type="Variable">
 		<Property Name="Alarming:BitArray:Enabled" Type="Str">False</Property>
 		<Property Name="Alarming:Boolean:Enabled" Type="Str">False</Property>

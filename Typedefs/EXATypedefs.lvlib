@@ -11,6 +11,7 @@
 	<Item Name="CommandValue.ctl" Type="VI" URL="../CommandValue.ctl"/>
 	<Item Name="ContextID.ctl" Type="VI" URL="../ContextID.ctl"/>
 	<Item Name="PubDataSV.ctl" Type="VI" URL="../PubDataSV.ctl"/>
+	<Item Name="RejectedCommand.ctl" Type="VI" URL="../RejectedCommand.ctl"/>
 	<Item Name="StateValue.ctl" Type="VI" URL="../StateValue.ctl"/>
 	<Item Name="SubDataSV.ctl" Type="VI" URL="../SubDataSV.ctl"/>
 </Library>
