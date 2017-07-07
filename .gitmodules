@@ -1,3 +1,3 @@
 [submodule "ComponentTemplateCore"]
 	path = ComponentTemplateCore
-url=https://apeironengineering/componenttemplatecore_userevents.git
+url=https://stash.lsstcorp.org/scm/ts/common_ct_coreuserevents.git
