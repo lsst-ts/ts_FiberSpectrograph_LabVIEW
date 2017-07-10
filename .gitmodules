@@ -1,6 +1,3 @@
 [submodule "ComponentTemplateCore"]
 	path = ComponentTemplateCore
 url=https://stash.lsstcorp.org/scm/ts/common_ct_coreuserevents.git
-[submodule "ts_sallv_exa"]
-	path = ts_sallv_exa
-	url = https://stash.lsstcorp.org/scm/ts/ts_sallv_exa.git
