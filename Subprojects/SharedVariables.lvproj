@@ -41,7 +41,7 @@
 		<Item Name="EXAPubDataSV.lvlib" Type="Library" URL="../../SharedVariables/EXAPubDataSV.lvlib"/>
 		<Item Name="EXASubDataSV.lvlib" Type="Library" URL="../../SharedVariables/EXASubDataSV.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="ComponentStateValues.ctl" Type="VI" URL="../../../ComponentTemplateCore_UserEvents/ComponentModel/ComponentModel/Typedefs/ComponentStateValues.ctl"/>
+			<Item Name="ComponentStateValues.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ComponentStateValues.ctl"/>
 			<Item Name="EXATypedefs.lvlib" Type="Library" URL="../../Typedefs/EXATypedefs.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
