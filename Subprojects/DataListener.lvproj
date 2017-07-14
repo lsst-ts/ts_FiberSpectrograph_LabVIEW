@@ -21,6 +21,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="SALCommand" Type="Folder">
+			<Item Name="SALCommand.lvclass" Type="LVClass" URL="../../SALCommand/SALCommand.lvclass"/>
+			<Item Name="StartSAL.lvclass" Type="LVClass" URL="../../SALCommand/StartSAL.lvclass"/>
+		</Item>
 		<Item Name="SALCommunicator" Type="Folder">
 			<Item Name="SALCommunicator.lvclass" Type="LVClass" URL="../../SALCommunicator/SALCommunicator.lvclass"/>
 			<Item Name="SALCommunicatorDL.lvclass" Type="LVClass" URL="../../SALCommunicatorDL/SALCommunicatorDL.lvclass"/>
@@ -144,16 +148,12 @@
 			<Item Name="PubDataSV.ctl" Type="VI" URL="../../Typedefs/PubDataSV.ctl"/>
 			<Item Name="RejectedCommand.ctl" Type="VI" URL="../../Typedefs/RejectedCommand.ctl"/>
 			<Item Name="Rendezvous.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Rendezvous/Rendezvous.lvclass"/>
-			<Item Name="SALLV_EXA.lvlib" Type="Library" URL="../../../Desktop/TestConnectRelease/SALLV_EXA.lvlib"/>
-			<Item Name="SALLV_EXA.so" Type="Document" URL="../../../ct_cmp/ts_sallv_exa/SALLV_EXA.so"/>
 			<Item Name="SVProcessConfig.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/SVProcessConfig.ctl"/>
 			<Item Name="SharedVariableHandler.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/SharedVariableHandler/SharedVariableHandler.lvclass"/>
 			<Item Name="StateValue.ctl" Type="VI" URL="../../Typedefs/StateValue.ctl"/>
 			<Item Name="SubDataEvents.ctl" Type="VI" URL="../../Typedefs/SubDataEvents.ctl"/>
 			<Item Name="SubDataSV.ctl" Type="VI" URL="../../Typedefs/SubDataSV.ctl"/>
 			<Item Name="Target.lvclass" Type="LVClass" URL="../../Model/Target/Target/Target.lvclass"/>
-			<Item Name="Write commandID.vi" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Command/Write commandID.vi"/>
-			<Item Name="Write configuration.vi" Type="VI" URL="../../Commands/Start/Write configuration.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
