@@ -3,11 +3,27 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
-	<Property Name="varPersistentID:{0299D8EF-7893-4519-A661-FC86F7020D74}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/reset</Property>
-	<Property Name="varPersistentID:{4452D9B7-5E8E-49A1-9F16-D854B7417683}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/reset mode</Property>
-	<Property Name="varPersistentID:{571F0E53-25A2-493D-BA17-6640116F1C66}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/error out</Property>
-	<Property Name="varPersistentID:{578E2233-7B29-4861-BACD-7203C9A7FF35}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/elapsed time (ms)</Property>
-	<Property Name="varPersistentID:{7ADB6D45-D9DD-46C7-AD9F-D8F9BE0F1964}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/error in</Property>
+	<Property Name="varPersistentID:{5A9FC63E-6D50-11E7-8669-080027CAF315}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/error in</Property>
+	<Property Name="varPersistentID:{5A9FD833-6D50-11E7-8669-080027CAF315}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/reset mode</Property>
+	<Property Name="varPersistentID:{5A9FE8C3-6D50-11E7-8669-080027CAF315}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/reset</Property>
+	<Property Name="varPersistentID:{5A9FF93D-6D50-11E7-8669-080027CAF315}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/error out</Property>
+	<Property Name="varPersistentID:{5AA009AA-6D50-11E7-8669-080027CAF315}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/elapsed time (ms)</Property>
+	<Property Name="varPersistentID:{737B4B29-6D1B-11E7-8669-080027CAF315}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{737B5AE7-6D1B-11E7-8669-080027CAF315}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{737B674E-6D1B-11E7-8669-080027CAF315}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{7ADB6D45-D9DD-46C7-AD9F-D8F9BE0F1964}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{8D0DFC09-6D1C-11E7-8669-080027CAF315}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{8D0E0EF1-6D1C-11E7-8669-080027CAF315}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{8D0E1CD4-6D1C-11E7-8669-080027CAF315}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{8D0E298C-6D1C-11E7-8669-080027CAF315}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{98A19D0B-6D18-11E7-8669-080027CAF315}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{98A1A934-6D18-11E7-8669-080027CAF315}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{98A1B76C-6D18-11E7-8669-080027CAF315}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{98A1C543-6D18-11E7-8669-080027CAF315}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{B16DF85C-6D0E-11E7-8669-080027CAF315}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{B16E0654-6D0E-11E7-8669-080027CAF315}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{B16E1346-6D0E-11E7-8669-080027CAF315}" Type="Ref"></Property>
+	<Property Name="varPersistentID:{B16E1F9C-6D0E-11E7-8669-080027CAF315}" Type="Ref"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -65,6 +81,7 @@
 				<Item Name="SALCommunicatorController.lvclass" Type="LVClass" URL="../../SALCommunicatorController/SALCommunicatorController.lvclass"/>
 				<Item Name="SALCommunicatorDL.lvclass" Type="LVClass" URL="../../SALCommunicatorDL/SALCommunicatorDL.lvclass"/>
 				<Item Name="SALCommunicatorTC.lvclass" Type="LVClass" URL="../../SALCommunicatorTC/SALCommunicatorTC.lvclass"/>
+				<Item Name="salCmdAck.ctl" Type="VI" URL="../../SALCommunicator/salCmdAck.ctl"/>
 			</Item>
 			<Item Name="State" Type="Folder">
 				<Item Name="State.lvclass" Type="LVClass" URL="../../State/State.lvclass"/>

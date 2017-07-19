@@ -17,4 +17,5 @@
 	<Item Name="StateValue.ctl" Type="VI" URL="../StateValue.ctl"/>
 	<Item Name="SubDataEvents.ctl" Type="VI" URL="../SubDataEvents.ctl"/>
 	<Item Name="SubDataSV.ctl" Type="VI" URL="../SubDataSV.ctl"/>
+	<Item Name="ackCMDEvent.ctl" Type="VI" URL="../ackCMDEvent.ctl"/>
 </Library>
