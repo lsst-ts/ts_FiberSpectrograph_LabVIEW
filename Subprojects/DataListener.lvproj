@@ -127,6 +127,7 @@
 			<Item Name="ProcessStatusRendezvous.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ProcessStatusRendezvous.ctl"/>
 			<Item Name="Rendezvous.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Rendezvous/Rendezvous.lvclass"/>
 			<Item Name="SALCommunicatorController.lvclass" Type="LVClass" URL="../../SALCommunicatorController/SALCommunicatorController.lvclass"/>
+			<Item Name="SALCommunicatorView.lvclass" Type="LVClass" URL="../../SALCommunicatorView/SALCommunicatorView.lvclass"/>
 			<Item Name="SALLV_EXA.lvlib" Type="Library" URL="../../ts_sallv_exa/SALLV_EXA.lvlib"/>
 			<Item Name="Target.lvclass" Type="LVClass" URL="../../Model/Target/Target/Target.lvclass"/>
 		</Item>
