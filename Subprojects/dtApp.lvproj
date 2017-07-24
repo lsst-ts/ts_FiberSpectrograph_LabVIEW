@@ -8,7 +8,6 @@
 	<Property Name="varPersistentID:{5A9FE8C3-6D50-11E7-8669-080027CAF315}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/reset</Property>
 	<Property Name="varPersistentID:{5A9FF93D-6D50-11E7-8669-080027CAF315}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/error out</Property>
 	<Property Name="varPersistentID:{5AA009AA-6D50-11E7-8669-080027CAF315}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/elapsed time (ms)</Property>
-	<Property Name="varPersistentID:{737B4B29-6D1B-11E7-8669-080027CAF315}" Type="Ref"></Property>
 	<Property Name="varPersistentID:{737B5AE7-6D1B-11E7-8669-080027CAF315}" Type="Ref"></Property>
 	<Property Name="varPersistentID:{737B674E-6D1B-11E7-8669-080027CAF315}" Type="Ref"></Property>
 	<Property Name="varPersistentID:{7ADB6D45-D9DD-46C7-AD9F-D8F9BE0F1964}" Type="Ref"></Property>
@@ -199,6 +198,7 @@
 			<Item Name="ProcessStatusRendezvous.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ProcessStatusRendezvous.ctl"/>
 			<Item Name="PubSubDataEvent.lvclass" Type="LVClass" URL="../../PubSubDataEvent/PubSubDataEvent.lvclass"/>
 			<Item Name="Rendezvous.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Rendezvous/Rendezvous.lvclass"/>
+			<Item Name="SALCommunicatorView.lvclass" Type="LVClass" URL="../../SALCommunicatorView/SALCommunicatorView.lvclass"/>
 			<Item Name="SALLV_EXA.lvlib" Type="Library" URL="../../ts_sallv_exa/SALLV_EXA.lvlib"/>
 			<Item Name="TimedLoopListener.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/TimedLoopListener/TimedLoopListener.lvclass"/>
 			<Item Name="UserEventBasedController.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/UserEventBasedController/UserEventBasedController.lvclass"/>
