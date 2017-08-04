@@ -6,8 +6,6 @@
 	<Property Name="varPersistentID:{1C24A13F-6F1F-11E7-8669-080027FB06F8}" Type="Ref">/My Computer/Dependencies/Configuration.lvlib/ConfigurationDataSV/ConfigTabUIObject</Property>
 	<Property Name="varPersistentID:{1C24C544-6F1F-11E7-8669-080027FB06F8}" Type="Ref">/My Computer/Dependencies/Configuration.lvlib/ConfigurationDataSV/ConfigurationCommand</Property>
 	<Property Name="varPersistentID:{1C24DC24-6F1F-11E7-8669-080027FB06F8}" Type="Ref">/My Computer/Dependencies/Configuration.lvlib/ConfigurationDataSV/stopViewIsTrue</Property>
-	<Property Name="varPersistentID:{899A025A-3697-4AC3-81DC-51EEFC271EDD}" Type="Ref"></Property>
-	<Property Name="varPersistentID:{F0F21736-8BD3-4452-840E-5577CE4D1278}" Type="Ref"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -35,6 +33,7 @@
 			<Item Name="SALCommunicatorDL.lvclass" Type="LVClass" URL="../../SALCommunicatorDL/SALCommunicatorDL.lvclass"/>
 			<Item Name="SALCommunicatorTC.lvclass" Type="LVClass" URL="../../SALCommunicatorTC/SALCommunicatorTC.lvclass"/>
 			<Item Name="SALCommunicatorView.lvclass" Type="LVClass" URL="../../SALCommunicatorView/SALCommunicatorView.lvclass"/>
+			<Item Name="unixToStrTime.vi" Type="VI" URL="../../SALCommunicator/unixToStrTime.vi"/>
 		</Item>
 		<Item Name="ViewElements" Type="Folder">
 			<Item Name="EXAViewElements.lvlib" Type="Library" URL="../../View/ViewElements/EXAViewElements.lvlib"/>
