@@ -27,14 +27,6 @@
 		<Item Name="AlarmsTreeDisplayTC" Type="Folder">
 			<Item Name="AlarmsTreeDisplayTC.lvclass" Type="LVClass" URL="../../View/AlarmsTreeDisplayTC/AlarmsTreeDisplayTC.lvclass"/>
 		</Item>
-		<Item Name="SALCommunicator" Type="Folder">
-			<Item Name="SALCommunicator.lvclass" Type="LVClass" URL="../../SALCommunicator/SALCommunicator.lvclass"/>
-			<Item Name="SALCommunicatorController.lvclass" Type="LVClass" URL="../../SALCommunicatorController/SALCommunicatorController.lvclass"/>
-			<Item Name="SALCommunicatorDL.lvclass" Type="LVClass" URL="../../SALCommunicatorDL/SALCommunicatorDL.lvclass"/>
-			<Item Name="SALCommunicatorTC.lvclass" Type="LVClass" URL="../../SALCommunicatorTC/SALCommunicatorTC.lvclass"/>
-			<Item Name="SALCommunicatorView.lvclass" Type="LVClass" URL="../../SALCommunicatorView/SALCommunicatorView.lvclass"/>
-			<Item Name="unixToStrTime.vi" Type="VI" URL="../../SALCommunicator/unixToStrTime.vi"/>
-		</Item>
 		<Item Name="ViewElements" Type="Folder">
 			<Item Name="EXAViewElements.lvlib" Type="Library" URL="../../View/ViewElements/EXAViewElements.lvlib"/>
 		</Item>
@@ -159,6 +151,11 @@
 			<Item Name="ProcessStatusRendezvous.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ProcessStatusRendezvous.ctl"/>
 			<Item Name="PubSubDataEvent.lvclass" Type="LVClass" URL="../../PubSubDataEvent/PubSubDataEvent.lvclass"/>
 			<Item Name="Rendezvous.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Rendezvous/Rendezvous.lvclass"/>
+			<Item Name="SALCommunicator.lvclass" Type="LVClass" URL="../../SALCommunicator/SALCommunicator.lvclass"/>
+			<Item Name="SALCommunicatorController.lvclass" Type="LVClass" URL="../../SALCommunicatorController/SALCommunicatorController.lvclass"/>
+			<Item Name="SALCommunicatorDL.lvclass" Type="LVClass" URL="../../SALCommunicatorDL/SALCommunicatorDL.lvclass"/>
+			<Item Name="SALCommunicatorTC.lvclass" Type="LVClass" URL="../../SALCommunicatorTC/SALCommunicatorTC.lvclass"/>
+			<Item Name="SALCommunicatorView.lvclass" Type="LVClass" URL="../../SALCommunicatorView/SALCommunicatorView.lvclass"/>
 			<Item Name="SALLV_EXA.lvlib" Type="Library" URL="../../ts_sallv_exa/SALLV_EXA.lvlib"/>
 			<Item Name="SharedVariableHandler.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/SharedVariableHandler/SharedVariableHandler.lvclass"/>
 			<Item Name="Subpanel.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Subpanel/Subpanel.lvclass"/>

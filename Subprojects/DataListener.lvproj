@@ -21,11 +21,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="SALCommunicator" Type="Folder">
-			<Item Name="SALCommunicator.lvclass" Type="LVClass" URL="../../SALCommunicator/SALCommunicator.lvclass"/>
-			<Item Name="SALCommunicatorDL.lvclass" Type="LVClass" URL="../../SALCommunicatorDL/SALCommunicatorDL.lvclass"/>
-			<Item Name="SALCommunicatorTC.lvclass" Type="LVClass" URL="../../SALCommunicatorTC/SALCommunicatorTC.lvclass"/>
-		</Item>
 		<Item Name="zSpecialDependencyDescendants" Type="Folder">
 			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 		</Item>
@@ -126,7 +121,10 @@
 			<Item Name="MiddlewareSAL.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/MiddlewareSAL/MiddlewareSAL.lvclass"/>
 			<Item Name="ProcessStatusRendezvous.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ProcessStatusRendezvous.ctl"/>
 			<Item Name="Rendezvous.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Rendezvous/Rendezvous.lvclass"/>
+			<Item Name="SALCommunicator.lvclass" Type="LVClass" URL="../../SALCommunicator/SALCommunicator.lvclass"/>
 			<Item Name="SALCommunicatorController.lvclass" Type="LVClass" URL="../../SALCommunicatorController/SALCommunicatorController.lvclass"/>
+			<Item Name="SALCommunicatorDL.lvclass" Type="LVClass" URL="../../SALCommunicatorDL/SALCommunicatorDL.lvclass"/>
+			<Item Name="SALCommunicatorTC.lvclass" Type="LVClass" URL="../../SALCommunicatorTC/SALCommunicatorTC.lvclass"/>
 			<Item Name="SALCommunicatorView.lvclass" Type="LVClass" URL="../../SALCommunicatorView/SALCommunicatorView.lvclass"/>
 			<Item Name="SALLV_EXA.lvlib" Type="Library" URL="../../ts_sallv_exa/SALLV_EXA.lvlib"/>
 			<Item Name="Target.lvclass" Type="LVClass" URL="../../Model/Target/Target/Target.lvclass"/>

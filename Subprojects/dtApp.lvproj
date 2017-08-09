@@ -8,7 +8,6 @@
 	<Property Name="varPersistentID:{5A9FE8C3-6D50-11E7-8669-080027CAF315}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/reset</Property>
 	<Property Name="varPersistentID:{5A9FF93D-6D50-11E7-8669-080027CAF315}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/error out</Property>
 	<Property Name="varPersistentID:{5AA009AA-6D50-11E7-8669-080027CAF315}" Type="Ref">/My Computer/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/elapsed time (ms)</Property>
-	<Property Name="varPersistentID:{8D0DFC09-6D1C-11E7-8669-080027CAF315}" Type="Ref"></Property>
 	<Property Name="varPersistentID:{8D0E0EF1-6D1C-11E7-8669-080027CAF315}" Type="Ref"></Property>
 	<Property Name="varPersistentID:{8D0E1CD4-6D1C-11E7-8669-080027CAF315}" Type="Ref"></Property>
 	<Property Name="varPersistentID:{8D0E298C-6D1C-11E7-8669-080027CAF315}" Type="Ref"></Property>
@@ -71,13 +70,6 @@
 				</Item>
 				<Item Name="IModel.lvclass" Type="LVClass" URL="../../IModel/IModel.lvclass"/>
 				<Item Name="Model.lvclass" Type="LVClass" URL="../../Model/Model/Model.lvclass"/>
-			</Item>
-			<Item Name="SALCommunicator" Type="Folder">
-				<Item Name="SALCommunicator.lvclass" Type="LVClass" URL="../../SALCommunicator/SALCommunicator.lvclass"/>
-				<Item Name="SALCommunicatorController.lvclass" Type="LVClass" URL="../../SALCommunicatorController/SALCommunicatorController.lvclass"/>
-				<Item Name="SALCommunicatorDL.lvclass" Type="LVClass" URL="../../SALCommunicatorDL/SALCommunicatorDL.lvclass"/>
-				<Item Name="SALCommunicatorTC.lvclass" Type="LVClass" URL="../../SALCommunicatorTC/SALCommunicatorTC.lvclass"/>
-				<Item Name="salCmdAck.ctl" Type="VI" URL="../../SALCommunicator/salCmdAck.ctl"/>
 			</Item>
 			<Item Name="State" Type="Folder">
 				<Item Name="State.lvclass" Type="LVClass" URL="../../State/State.lvclass"/>
@@ -195,6 +187,10 @@
 			<Item Name="ProcessStatusRendezvous.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ProcessStatusRendezvous.ctl"/>
 			<Item Name="PubSubDataEvent.lvclass" Type="LVClass" URL="../../PubSubDataEvent/PubSubDataEvent.lvclass"/>
 			<Item Name="Rendezvous.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Rendezvous/Rendezvous.lvclass"/>
+			<Item Name="SALCommunicator.lvclass" Type="LVClass" URL="../../SALCommunicator/SALCommunicator.lvclass"/>
+			<Item Name="SALCommunicatorController.lvclass" Type="LVClass" URL="../../SALCommunicatorController/SALCommunicatorController.lvclass"/>
+			<Item Name="SALCommunicatorDL.lvclass" Type="LVClass" URL="../../SALCommunicatorDL/SALCommunicatorDL.lvclass"/>
+			<Item Name="SALCommunicatorTC.lvclass" Type="LVClass" URL="../../SALCommunicatorTC/SALCommunicatorTC.lvclass"/>
 			<Item Name="SALCommunicatorView.lvclass" Type="LVClass" URL="../../SALCommunicatorView/SALCommunicatorView.lvclass"/>
 			<Item Name="SALLV_EXA.lvlib" Type="Library" URL="../../ts_sallv_exa/SALLV_EXA.lvlib"/>
 			<Item Name="TimedLoopListener.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/TimedLoopListener/TimedLoopListener.lvclass"/>
