@@ -12,7 +12,7 @@ AppSupportURL=http://apeironengineering.com/
 AppUpdatesURL=http://apeironengineering.com/
 DisableDirPage=yes
 DisableProgramGroupPage=yes
-SetupIconFile=F:\dct\trunk\src\Components\Common\IconTemplates\InstallerIcon.ico
+SetupIconFile=C:\ApeironEngineering\CMP\BuildSupport\Icons\IconCtlr.ico
 Compression=lzma
 SolidCompression=yes
 AppID=
@@ -20,14 +20,14 @@ UninstallDisplayName=EXA
 UserInfoPage=false
 AllowUNCPath=false
 DefaultGroupName=DCT\EXA
-OutputDir=F:\dct\trunk\bld\Ins\Components\EXA
+OutputDir=C:\ApeironEngineering\CMP_UE\builds\Ins\EXA
 [Dirs]
 Name: {app}\data
 Name: {app}\CfgTemp
 Name: {app}\SVTemp
 [Files]
-Source: C:\ApeironEngineering\CMP_UE\builds\BuildsDT\EXA\project\errors\ComponentModel-errors.txt; DestDir: {app}\project\errors
-Source: C:\ApeironEngineering\CMP_UE\builds\BuildsDT\EXA\project\errors\Configuration-errors.txt; DestDir: {app}\project\errors
+Source: C:\ApeironEngineering\CMP_UE\builds\BuildsDT\EXA\errors\ComponentModel-errors.txt; DestDir: {app}\project\errors
+Source: C:\ApeironEngineering\CMP_UE\builds\BuildsDT\EXA\errors\Configuration-errors.txt; DestDir: {app}\project\errors
 Source: C:\ApeironEngineering\CMP_UE\builds\BuildsDT\EXA\EXAController.exe; DestDir: {app}
 Source: C:\ApeironEngineering\CMP_UE\builds\BuildsDT\EXA\EXAController.ini; DestDir: {app}
 Source: C:\ApeironEngineering\CMP_UE\builds\BuildsDT\EXA\EXADataListener.exe; DestDir: {app}
