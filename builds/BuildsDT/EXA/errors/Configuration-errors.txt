@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+The error codes for the configuration editor (9000-9099).
+</nicomment>
+<nierror code="9000">
+The value of promptOption is 0.  This error should never occur.
+</nierror>
+</nidocument>

@@ -1,0 +1,15 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>9.0f3</Version>
+<LvVariant>
+<Name>fpgaClockConfig</Name>
+<Cluster>
+<Name>fpgaClockConfig</Name>
+<NumElts>1</NumElts>
+<DBL>
+<Name>fpgaClockSpeed_Hz</Name>
+<Val>40000000.00000000000000</Val>
+</DBL>
+</Cluster>
+</LvVariant>
+</LVData>
