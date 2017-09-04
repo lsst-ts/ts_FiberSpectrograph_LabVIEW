@@ -3,9 +3,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
-	<Property Name="varPersistentID:{5E408FBF-7AE4-4B8C-81F2-873F95930E33}" Type="Ref">/My Computer/Dependencies/Configuration.lvlib/ConfigurationDataSV/stopViewIsTrue</Property>
-	<Property Name="varPersistentID:{899A025A-3697-4AC3-81DC-51EEFC271EDD}" Type="Ref">/My Computer/Dependencies/Configuration.lvlib/ConfigurationDataSV/ConfigurationCommand</Property>
-	<Property Name="varPersistentID:{F0F21736-8BD3-4452-840E-5577CE4D1278}" Type="Ref">/My Computer/Dependencies/Configuration.lvlib/ConfigurationDataSV/ConfigTabUIObject</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -132,11 +129,9 @@
 			<Item Name="CommunicationConfig.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/CommunicationConfig.ctl"/>
 			<Item Name="ComponentStateValues.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ComponentStateValues.ctl"/>
 			<Item Name="Configuration.lvlib" Type="Library" URL="../../ComponentTemplateCore/ConfigurationWithXML/MyComputer/Configuration/Configuration.lvlib"/>
-			<Item Name="ConfigurationFileReaderDT.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelDT/ConfigurationFileReaderDT/ConfigurationFileReaderDT.lvclass"/>
-			<Item Name="ConfigurationFileReaderRT.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/ConfigurationFileReaderRT/ConfigurationFileReaderRT.lvclass"/>
+			<Item Name="ConfigurationFileReader.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/ConfigurationFileReader/ConfigurationFileReader.lvclass"/>
 			<Item Name="ExampleConfiguration.lvlib" Type="Library" URL="../../ConfigurationTC/ExampleConfiguration.lvlib"/>
 			<Item Name="EXATypedefs.lvlib" Type="Library" URL="../../Typedefs/EXATypedefs.lvlib"/>
-			<Item Name="ILoopTimer.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/LoopTimer/ILoopTimer/ILoopTimer.lvclass"/>
 			<Item Name="InternalSignalsGlobals.lvlib" Type="Library" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/InternalSignals/InternalSignalsGlobals.lvlib"/>
 			<Item Name="Internet.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/Internet/Internet.lvclass"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
@@ -157,13 +152,11 @@
 			<Item Name="Subpanel.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Subpanel/Subpanel.lvclass"/>
 			<Item Name="SummaryStatePictRing.ctl" Type="VI" URL="../../ComponentTemplateCore/GUI/SummaryStateIndicator/SummaryStatePictRing.ctl"/>
 			<Item Name="SVProcessConfig.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/SVProcessConfig.ctl"/>
-			<Item Name="Target.lvclass" Type="LVClass" URL="../../Model/Target/Target/Target.lvclass"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="View.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/View/View.lvclass"/>
 			<Item Name="ViewUserEvent.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ViewUserEvent.ctl"/>
-			<Item Name="WindowsTarget.lvclass" Type="LVClass" URL="../../Model/Target/WindowsTarget/WindowsTarget.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

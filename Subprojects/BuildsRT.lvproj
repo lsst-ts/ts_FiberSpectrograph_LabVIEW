@@ -3,31 +3,22 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Property Name="varPersistentID:{033C1FE5-E5EA-48FE-9F27-B5529DDDED0D}" Type="Ref">/My Computer/SharedVariables/SharedVariableLibraries/EXAPubDataSV.lvlib/DetailedState</Property>
-	<Property Name="varPersistentID:{147E322E-3220-4054-B206-20AA3A5128AF}" Type="Ref">/My Computer/Dependencies/Configuration.lvlib/ConfigurationDataSV/ConfigurationCommand</Property>
-	<Property Name="varPersistentID:{1640CBF2-5329-4174-8161-3EBE0CDBD768}" Type="Ref">/M2P-MH/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/error out</Property>
 	<Property Name="varPersistentID:{1B088C21-7B49-499F-887C-24C26F7D074F}" Type="Ref">/My Computer/SharedVariables/SharedVariableLibraries/EXAPubDataSV.lvlib/RejectedCommand</Property>
 	<Property Name="varPersistentID:{1C952630-B478-4F0C-84AF-76B79846A0F0}" Type="Ref">/My Computer/SharedVariables/SharedVariableLibraries/EXACommandSV.lvlib/Command</Property>
 	<Property Name="varPersistentID:{223881D4-5EE4-482F-AADC-FD76296D070D}" Type="Ref">/My Computer/SharedVariables/SharedVariableLibraries/EXAPubDataSV.lvlib/ErrorCode</Property>
-	<Property Name="varPersistentID:{2C9997CE-F17F-41D0-9A3A-7605EE171E18}" Type="Ref">/M2P-MH/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/error in</Property>
-	<Property Name="varPersistentID:{34ECF052-289B-48CF-9A14-2592ADD53CCE}" Type="Ref">/M2P-MH/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/reset</Property>
 	<Property Name="varPersistentID:{39459A66-3D80-4C6F-8DFC-02236E1C5C2B}" Type="Ref">/My Computer/SharedVariables/SharedVariableLibraries/EXAPubDataSV.lvlib/SummaryState</Property>
 	<Property Name="varPersistentID:{3C457239-02E7-4EA2-A301-B37AB058F32E}" Type="Ref">/My Computer/SharedVariables/SharedVariableLibraries/EXASubDataSV.lvlib/Enable</Property>
 	<Property Name="varPersistentID:{6DA2C8EA-BE57-4A99-81BC-E9F459AB42E1}" Type="Ref">/My Computer/SharedVariables/SharedVariableLibraries/EXAPubDataSV.lvlib/LoopTime_ms</Property>
 	<Property Name="varPersistentID:{80493643-A0B7-4692-B0CF-EF273F7B5161}" Type="Ref">/My Computer/SharedVariables/SharedVariableLibraries/EXASubDataSV.lvlib/Disable</Property>
 	<Property Name="varPersistentID:{8E3F4BAA-3373-4A27-96D2-C836BA59204E}" Type="Ref">/My Computer/SharedVariables/SharedVariableLibraries/EXASubDataSV.lvlib/HeartbeatIn</Property>
-	<Property Name="varPersistentID:{986DCAF4-C16F-47BD-BC56-3EE92BCE6A8E}" Type="Ref">/M2P-MH/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/elapsed time (ms)</Property>
 	<Property Name="varPersistentID:{9A72411C-345B-4150-A766-721E659AE128}" Type="Ref">/My Computer/SharedVariables/SharedVariableLibraries/EXAPubDataSV.lvlib/LoopTimeOutOfRange</Property>
 	<Property Name="varPersistentID:{A0B05FEA-74C1-435D-BFCB-F66D94EED216}" Type="Ref">/My Computer/SharedVariables/SharedVariableLibraries/EXAPubDataSV.lvlib/Timestamp</Property>
 	<Property Name="varPersistentID:{A6778C61-8C1B-4905-BF02-5C665B965780}" Type="Ref">/My Computer/SharedVariables/SharedVariableLibraries/EXASubDataSV.lvlib/Exit</Property>
 	<Property Name="varPersistentID:{AB0AE35B-2A53-414B-8F2D-71B57A6A101B}" Type="Ref">/My Computer/SharedVariables/SharedVariableLibraries/EXASubDataSV.lvlib/GoToStandby</Property>
 	<Property Name="varPersistentID:{B6982E0C-0C18-4A67-B2DC-9A1370D57708}" Type="Ref">/My Computer/SharedVariables/SharedVariableLibraries/EXASubDataSV.lvlib/ClearError</Property>
 	<Property Name="varPersistentID:{B9140BF0-47AD-44AC-9A95-094A03883AC6}" Type="Ref">/My Computer/SharedVariables/SharedVariableLibraries/EXASubDataSV.lvlib/Start</Property>
-	<Property Name="varPersistentID:{BB6916C3-956C-4DA6-80C1-5971B24316E2}" Type="Ref">/My Computer/Dependencies/Configuration.lvlib/ConfigurationDataSV/stopViewIsTrue</Property>
-	<Property Name="varPersistentID:{BE2F8F0D-881A-4459-B52F-67D565DEF3E4}" Type="Ref"></Property>
-	<Property Name="varPersistentID:{C0B16EEF-7403-4347-BBC3-D852B1C1CA12}" Type="Ref">/M2P-MH/Dependencies/LoopTimer.lvclass/Public/calcLoopTime.vi/Elapsed Timer/reset mode</Property>
 	<Property Name="varPersistentID:{C386E9D9-BD2A-4A81-B81B-01060608C9E2}" Type="Ref"></Property>
 	<Property Name="varPersistentID:{C821C9CC-23E5-4E17-B63C-5FC033E5ADA3}" Type="Ref"></Property>
-	<Property Name="varPersistentID:{EAED2073-FDD4-4092-ACB7-9723A70D63D2}" Type="Ref">/My Computer/Dependencies/Configuration.lvlib/ConfigurationDataSV/ConfigTabUIObject</Property>
 	<Property Name="varPersistentID:{FA9719D6-A33E-48D3-832E-7235B5741069}" Type="Ref">/My Computer/SharedVariables/SharedVariableLibraries/EXAPubDataSV.lvlib/Heartbeat</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -229,8 +220,7 @@
 			<Item Name="CommunicationConfig.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/CommunicationConfig.ctl"/>
 			<Item Name="ComponentStateValues.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ComponentStateValues.ctl"/>
 			<Item Name="Configuration.lvlib" Type="Library" URL="../../ComponentTemplateCore/ConfigurationWithXML/MyComputer/Configuration/Configuration.lvlib"/>
-			<Item Name="ConfigurationFileReaderDT.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelDT/ConfigurationFileReaderDT/ConfigurationFileReaderDT.lvclass"/>
-			<Item Name="ConfigurationFileReaderRT.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/ConfigurationFileReaderRT/ConfigurationFileReaderRT.lvclass"/>
+			<Item Name="ConfigurationFileReader.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/ConfigurationFileReader/ConfigurationFileReader.lvclass"/>
 			<Item Name="Context.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Context/Context.lvclass"/>
 			<Item Name="ContextID.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/ContextID/ContextID.lvclass"/>
 			<Item Name="DataListener.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/DataListener/DataListener.lvclass"/>
@@ -247,7 +237,6 @@
 			<Item Name="ICommandFactory.lvclass" Type="LVClass" URL="../../ICommandFactory/ICommandFactory.lvclass"/>
 			<Item Name="IContextThisComponent.lvclass" Type="LVClass" URL="../../IContextThisComponent/IContextThisComponent.lvclass"/>
 			<Item Name="IDataListener.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/IDataListener/IDataListener.lvclass"/>
-			<Item Name="ILoopTimer.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/LoopTimer/ILoopTimer/ILoopTimer.lvclass"/>
 			<Item Name="InternalSignalsGlobals.lvlib" Type="Library" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/InternalSignals/InternalSignalsGlobals.lvlib"/>
 			<Item Name="Internet.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/Internet/Internet.lvclass"/>
 			<Item Name="IPAddress.ctl" Type="VI" URL="../../ComponentTemplateCore/PostInstallationTasks/FTP/IPAddress.ctl"/>
@@ -280,7 +269,6 @@
 			<Item Name="Subpanel.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Subpanel/Subpanel.lvclass"/>
 			<Item Name="SummaryStatePictRing.ctl" Type="VI" URL="../../ComponentTemplateCore/GUI/SummaryStateIndicator/SummaryStatePictRing.ctl"/>
 			<Item Name="SVProcessConfig.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/SVProcessConfig.ctl"/>
-			<Item Name="Target.lvclass" Type="LVClass" URL="../../Model/Target/Target/Target.lvclass"/>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -290,7 +278,6 @@
 			<Item Name="ViewUserEvent.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ViewUserEvent.ctl"/>
 			<Item Name="warningsConfigDialog.vi" Type="VI" URL="../../ComponentTemplateCore/GUI/WarningsConfigDialog/warningsConfigDialog.vi"/>
 			<Item Name="windowsPing.vi" Type="VI" URL="../../ComponentTemplateCore/PostInstallationTasks/RTInstallation/FTPExeInstallation/windowsPing.vi"/>
-			<Item Name="WindowsTarget.lvclass" Type="LVClass" URL="../../Model/Target/WindowsTarget/WindowsTarget.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="EXAConfiguration" Type="EXE">
@@ -763,8 +750,7 @@
 			<Item Name="CommunicationConfig.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/CommunicationConfig.ctl"/>
 			<Item Name="CompactRIO.lvclass" Type="LVClass" URL="../../Model/Target/CompactRIO/CompactRIO.lvclass"/>
 			<Item Name="ComponentStateValues.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ComponentStateValues.ctl"/>
-			<Item Name="ConfigurationFileReaderDT.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelDT/ConfigurationFileReaderDT/ConfigurationFileReaderDT.lvclass"/>
-			<Item Name="ConfigurationFileReaderRT.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/ConfigurationFileReaderRT/ConfigurationFileReaderRT.lvclass"/>
+			<Item Name="ConfigurationFileReader.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/ConfigurationFileReader/ConfigurationFileReader.lvclass"/>
 			<Item Name="Context.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Context/Context.lvclass"/>
 			<Item Name="ContextID.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/ContextID/ContextID.lvclass"/>
 			<Item Name="ContextIDFactory.lvclass" Type="LVClass" URL="../../ContextIDFactory/ContextIDFactory.lvclass"/>
