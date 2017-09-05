@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+Error codes for component data (range: 9200-9299)
+</nicomment>
+<nierror code="9201">
+A VI called this VI.  This VI should never execute.  A VI in a descendant class must override this VI.
+</nierror>
+<nierror code="9202">
+O/S not recognized.
+</nierror>
+<nierror code="9203">
+Shared variable value change event occurred but variable is not in list.
+</nierror>
+<nierror code="9204">
+Read Shared Variable with Timeout in command listener timed out.  The controller did not receive any messages in the allotted time.  It should always receive at least a heartbeat.
+</nierror>
+</nidocument>
