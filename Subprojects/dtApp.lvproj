@@ -48,7 +48,6 @@
 				<Item Name="MiddlewareSALThisComponent.lvclass" Type="LVClass" URL="../../MiddlewareSALThisComponent/MiddlewareSALThisComponent.lvclass"/>
 				<Item Name="connectCommandPublish.vi" Type="VI" URL="../../MiddlewareSALThisComponent/connectCommandPublish.vi"/>
 				<Item Name="disconnectCommandPublish.vi" Type="VI" URL="../../MiddlewareSALThisComponent/disconnectCommandPublish.vi"/>
-				<Item Name="getSalCommunicatorDL.vi" Type="VI" URL="../../MiddlewareSALThisComponent/getSalCommunicatorDL.vi"/>
 				<Item Name="processSubData.vi" Type="VI" URL="../../MiddlewareSALThisComponent/processSubData.vi"/>
 				<Item Name="salLabviewUserEvent.vi" Type="VI" URL="../../MiddlewareSALThisComponent/salLabviewUserEvent.vi"/>
 			</Item>
@@ -173,7 +172,6 @@
 			<Item Name="ProcessStatusRendezvous.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ProcessStatusRendezvous.ctl"/>
 			<Item Name="PubSubDataEvent.lvclass" Type="LVClass" URL="../../PubSubDataEvent/PubSubDataEvent.lvclass"/>
 			<Item Name="Rendezvous.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Rendezvous/Rendezvous.lvclass"/>
-			<Item Name="SALCommunicatorDL.lvclass" Type="LVClass" URL="../../SALCommunicatorDL/SALCommunicatorDL.lvclass"/>
 			<Item Name="SALLV_EXA.lvlib" Type="Library" URL="../../ts_sallv_exa/SALLV_EXA.lvlib"/>
 			<Item Name="TimedLoopListener.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/TimedLoopListener/TimedLoopListener.lvclass"/>
 			<Item Name="UserEventBasedController.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/UserEventBasedController/UserEventBasedController.lvclass"/>

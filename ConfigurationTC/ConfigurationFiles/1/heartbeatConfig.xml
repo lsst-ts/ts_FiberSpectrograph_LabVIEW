@@ -1,0 +1,19 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<LvVariant>
+<Name>heartbeatConfig</Name>
+<Cluster>
+<Name>heartbeatConfig</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Heartbeat Interval (s)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Heartbeat Timeout (s)</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+</Cluster>
+</LvVariant>
+</LVData>
