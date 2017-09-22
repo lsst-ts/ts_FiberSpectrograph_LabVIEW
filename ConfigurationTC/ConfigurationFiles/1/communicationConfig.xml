@@ -1,0 +1,23 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<LvVariant>
+<Name>communicationConfig</Name>
+<Cluster>
+<Name>communicationConfig</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>hostComputerAddress</Name>
+<Val>localhost</Val>
+</String>
+<String>
+<Name>ComponentAcronym</Name>
+<Val>EXA</Val>
+</String>
+<I32>
+<Name>InstanceIdentifier</Name>
+<Val>-1</Val>
+</I32>
+</Cluster>
+</LvVariant>
+</LVData>
