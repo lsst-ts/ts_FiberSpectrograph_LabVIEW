@@ -1,0 +1,36 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<Cluster>
+<Name>Value</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>ReferencePositions</Name>
+<Dimsize>6</Dimsize>
+<I32>
+<Name>Numeric</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>Numeric</Name>
+<Val>2</Val>
+</I32>
+<I32>
+<Name>Numeric</Name>
+<Val>3</Val>
+</I32>
+<I32>
+<Name>Numeric</Name>
+<Val>4</Val>
+</I32>
+<I32>
+<Name>Numeric</Name>
+<Val>5</Val>
+</I32>
+<I32>
+<Name>Numeric</Name>
+<Val>6</Val>
+</I32>
+</Array>
+</Cluster>
+</LVData>

@@ -2,7 +2,7 @@
 <LVData xmlns="http://www.ni.com/LVData">
 <Version>16.0</Version>
 <LvVariant>
-<Name>irqConfig</Name>
+<Name>Value</Name>
 <Cluster>
 <Name>irqConfig</Name>
 <NumElts>2</NumElts>

@@ -1,8 +1,8 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>11.0</Version>
+<Version>16.0</Version>
 <LvVariant>
-<Name>communicationConfig</Name>
+<Name>Value</Name>
 <Cluster>
 <Name>communicationConfig</Name>
 <NumElts>3</NumElts>

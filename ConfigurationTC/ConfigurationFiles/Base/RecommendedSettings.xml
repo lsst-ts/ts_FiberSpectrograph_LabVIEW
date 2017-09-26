@@ -2,14 +2,18 @@
 <LVData xmlns="http://www.ni.com/LVData">
 <Version>16.0</Version>
 <LvVariant>
-<Name>rioConfig</Name>
+<Name>Value</Name>
 <Cluster>
-<Name>rioConfig</Name>
+<Name>RecommendedSettings</Name>
 <NumElts>1</NumElts>
+<Array>
+<Name>RecommendedSettings</Name>
+<Dimsize>1</Dimsize>
 <String>
-<Name>rioResourceName</Name>
-<Val>RIO0</Val>
+<Name>String</Name>
+<Val>Default</Val>
 </String>
+</Array>
 </Cluster>
 </LvVariant>
 </LVData>

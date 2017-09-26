@@ -1,0 +1,31 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>Aliases</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Aliases</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>SettingAlias</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Alias</Name>
+<Val>Default</Val>
+</String>
+<String>
+<Name>Set</Name>
+<Val>TestSetting</Val>
+</String>
+<String>
+<Name>Version</Name>
+<Val>1</Val>
+</String>
+</Cluster>
+</Array>
+</Cluster>
+</LvVariant>
+</LVData>
