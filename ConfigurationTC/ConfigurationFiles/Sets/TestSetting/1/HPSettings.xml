@@ -3,9 +3,9 @@
 <Version>16.0</Version>
 <Cluster>
 <Name>Value</Name>
-<NumElts>1</NumElts>
+<NumElts>2</NumElts>
 <Array>
-<Name>ReferencePositions</Name>
+<Name>exampleArray</Name>
 <Dimsize>6</Dimsize>
 <I32>
 <Name>Numeric</Name>
@@ -32,5 +32,9 @@
 <Val>6</Val>
 </I32>
 </Array>
+<String>
+<Name>exampleString</Name>
+<Val>qwerty</Val>
+</String>
 </Cluster>
 </LVData>

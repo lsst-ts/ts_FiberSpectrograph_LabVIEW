@@ -19,6 +19,6 @@
 		<Item Name="SettingAliases.ctl" Type="VI" URL="../Base/SettingAliases.ctl"/>
 	</Item>
 	<Item Name="Set" Type="Folder">
-		<Item Name="HPSettings.ctl" Type="VI" URL="../Set/HPSettings.ctl"/>
+		<Item Name="ExampleSettings.ctl" Type="VI" URL="../Set/ExampleSettings.ctl"/>
 	</Item>
 </Library>
