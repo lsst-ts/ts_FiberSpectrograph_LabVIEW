@@ -8,10 +8,14 @@
 <NumElts>1</NumElts>
 <Array>
 <Name>RecommendedSettings</Name>
-<Dimsize>1</Dimsize>
+<Dimsize>2</Dimsize>
 <String>
 <Name>String</Name>
 <Val>Default</Val>
+</String>
+<String>
+<Name>String</Name>
+<Val>Default2</Val>
 </String>
 </Array>
 </Cluster>
