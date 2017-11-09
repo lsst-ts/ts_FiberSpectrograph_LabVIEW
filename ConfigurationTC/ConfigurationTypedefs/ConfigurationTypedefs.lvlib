@@ -6,19 +6,19 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Base" Type="Folder">
 		<Item Name="Parts" Type="Folder"/>
-		<Item Name="BaseSALSettings.ctl" Type="VI" URL="../Base/BaseSALSettings.ctl"/>
-		<Item Name="CommunicationConfig.ctl" Type="VI" URL="../Base/CommunicationConfig.ctl"/>
-		<Item Name="FPGAClockConfig.ctl" Type="VI" URL="../Base/FPGAClockConfig.ctl"/>
 		<Item Name="HeartbeatConfig.ctl" Type="VI" URL="../Base/HeartbeatConfig.ctl"/>
-		<Item Name="IRQConfig.ctl" Type="VI" URL="../Base/IRQConfig.ctl"/>
-		<Item Name="LoopConfig.ctl" Type="VI" URL="../Base/LoopConfig.ctl"/>
-		<Item Name="RIOConfig.ctl" Type="VI" URL="../Base/RIOConfig.ctl"/>
 		<Item Name="RecommendedSettings.ctl" Type="VI" URL="../Base/RecommendedSettings.ctl"/>
-		<Item Name="SVProcessConfig.ctl" Type="VI" URL="../Base/SVProcessConfig.ctl"/>
 		<Item Name="SettingAlias.ctl" Type="VI" URL="../Base/SettingAlias.ctl"/>
 		<Item Name="SettingAliases.ctl" Type="VI" URL="../Base/SettingAliases.ctl"/>
 	</Item>
 	<Item Name="Set" Type="Folder">
+		<Item Name="BaseSALSettings.ctl" Type="VI" URL="../Base/BaseSALSettings.ctl"/>
+		<Item Name="CommunicationConfig.ctl" Type="VI" URL="../Base/CommunicationConfig.ctl"/>
 		<Item Name="ExampleSettings.ctl" Type="VI" URL="../Set/ExampleSettings.ctl"/>
+		<Item Name="FPGAClockConfig.ctl" Type="VI" URL="../Base/FPGAClockConfig.ctl"/>
+		<Item Name="IRQConfig.ctl" Type="VI" URL="../Base/IRQConfig.ctl"/>
+		<Item Name="LoopConfig.ctl" Type="VI" URL="../Base/LoopConfig.ctl"/>
+		<Item Name="RIOConfig.ctl" Type="VI" URL="../Base/RIOConfig.ctl"/>
+		<Item Name="SVProcessConfig.ctl" Type="VI" URL="../Base/SVProcessConfig.ctl"/>
 	</Item>
 </Library>
