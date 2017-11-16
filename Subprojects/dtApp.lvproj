@@ -45,11 +45,13 @@
 				<Item Name="InvokerThisComponent.lvclass" Type="LVClass" URL="../../InvokerThisComponent/InvokerThisComponent.lvclass"/>
 			</Item>
 			<Item Name="MiddlewareSALThisComponent" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="MiddlewareSALThisComponent.lvclass" Type="LVClass" URL="../../MiddlewareSALThisComponent/MiddlewareSALThisComponent.lvclass"/>
 				<Item Name="connectCommandPublish.vi" Type="VI" URL="../../MiddlewareSALThisComponent/connectCommandPublish.vi"/>
 				<Item Name="disconnectCommandPublish.vi" Type="VI" URL="../../MiddlewareSALThisComponent/disconnectCommandPublish.vi"/>
 				<Item Name="processSubData.vi" Type="VI" URL="../../MiddlewareSALThisComponent/processSubData.vi"/>
 				<Item Name="salLabviewUserEvent.vi" Type="VI" URL="../../MiddlewareSALThisComponent/salLabviewUserEvent.vi"/>
+				<Item Name="ProgrammaticInitialization.lvclass" Type="LVClass" URL="../../MiddlewareSALThisComponent/ProgrammaticInitialization/ProgrammaticInitialization.lvclass"/>
 			</Item>
 			<Item Name="Model" Type="Folder">
 				<Item Name="Target" Type="Folder">
