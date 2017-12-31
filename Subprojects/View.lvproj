@@ -133,6 +133,7 @@
 			<Item Name="ConfigurationFileReader.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/ConfigurationFileReader/ConfigurationFileReader.lvclass"/>
 			<Item Name="ExampleConfiguration.lvlib" Type="Library" URL="../../ConfigurationTC/ExampleConfiguration.lvlib"/>
 			<Item Name="EXATypedefs.lvlib" Type="Library" URL="../../Typedefs/EXATypedefs.lvlib"/>
+			<Item Name="Hyperlink.ctl" Type="VI" URL="../../ComponentTemplateCore/Hyperlink/Hyperlink.ctl"/>
 			<Item Name="InternalSignalsGlobals.lvlib" Type="Library" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/InternalSignals/InternalSignalsGlobals.lvlib"/>
 			<Item Name="Internet.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/Internet/Internet.lvclass"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
