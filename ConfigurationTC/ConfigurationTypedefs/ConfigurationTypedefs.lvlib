@@ -5,9 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Base" Type="Folder">
-		<Item Name="Parts" Type="Folder"/>
 		<Item Name="HeartbeatConfig.ctl" Type="VI" URL="../Base/HeartbeatConfig.ctl"/>
 		<Item Name="RecommendedSettings.ctl" Type="VI" URL="../Base/RecommendedSettings.ctl"/>
+		<Item Name="SALVisSettings.ctl" Type="VI" URL="../Base/SALVisSettings.ctl"/>
 		<Item Name="SettingAlias.ctl" Type="VI" URL="../Base/SettingAlias.ctl"/>
 		<Item Name="SettingAliases.ctl" Type="VI" URL="../Base/SettingAliases.ctl"/>
 	</Item>
