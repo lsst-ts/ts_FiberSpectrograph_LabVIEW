@@ -34,6 +34,7 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="displayApplicationControls.vi" Type="VI" URL="../displayApplicationControls.vi"/>
 	<Item Name="displayControlElement.vi" Type="VI" URL="../displayControlElement.vi"/>
+	<Item Name="displayControlElement2.vi" Type="VI" URL="../displayControlElement2.vi"/>
 	<Item Name="displayDetailedState.vi" Type="VI" URL="../displayDetailedState.vi"/>
 	<Item Name="displayErrorMessage.vi" Type="VI" URL="../displayErrorMessage.vi"/>
 	<Item Name="displayHeartbeat.vi" Type="VI" URL="../displayHeartbeat.vi"/>

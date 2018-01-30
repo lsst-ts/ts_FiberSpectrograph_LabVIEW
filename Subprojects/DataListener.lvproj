@@ -100,6 +100,7 @@
 			<Item Name="8601 UTC Date-Time String.vi" Type="VI" URL="../../ComponentTemplateCore/Time/8601 UTC Date-Time String.vi"/>
 			<Item Name="Command.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Command/Command.lvclass"/>
 			<Item Name="CommandEvent.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/CommandEvent/CommandEvent.lvclass"/>
+			<Item Name="CommandEvents.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/CommandEvents.ctl"/>
 			<Item Name="CommandFactory.lvclass" Type="LVClass" URL="../../CommandFactory/CommandFactory.lvclass"/>
 			<Item Name="Commands.lvlib" Type="Library" URL="../../Commands/Commands.lvlib"/>
 			<Item Name="CommandThisComponent.lvclass" Type="LVClass" URL="../../CommandThisComponent/CommandThisComponent.lvclass"/>
@@ -129,6 +130,7 @@
 			<Item Name="Rendezvous.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Rendezvous/Rendezvous.lvclass"/>
 			<Item Name="SharedVariableHandler.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/SharedVariableHandler/SharedVariableHandler.lvclass"/>
 			<Item Name="SVProcessConfig.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/SVProcessConfig.ctl"/>
+			<Item Name="TypedefsDataEvents.lvlib" Type="Library" URL="../../TypedefsDataEvents/TypedefsDataEvents.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
