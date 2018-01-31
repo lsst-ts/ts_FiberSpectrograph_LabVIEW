@@ -172,6 +172,7 @@
 			<Item Name="Rendezvous.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Rendezvous/Rendezvous.lvclass"/>
 			<Item Name="SALLV_EXA.lvlib" Type="Library" URL="../../ts_sallv_exa/SALLV_EXA.lvlib"/>
 			<Item Name="TimedLoopListener.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/TimedLoopListener/TimedLoopListener.lvclass"/>
+			<Item Name="TypedefsDataEvents.lvlib" Type="Library" URL="../../TypedefsDataEvents/TypedefsDataEvents.lvlib"/>
 			<Item Name="UserEventBasedController.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/UserEventBasedController/UserEventBasedController.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

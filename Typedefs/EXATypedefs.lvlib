@@ -10,10 +10,8 @@
 </Property>
 	<Item Name="CommandValue.ctl" Type="VI" URL="../CommandValue.ctl"/>
 	<Item Name="ContextID.ctl" Type="VI" URL="../ContextID.ctl"/>
-	<Item Name="PubDataEvents.ctl" Type="VI" URL="../PubDataEvents.ctl"/>
 	<Item Name="PubDataSV.ctl" Type="VI" URL="../PubDataSV.ctl"/>
 	<Item Name="StateValue.ctl" Type="VI" URL="../StateValue.ctl"/>
-	<Item Name="SubDataEvents.ctl" Type="VI" URL="../SubDataEvents.ctl"/>
 	<Item Name="SubDataSV.ctl" Type="VI" URL="../SubDataSV.ctl"/>
 	<Item Name="SummaryState.ctl" Type="VI" URL="../SummaryState.ctl"/>
 	<Item Name="ackCMDEvent.ctl" Type="VI" URL="../ackCMDEvent.ctl"/>
