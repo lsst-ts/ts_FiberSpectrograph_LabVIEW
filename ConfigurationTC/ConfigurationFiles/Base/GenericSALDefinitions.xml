@@ -6,6 +6,10 @@
 <Cluster>
 <Name>GenericSALDefinitions</Name>
 <NumElts>5</NumElts>
+<String>
+<Name>Subsystem</Name>
+<Val>EXA</Val>
+</String>
 <Path>
 <Name>SAL Vis Path</Name>
 <Val>/home/andres/ct_cmpuserevents/ts_sallv_exa/VIs</Val>
@@ -62,10 +66,6 @@
 <Val>LoopTimems</Val>
 </String>
 </Array>
-<String>
-<Name>Subsystem</Name>
-<Val>EXA</Val>
-</String>
 <Array>
 <Name>Commands</Name>
 <Dimsize>5</Dimsize>
