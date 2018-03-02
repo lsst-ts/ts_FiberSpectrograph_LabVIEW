@@ -11,8 +11,6 @@
 	<Item Name="CommandValue.ctl" Type="VI" URL="../CommandValue.ctl"/>
 	<Item Name="ContextID.ctl" Type="VI" URL="../ContextID.ctl"/>
 	<Item Name="PubDataSignals.ctl" Type="VI" URL="../PubDataSignals.ctl"/>
-	<Item Name="StateValue.ctl" Type="VI" URL="../StateValue.ctl"/>
 	<Item Name="SubDataSignal.ctl" Type="VI" URL="../SubDataSignal.ctl"/>
-	<Item Name="SummaryState.ctl" Type="VI" URL="../SummaryState.ctl"/>
 	<Item Name="ackCMDEvent.ctl" Type="VI" URL="../ackCMDEvent.ctl"/>
 </Library>

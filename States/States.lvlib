@@ -9,6 +9,6 @@
 	<Item Name="DisabledState.lvclass" Type="LVClass" URL="../DisabledState/DisabledState.lvclass"/>
 	<Item Name="EnabledState.lvclass" Type="LVClass" URL="../EnabledState/EnabledState.lvclass"/>
 	<Item Name="FaultState.lvclass" Type="LVClass" URL="../FaultState/FaultState.lvclass"/>
-	<Item Name="OffState.lvclass" Type="LVClass" URL="../OffState/OffState.lvclass"/>
+	<Item Name="OfflineState.lvclass" Type="LVClass" URL="../OffState/OfflineState.lvclass"/>
 	<Item Name="StandbyState.lvclass" Type="LVClass" URL="../StandbyState/StandbyState.lvclass"/>
 </Library>
