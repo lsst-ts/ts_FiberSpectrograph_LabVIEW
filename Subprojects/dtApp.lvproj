@@ -66,7 +66,7 @@
 				<Item Name="StateFactory.lvclass" Type="LVClass" URL="../../StateFactory/StateFactory.lvclass"/>
 			</Item>
 			<Item Name="EXATypedefs.lvlib" Type="Library" URL="../../Typedefs/EXATypedefs.lvlib"/>
-			<Item Name="Settings.lvlib" Type="Library" URL="../../ComponentTemplateCore/Settings/SettingsTC/Settings.lvlib"/>
+			<Item Name="Settings.lvlib" Type="Library" URL="../../Settings/SettingsTC/Settings.lvlib"/>
 		</Item>
 		<Item Name="zSpecialDependencyDescendants" Type="Folder">
 			<Item Name="NI_FunctionBlock Libraries.lvlib" Type="Library" URL="/&lt;vilib&gt;/functionblocks/NI_FunctionBlock Libraries.lvlib"/>

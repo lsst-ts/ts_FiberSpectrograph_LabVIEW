@@ -142,7 +142,7 @@
 			<Item Name="PubSubDataEvent.lvclass" Type="LVClass" URL="../../PubSubDataEvent/PubSubDataEvent.lvclass"/>
 			<Item Name="Rendezvous.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Rendezvous/Rendezvous.lvclass"/>
 			<Item Name="SALLV_EXA.lvlib" Type="Library" URL="../../ts_sallv_exa/SALLV_EXA.lvlib"/>
-			<Item Name="Settings.lvlib" Type="Library" URL="../../ComponentTemplateCore/Settings/SettingsTC/Settings.lvlib"/>
+			<Item Name="Settings.lvlib" Type="Library" URL="../../Settings/SettingsTC/Settings.lvlib"/>
 			<Item Name="SharedVariableHandler.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/SharedVariableHandler/SharedVariableHandler.lvclass"/>
 			<Item Name="Subpanel.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Subpanel/Subpanel.lvclass"/>
 			<Item Name="SummaryStatePictRing.ctl" Type="VI" URL="../../ComponentTemplateCore/GUI/SummaryStateIndicator/SummaryStatePictRing.ctl"/>
