@@ -4,3 +4,6 @@
 [submodule "ts_sallv_exa"]
 	path = ts_sallv_exa
 	url = https://stash.lsstcorp.org/scm/ts/ts_sallv_exa.git
+[submodule "ss_sedspectrometer"]
+	path = ss_sedspectrometer
+	url = https://hsundararaman@stash.lsstcorp.org/scm/ts/ss_sedspectrometer.git
