@@ -4,31 +4,22 @@
 	xsi:noNamespaceSchemaLocation="http://lsst-sal.tuc.noao.edu/schema/SALEventSet.xsd">
 <SALEvent>
     <Subsystem>calibrationSpectrometer</Subsystem>
-    <Version>3.6.0</Version>
-    <Author>ccontaxis</Author>
-    <EFDB_Topic>calibrationSpectrometer_logevent_SettingVersions</EFDB_Topic>
-    <Alias>SettingVersions</Alias>
+    <Version>3.5.1</Version>
+    <Author>hsundararaman</Author>
+    <EFDB_Topic>calibrationSpectrometer_logevent_TimeOut</EFDB_Topic>
+    <Alias>TimeOut</Alias>
     <Explanation>http://sal.lsst.org</Explanation>
     <item>
-        <EFDB_Name>timestamp</EFDB_Name>
-        <Description>The timestamp for when the event occurred.</Description>
-        <IDL_Type>double</IDL_Type>
-        <Units>Seconds</Units>
-        <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
-    </item>
-    <item>
-        <EFDB_Name>recommendedSettingsVersion</EFDB_Name>
+        <EFDB_Name>Timeout</EFDB_Name>
         <Description></Description>
-        <IDL_Type>string</IDL_Type>
+        <IDL_Type>boolean</IDL_Type>
         <Units></Units>
         <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
     </item>
 </SALEvent>
 <SALEvent>
     <Subsystem>calibrationSpectrometer</Subsystem>
-    <Version>3.6.0</Version>
+    <Version>3.5.1</Version>
     <Author>ccontaxis</Author>
     <EFDB_Topic>calibrationSpectrometer_logevent_Heartbeat</EFDB_Topic>
     <Alias>Heartbeat</Alias>
@@ -39,92 +30,64 @@
         <IDL_Type>boolean</IDL_Type>
         <Units></Units>
         <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
     </item>
 </SALEvent>
 <SALEvent>
     <Subsystem>calibrationSpectrometer</Subsystem>
-    <Version>3.6.0</Version>
+    <Version>3.5.1</Version>
     <Author>ccontaxis</Author>
-    <EFDB_Topic>calibrationSpectrometer_logevent_DetailedState</EFDB_Topic>
-    <Alias>DetailedState</Alias>
+    <EFDB_Topic>calibrationSpectrometer_logevent_MeasuredSpectrum</EFDB_Topic>
+    <Alias>MeasuredSpectrum</Alias>
     <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>detailedState</EFDB_Name>
-        <Description>An enumeration indicating the Monochrometer detailed state. See the DetailedStateValue enumeration defined in the Typedefs package.</Description>
-        <IDL_Type>unsigned short</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
-    </item>
-</SALEvent>
-<SALEvent>
-    <Subsystem>calibrationSpectrometer</Subsystem>
-    <Version>3.6.0</Version>
-    <Author>ccontaxis</Author>
-    <EFDB_Topic>calibrationSpectrometer_logevent_SpectrumReady</EFDB_Topic>
-    <Alias>SpectrumReady</Alias>
-    <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>spectrum</EFDB_Name>
-        <Description>Image of the spectrum, to confirm the size of the spectrum array.</Description>
-        <IDL_Type>float</IDL_Type>
-        <Units>Seconds</Units>
-        <Count>32</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
-    </item>
     <item>
         <EFDB_Name>spectId</EFDB_Name>
         <Description></Description>
         <IDL_Type>unsigned short</IDL_Type>
         <Units></Units>
         <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
-    </item>
-</SALEvent>
-<SALEvent>
-    <Subsystem>calibrationSpectrometer</Subsystem>
-    <Version>3.6.0</Version>
-    <Author>ccontaxis</Author>
-    <EFDB_Topic>calibrationSpectrometer_logevent_SpectrumImgReady</EFDB_Topic>
-    <Alias>SpectrumImgReady</Alias>
-    <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>spectrum</EFDB_Name>
-        <Description>Image of the spectrum, to confirm the size of the CCD.</Description>
-        <IDL_Type>float</IDL_Type>
-        <Units>Seconds</Units>
-        <Count>32</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
     </item>
     <item>
-        <EFDB_Name>spectId</EFDB_Name>
+        <EFDB_Name>wavelength</EFDB_Name>
         <Description></Description>
-        <IDL_Type>unsigned short</IDL_Type>
+        <IDL_Type>double</IDL_Type>
+        <Units>Seconds</Units>
+        <Count>2048</Count>
+    </item>
+    <item>
+        <EFDB_Name>intensity</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>double</IDL_Type>
+        <Units></Units>
+        <Count>2048</Count>
+    </item>
+    <item>
+        <EFDB_Name>imageName</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>string</IDL_Type>
+        <IDL_Size>1</IDL_Size>
         <Units></Units>
         <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
     </item>
 </SALEvent>
 <SALEvent>
     <Subsystem>calibrationSpectrometer</Subsystem>
-    <Version>3.6.0</Version>
+    <Version>3.5.1</Version>
     <Author>ccontaxis</Author>
-    <EFDB_Topic>calibrationSpectrometer_logevent_InternalCommand</EFDB_Topic>
-    <Alias>InternalCommand</Alias>
+    <EFDB_Topic>calibrationSpectrometer_logevent_SummaryState</EFDB_Topic>
+    <Alias>SummaryState</Alias>
     <Explanation>http://sal.lsst.org</Explanation>
     <item>
-        <EFDB_Name>CommandObject</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>byte</IDL_Type>
+        <EFDB_Name>summaryState</EFDB_Name>
+        <Description>An enumeration indicating the subsystem summary state. See the SummaryStateValue enumeration defined in the Typedefs package.</Description>
+        <IDL_Type>long</IDL_Type>
+        <Enumeration>DisabledState,EnabledState,FaultState,OfflineState,StandbyState</Enumeration>
         <Units></Units>
-        <Count>1000</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
+        <Count>1</Count>
     </item>
 </SALEvent>
 <SALEvent>
     <Subsystem>calibrationSpectrometer</Subsystem>
-    <Version>3.6.0</Version>
+    <Version>3.5.1</Version>
     <Author>ccontaxis</Author>
     <EFDB_Topic>calibrationSpectrometer_logevent_LoopTimeOutOfRange</EFDB_Topic>
     <Alias>LoopTimeOutOfRange</Alias>
@@ -135,36 +98,11 @@
         <IDL_Type>boolean</IDL_Type>
         <Units></Units>
         <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
     </item>
 </SALEvent>
 <SALEvent>
     <Subsystem>calibrationSpectrometer</Subsystem>
-    <Version>3.6.0</Version>
-    <Author>ccontaxis</Author>
-    <EFDB_Topic>calibrationSpectrometer_logevent_SettingsApplied</EFDB_Topic>
-    <Alias>SettingsApplied</Alias>
-    <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>timestamp</EFDB_Name>
-        <Description>The timestamp for when the event occurred.</Description>
-        <IDL_Type>double</IDL_Type>
-        <Units>Seconds</Units>
-        <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
-    </item>
-    <item>
-        <EFDB_Name>settings</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>string</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
-    </item>
-</SALEvent>
-<SALEvent>
-    <Subsystem>calibrationSpectrometer</Subsystem>
-    <Version>3.6.0</Version>
+    <Version>3.5.1</Version>
     <Author>ccontaxis</Author>
     <EFDB_Topic>calibrationSpectrometer_logevent_RejectedCommand</EFDB_Topic>
     <Alias>RejectedCommand</Alias>
@@ -175,15 +113,14 @@
         <IDL_Type>unsigned short</IDL_Type>
         <Units></Units>
         <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
     </item>
     <item>
         <EFDB_Name>detailedState</EFDB_Name>
         <Description></Description>
-        <IDL_Type>unsigned short</IDL_Type>
+        <IDL_Type>long</IDL_Type>
+        <Enumeration>DisabledState,EnabledState,FaultState,OfflineState,StandbyState</Enumeration>
         <Units></Units>
         <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
     </item>
     <item>
         <EFDB_Name>timestamp</EFDB_Name>
@@ -191,78 +128,90 @@
         <IDL_Type>double</IDL_Type>
         <Units></Units>
         <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
     </item>
 </SALEvent>
 <SALEvent>
     <Subsystem>calibrationSpectrometer</Subsystem>
-    <Version>3.6.0</Version>
+    <Version>3.5.1</Version>
     <Author>ccontaxis</Author>
     <EFDB_Topic>calibrationSpectrometer_logevent_ErrorCode</EFDB_Topic>
     <Alias>ErrorCode</Alias>
     <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>timestamp</EFDB_Name>
-        <Description>The timestamp for when the event occurred.</Description>
-        <IDL_Type>double</IDL_Type>
-        <Units>Seconds</Units>
-        <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
-    </item>
     <item>
         <EFDB_Name>errorCode</EFDB_Name>
         <Description>The error code being published.</Description>
         <IDL_Type>long</IDL_Type>
         <Units></Units>
         <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
     </item>
 </SALEvent>
 <SALEvent>
     <Subsystem>calibrationSpectrometer</Subsystem>
-    <Version>3.6.0</Version>
+    <Version>3.5.1</Version>
+    <Author>ccontaxis</Author>
+    <EFDB_Topic>calibrationSpectrometer_logevent_SettingVersions</EFDB_Topic>
+    <Alias>SettingVersions</Alias>
+    <Explanation>http://sal.lsst.org</Explanation>
+    <item>
+        <EFDB_Name>recommendedSettingsVersion</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>string</IDL_Type>
+        <IDL_Size>200</IDL_Size>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+    <item>
+        <EFDB_Name>recommendedSettingsLabels</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>string</IDL_Type>
+        <IDL_Size>200</IDL_Size>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+</SALEvent>
+<SALEvent>
+    <Subsystem>calibrationSpectrometer</Subsystem>
+    <Version>3.5.1</Version>
+    <Author>ccontaxis</Author>
+    <EFDB_Topic>calibrationSpectrometer_logevent_DetailedState</EFDB_Topic>
+    <Alias>DetailedState</Alias>
+    <Explanation>http://sal.lsst.org</Explanation>
+    <item>
+        <EFDB_Name>detailedState</EFDB_Name>
+        <Description>An enumeration indicating the subsystem detailed state. See the DetailedStateValue enumeration defined in the Typedefs package.</Description>
+        <IDL_Type>long</IDL_Type>
+        <Enumeration>DisabledState,EnabledState,FaultState,OfflineState,StandbyState</Enumeration>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+</SALEvent>
+<SALEvent>
+    <Subsystem>calibrationSpectrometer</Subsystem>
+    <Version>3.5.1</Version>
+    <Author>ccontaxis</Author>
+    <EFDB_Topic>calibrationSpectrometer_logevent_InternalCommand</EFDB_Topic>
+    <Alias>InternalCommand</Alias>
+    <Explanation>http://sal.lsst.org</Explanation>
+    <item>
+        <EFDB_Name>CommandObject</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>byte</IDL_Type>
+        <Units></Units>
+        <Count>1000</Count>
+    </item>
+</SALEvent>
+<SALEvent>
+    <Subsystem>calibrationSpectrometer</Subsystem>
+    <Version>3.5.1</Version>
     <Author>ccontaxis</Author>
     <EFDB_Topic>calibrationSpectrometer_logevent_AppliedSettingsMatchStart</EFDB_Topic>
     <Alias>AppliedSettingsMatchStart</Alias>
     <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>timestamp</EFDB_Name>
-        <Description>The timestamp for when the event occurred.</Description>
-        <IDL_Type>double</IDL_Type>
-        <Units>Seconds</Units>
-        <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
-    </item>
     <item>
         <EFDB_Name>appliedSettingsMatchStartIsTrue</EFDB_Name>
         <Description></Description>
         <IDL_Type>boolean</IDL_Type>
         <Units></Units>
         <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
-    </item>
-</SALEvent>
-<SALEvent>
-    <Subsystem>calibrationSpectrometer</Subsystem>
-    <Version>3.6.0</Version>
-    <Author>ccontaxis</Author>
-    <EFDB_Topic>calibrationSpectrometer_logevent_SummaryState</EFDB_Topic>
-    <Alias>SummaryState</Alias>
-    <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>timestamp</EFDB_Name>
-        <Description>The timestamp for when the event occurred.</Description>
-        <IDL_Type>double</IDL_Type>
-        <Units>Seconds</Units>
-        <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
-    </item>
-    <item>
-        <EFDB_Name>summaryState</EFDB_Name>
-        <Description>An enumeration indicating the M1M3 summary state. See the SummaryStateValue enumeration defined in the Typedefs package.</Description>
-        <IDL_Type>long</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-        <Explanation>http://sal.lsst.org</Explanation>
     </item>
 </SALEvent></SALEventSet>
