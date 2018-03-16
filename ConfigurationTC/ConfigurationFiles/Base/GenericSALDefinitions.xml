@@ -8,11 +8,11 @@
 <NumElts>5</NumElts>
 <String>
 <Name>Subsystem</Name>
-<Val>EXA</Val>
+<Val>calibrationSpectrometer</Val>
 </String>
 <Path>
 <Name>SAL Vis Path</Name>
-<Val>/home/andres/ct_cmpuserevents/ts_sallv_exa/VIs</Val>
+<Val>/home/harini/tcs/ts_sedspectrometer/ts_sallv_sedspectrometer/VIs</Val>
 </Path>
 <Array>
 <Name>Events</Name>
