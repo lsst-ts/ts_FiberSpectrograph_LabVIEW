@@ -26,13 +26,13 @@
 	<Item Name="AccessorMethods" Type="Folder">
 		<Item Name="Public" Type="Folder">
 			<Item Name="Read commandName.vi" Type="VI" URL="../Read commandName.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(6!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!*Q!]&gt;;:0'Y!!!!#%569162Z='6E:7:T,GRW&lt;'FC%%.P&lt;7VB&lt;G2797RV:3ZD&gt;'Q!=5!7!!A(2'FT97*M:1:&amp;&lt;G&amp;C&lt;'5%28BJ&gt;!N(&lt;V2P5X2B&lt;G2C?1N0&lt;EBF98*U9G6B&gt;"B0&lt;EFO9W^N;7ZH476T=W&amp;H;7ZH28*S&lt;X),4WZ*&lt;H2F=H*V=(1&amp;5X2B=H1!!!R$&lt;WVN97ZE6G&amp;M&gt;75!!$Z!=!!?!!!E$E.P&lt;7VB&lt;G2T,GRW&lt;'FC%U^O37ZU:8*S&gt;8"U,GRW9WRB=X-!!!^0&lt;EFO&gt;'6S=H6Q&gt;#"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!_1(!!(A!!*!Z$&lt;WVN97ZE=SZM&gt;GRJ9B.0&lt;EFO&gt;'6S=H6Q&gt;#ZM&gt;G.M98.T!!!/4WZ*&lt;H2F=H*V=(1A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#1!!!!!</Property>
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!).!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!.1!]&gt;&lt;JM35!!!!#%569162Z='6E:7:T,GRW&lt;'FC%%.P&lt;7VB&lt;G2797RV:3ZD&gt;'Q!K5!7!!M(2'FT97*M:1:&amp;&lt;G&amp;C&lt;'5%28BJ&gt;!N(&lt;V2P5X2B&lt;G2C?1N0&lt;EBF98*U9G6B&gt;"B0&lt;EFO9W^N;7ZH476T=W&amp;H;7ZH28*S&lt;X),4WZ*&lt;H2F=H*V=(1&amp;5X2B=H121W&amp;Q&gt;(6S:6.Q:7.U37VB:W555W6U5X"F9X25:7VQ5W6U='^J&lt;H115X2P=%FN97&gt;F1W&amp;Q&gt;(6S:1!!$%.P&lt;7VB&lt;G2797RV:1!!0E"Q!"Y!!#1/1W^N&lt;7&amp;O:(-O&lt;(:M;7)44WZ*&lt;H2F=H*V=(1O&lt;(:D&lt;'&amp;T=Q!!$U^O37ZU:8*S&gt;8"U)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$Z!=!!?!!!E$E.P&lt;7VB&lt;G2T,GRW&lt;'FC%U^O37ZU:8*S&gt;8"U,GRW9WRB=X-!!!Z0&lt;EFO&gt;'6S=H6Q&gt;#"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!*!!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1353458176</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
 			</Item>
 		</Item>
 	</Item>
