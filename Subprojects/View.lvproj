@@ -25,10 +25,10 @@
 			<Item Name="AlarmsTreeDisplayTC.lvclass" Type="LVClass" URL="../../View/AlarmsTreeDisplayTC/AlarmsTreeDisplayTC.lvclass"/>
 		</Item>
 		<Item Name="ViewElements" Type="Folder">
-			<Item Name="EXAViewElements.lvlib" Type="Library" URL="../../View/ViewElements/EXAViewElements.lvlib"/>
+			<Item Name="calibrationSpectrometerViewElements.lvlib" Type="Library" URL="../../View/ViewElements/calibrationSpectrometerViewElements.lvlib"/>
 		</Item>
 		<Item Name="ViewThisComponent.lvclass" Type="LVClass" URL="../../ViewThisComponent/ViewThisComponent.lvclass"/>
-		<Item Name="exaViewMain.vi" Type="VI" URL="../exaViewMain.vi"/>
+		<Item Name="calibrationSpectrometerViewMain.vi" Type="VI" URL="../../calibrationSpectrometerViewMain.vi"/>
 		<Item Name="viewMainMenu.rtm" Type="Document" URL="../../View/viewMainMenu.rtm"/>
 		<Item Name="warningsConfigDialog.vi" Type="VI" URL="../../ComponentTemplateCore/GUI/WarningsConfigDialog/warningsConfigDialog.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -141,7 +141,7 @@
 			<Item Name="ProgrammaticInitialization.lvclass" Type="LVClass" URL="../../MiddlewareSALThisComponent/ProgrammaticInitialization/ProgrammaticInitialization.lvclass"/>
 			<Item Name="PubSubDataEvent.lvclass" Type="LVClass" URL="../../PubSubDataEvent/PubSubDataEvent.lvclass"/>
 			<Item Name="Rendezvous.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Rendezvous/Rendezvous.lvclass"/>
-			<Item Name="SALLV_EXA.lvlib" Type="Library" URL="../../ts_sallv_exa/SALLV_EXA.lvlib"/>
+			<Item Name="SALLV_calibrationSpectrometer.lvlib" Type="Library" URL="../../ts_sallv_sedspectrometer/SALLV_calibrationSpectrometer.lvlib"/>
 			<Item Name="Settings.lvlib" Type="Library" URL="../../Settings/SettingsTC/Settings.lvlib"/>
 			<Item Name="SharedVariableHandler.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/SharedVariableHandler/SharedVariableHandler.lvclass"/>
 			<Item Name="Subpanel.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Subpanel/Subpanel.lvclass"/>
