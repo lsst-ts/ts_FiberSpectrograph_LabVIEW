@@ -3,11 +3,11 @@
 <SALCommandSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://lsst-sal.tuc.noao.edu/schema/SALCommandSet.xsd">
 <SALCommand>
-    <Subsystem>calibrationSpectrometer</Subsystem>
+    <Subsystem>sedSpectrometer</Subsystem>
     <Version>3.5.1</Version>
     <Author>aanania</Author>
-    <EFDB_Topic>calibrationSpectrometer_command_SetSpectTempSetpoint</EFDB_Topic>
-    <Alias>SetSpectTempSetpoint</Alias>
+    <EFDB_Topic>sedSpectrometer_command_setSpectTempSetpoint</EFDB_Topic>
+    <Alias>setSpectTempSetpoint</Alias>
     <Device></Device>
     <Property></Property>
     <Action></Action>
@@ -29,11 +29,11 @@
     </item>
 </SALCommand>
 <SALCommand>
-    <Subsystem>calibrationSpectrometer</Subsystem>
+    <Subsystem>sedSpectrometer</Subsystem>
     <Version>3.5.1</Version>
     <Author>aanania</Author>
-    <EFDB_Topic>calibrationSpectrometer_command_CaptureSpectImage</EFDB_Topic>
-    <Alias>CaptureSpectImage</Alias>
+    <EFDB_Topic>sedSpectrometer_command_captureSpectImage</EFDB_Topic>
+    <Alias>captureSpectImage</Alias>
     <Device></Device>
     <Property></Property>
     <Action></Action>
@@ -74,13 +74,29 @@
         <Units></Units>
         <Count>1</Count>
     </item>
+    <item>
+        <EFDB_Name>type</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>string</IDL_Type>
+        <IDL_Size>1</IDL_Size>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+    <item>
+        <EFDB_Name>lamp</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>string</IDL_Type>
+        <IDL_Size>1</IDL_Size>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
 </SALCommand>
 <SALCommand>
-    <Subsystem>calibrationSpectrometer</Subsystem>
+    <Subsystem>sedSpectrometer</Subsystem>
     <Version>3.5.1</Version>
     <Author>aanania</Author>
-    <EFDB_Topic>calibrationSpectrometer_command_StandBy</EFDB_Topic>
-    <Alias>StandBy</Alias>
+    <EFDB_Topic>sedSpectrometer_command_standby</EFDB_Topic>
+    <Alias>standby</Alias>
     <Device></Device>
     <Property></Property>
     <Action></Action>
@@ -95,11 +111,11 @@
     </item>
 </SALCommand>
 <SALCommand>
-    <Subsystem>calibrationSpectrometer</Subsystem>
+    <Subsystem>sedSpectrometer</Subsystem>
     <Version>3.5.1</Version>
     <Author>aanania</Author>
-    <EFDB_Topic>calibrationSpectrometer_command_Start</EFDB_Topic>
-    <Alias>Start</Alias>
+    <EFDB_Topic>sedSpectrometer_command_start</EFDB_Topic>
+    <Alias>start</Alias>
     <Device></Device>
     <Property></Property>
     <Action></Action>
@@ -115,11 +131,11 @@
     </item>
 </SALCommand>
 <SALCommand>
-    <Subsystem>calibrationSpectrometer</Subsystem>
+    <Subsystem>sedSpectrometer</Subsystem>
     <Version>3.5.1</Version>
     <Author>hsundararaman</Author>
-    <EFDB_Topic>calibrationSpectrometer_command_StopImageCapture</EFDB_Topic>
-    <Alias>StopImageCapture</Alias>
+    <EFDB_Topic>sedSpectrometer_command_stopImageCapture</EFDB_Topic>
+    <Alias>stopImageCapture</Alias>
     <Device></Device>
     <Property></Property>
     <Action></Action>
@@ -134,11 +150,11 @@
     </item>
 </SALCommand>
 <SALCommand>
-    <Subsystem>calibrationSpectrometer</Subsystem>
+    <Subsystem>sedSpectrometer</Subsystem>
     <Version>3.5.1</Version>
     <Author>aanania</Author>
-    <EFDB_Topic>calibrationSpectrometer_command_Disable</EFDB_Topic>
-    <Alias>Disable</Alias>
+    <EFDB_Topic>sedSpectrometer_command_disable</EFDB_Topic>
+    <Alias>disable</Alias>
     <Device></Device>
     <Property></Property>
     <Action></Action>
@@ -153,11 +169,11 @@
     </item>
 </SALCommand>
 <SALCommand>
-    <Subsystem>calibrationSpectrometer</Subsystem>
+    <Subsystem>sedSpectrometer</Subsystem>
     <Version>3.5.1</Version>
     <Author>aanania</Author>
-    <EFDB_Topic>calibrationSpectrometer_command_Enable</EFDB_Topic>
-    <Alias>Enable</Alias>
+    <EFDB_Topic>sedSpectrometer_command_enable</EFDB_Topic>
+    <Alias>enable</Alias>
     <Device></Device>
     <Property></Property>
     <Action></Action>
@@ -172,11 +188,11 @@
     </item>
 </SALCommand>
 <SALCommand>
-    <Subsystem>calibrationSpectrometer</Subsystem>
+    <Subsystem>sedSpectrometer</Subsystem>
     <Version>3.5.1</Version>
     <Author>aanania</Author>
-    <EFDB_Topic>calibrationSpectrometer_command_ExitControl</EFDB_Topic>
-    <Alias>ExitControl</Alias>
+    <EFDB_Topic>sedSpectrometer_command_exitControl</EFDB_Topic>
+    <Alias>exitControl</Alias>
     <Device></Device>
     <Property></Property>
     <Action></Action>
