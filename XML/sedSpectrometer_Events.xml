@@ -82,6 +82,42 @@
         <Units></Units>
         <Count>1</Count>
     </item>
+    <item>
+        <EFDB_Name>exposureStartTime</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>double</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+    <item>
+        <EFDB_Name>exposureLength</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>int</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+    <item>
+        <EFDB_Name>SpectSNo</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>string</IDL_Type>
+        <IDL_Size>1</IDL_Size>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+    <item>
+        <EFDB_Name>SpectTemp</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>int</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+    <item>
+        <EFDB_Name>CommandedTemp</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>int</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
 </SALEvent>
 <SALEvent>
     <Subsystem>sedSpectrometer</Subsystem>
