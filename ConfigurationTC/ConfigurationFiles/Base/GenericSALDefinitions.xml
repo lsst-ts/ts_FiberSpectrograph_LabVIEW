@@ -8,7 +8,7 @@
 <NumElts>5</NumElts>
 <String>
 <Name>Subsystem</Name>
-<Val>calibrationSpectrometer</Val>
+<Val>sedSpectrometer</Val>
 </String>
 <Path>
 <Name>SAL Vis Path</Name>
@@ -71,23 +71,23 @@
 <Dimsize>5</Dimsize>
 <String>
 <Name>String</Name>
-<Val>Start</Val>
+<Val>start</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>StandBy</Val>
+<Val>standby</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Enable</Val>
+<Val>enable</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>Disable</Val>
+<Val>disable</Val>
 </String>
 <String>
 <Name>String</Name>
-<Val>ExitControl</Val>
+<Val>exitControl</Val>
 </String>
 </Array>
 </Cluster>
