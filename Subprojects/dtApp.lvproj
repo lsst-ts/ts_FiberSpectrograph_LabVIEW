@@ -57,6 +57,10 @@
 				<Item Name="IModel.lvclass" Type="LVClass" URL="../../IModel/IModel.lvclass"/>
 				<Item Name="Model.lvclass" Type="LVClass" URL="../../Model/Model/Model.lvclass"/>
 			</Item>
+			<Item Name="SEDSpectrometer" Type="Folder">
+				<Item Name="SEDSpectrometer.lvclass" Type="LVClass" URL="../../ss_sedspectrometer/SEDSpectrometer/SEDSpectrometer.lvclass"/>
+				<Item Name="TestApplication.vi" Type="VI" URL="../../ss_sedspectrometer/TestApplication.vi"/>
+			</Item>
 			<Item Name="State" Type="Folder">
 				<Item Name="State.lvclass" Type="LVClass" URL="../../State/State.lvclass"/>
 				<Item Name="States.lvlib" Type="Library" URL="../../States/States.lvlib"/>
@@ -65,7 +69,7 @@
 				<Item Name="IStateFactory.lvclass" Type="LVClass" URL="../../IStateFactory/IStateFactory.lvclass"/>
 				<Item Name="StateFactory.lvclass" Type="LVClass" URL="../../StateFactory/StateFactory.lvclass"/>
 			</Item>
-			<Item Name="EXATypedefs.lvlib" Type="Library" URL="../../Typedefs/EXATypedefs.lvlib"/>
+			<Item Name="SEDSpectrometerTypedefs.lvlib" Type="Library" URL="../../Typedefs/SEDSpectrometerTypedefs.lvlib"/>
 			<Item Name="Settings.lvlib" Type="Library" URL="../../Settings/SettingsTC/Settings.lvlib"/>
 		</Item>
 		<Item Name="zSpecialDependencyDescendants" Type="Folder">
@@ -86,6 +90,7 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
@@ -131,6 +136,7 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
+				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
@@ -138,12 +144,43 @@
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="nitl_modes.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/nitl_modes.ctl"/>
+				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
 				<Item Name="timing_clust.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/timing_clust.ctl"/>
 				<Item Name="wakeup.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/wakeup.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="AVS_Activate.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Activate.vi"/>
+			<Item Name="AVS_Deactivate.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Deactivate.vi"/>
+			<Item Name="AVS_Done.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Done.vi"/>
+			<Item Name="AVS_GetAnalogIn.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetAnalogIn.vi"/>
+			<Item Name="AVS_GetDigIn.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetDigIn.vi"/>
+			<Item Name="AVS_GetHandleFromSerial.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetHandleFromSerial.vi"/>
+			<Item Name="AVS_GetIpConfig.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetIpConfig.vi"/>
+			<Item Name="AVS_GetLambda.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetLambda.vi"/>
+			<Item Name="AVS_GetList.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetList.vi"/>
+			<Item Name="AVS_GetNrOfDevices.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetNrOfDevices.vi"/>
+			<Item Name="AVS_GetNumPixels.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetNumPixels.vi"/>
+			<Item Name="AVS_GetParameter.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetParameter.vi"/>
+			<Item Name="AVS_GetSaturatedPixels.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetSaturatedPixels.vi"/>
+			<Item Name="AVS_GetScopeData.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetScopeData.vi"/>
+			<Item Name="AVS_GetVersionInfo.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetVersionInfo.vi"/>
+			<Item Name="AVS_Init.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Init.vi"/>
+			<Item Name="AVS_Measure.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Measure.vi"/>
+			<Item Name="AVS_PollScan.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_PollScan.vi"/>
+			<Item Name="AVS_PrepareMeasure.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_PrepareMeasure.vi"/>
+			<Item Name="AVS_Register.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_Register.vi"/>
+			<Item Name="AVS_SetAnalogOut.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_SetAnalogOut.vi"/>
+			<Item Name="AVS_SetDigOut.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_SetDigOut.vi"/>
+			<Item Name="AVS_SetParameter.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_SetParameter.vi"/>
+			<Item Name="AVS_SetPrescanMode.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_SetPrescanMode.vi"/>
+			<Item Name="AVS_SetPwmOut.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_SetPwmOut.vi"/>
+			<Item Name="AVS_SetSyncMode.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_SetSyncMode.vi"/>
+			<Item Name="AVS_StopMeasure.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_StopMeasure.vi"/>
+			<Item Name="AVS_UseHighResADC.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_UseHighResADC.vi"/>
 			<Item Name="AppDT.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/Application/AppDT/AppDT.lvclass"/>
+			<Item Name="Byte_to_DeviceConfigType.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/Byte_to_DeviceConfigType.vi"/>
 			<Item Name="Command.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Command/Command.lvclass"/>
 			<Item Name="CommandEvent.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/CommandEvent/CommandEvent.lvclass"/>
 			<Item Name="CommandEvents.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/CommandEvents.ctl"/>
@@ -153,6 +190,7 @@
 			<Item Name="ContextID.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/ContextID/ContextID.lvclass"/>
 			<Item Name="Controller.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Controller/Controller.lvclass"/>
 			<Item Name="DTTLListener.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/DTTLListener/DTTLListener.lvclass"/>
+			<Item Name="DeviceConfigType_to_Byte.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/DeviceConfigType_to_Byte.vi"/>
 			<Item Name="FPGAClockConfig.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/ConfigurationHandler/FPGAClockConfig/FPGAClockConfig.lvclass"/>
 			<Item Name="Heartbeat.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Heartbeat/Heartbeat/Heartbeat.lvclass"/>
 			<Item Name="IHeartbeat.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Heartbeat/IHeartbeat/IHeartbeat.lvclass"/>
@@ -161,6 +199,7 @@
 			<Item Name="Invoker.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Invoker/Invoker.lvclass"/>
 			<Item Name="LoopConfig.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/ConfigurationHandler/LoopConfig/LoopConfig.lvclass"/>
 			<Item Name="LoopTimer.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/LoopTimer/LoopTimer/LoopTimer.lvclass"/>
+			<Item Name="MeasConfigType_to_Byte.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/MeasConfigType_to_Byte.vi"/>
 			<Item Name="Middleware.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Middleware/Middleware.lvclass"/>
 			<Item Name="MiddlewareProcessEvent.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/MiddlewareProcessEvent/MiddlewareProcessEvent.lvclass"/>
 			<Item Name="MiddlewareProcessEvents.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/MiddlewareProcessEvents.ctl"/>
@@ -169,9 +208,12 @@
 			<Item Name="PubSubDataEvent.lvclass" Type="LVClass" URL="../../PubSubDataEvent/PubSubDataEvent.lvclass"/>
 			<Item Name="Rendezvous.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Rendezvous/Rendezvous.lvclass"/>
 			<Item Name="SALLV_sedSpectrometer.lvlib" Type="Library" URL="../../ts_sallv_sedspectrometer/SALLV_sedSpectrometer.lvlib"/>
+			<Item Name="StartMeasurement.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/StartMeasurement.vi"/>
 			<Item Name="TimedLoopListener.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/TimedLoopListener/TimedLoopListener.lvclass"/>
 			<Item Name="TypedefsDataEvents.lvlib" Type="Library" URL="../../TypedefsDataEvents/TypedefsDataEvents.lvlib"/>
 			<Item Name="UserEventBasedController.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/UserEventBasedController/UserEventBasedController.lvclass"/>
+			<Item Name="clusterdef.ctl" Type="VI" URL="../../ss_sedspectrometer/VIs/clusterdef.ctl"/>
+			<Item Name="libavs.so" Type="Document" URL="../../ss_sedspectrometer/VIs/libavs.so"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
