@@ -167,7 +167,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1074266624</Property>
 		</Item>
 		<Item Name="getSpectrum.vi" Type="VI" URL="../getSpectrum.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;/!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$5!+!!&gt;/&gt;7VF=GFD!"R!1!!"`````Q!%$WFO&gt;'6O=WFU?6MS-$1Y81!?1%!!!@````]!"""X98:F&lt;'6O:X2I7T)Q.$B&gt;!!!G1(!!(A!!%!Z*47^E:7QO&lt;(:D&lt;'&amp;T=Q!!#EF.&lt;W2F&lt;#"P&gt;81!!!1!!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#2!=!!?!!!1$EF.&lt;W2F&lt;#ZM&gt;G.M98.T!!!*35VP:'6M)'FO!&amp;1!]!!-!!-!"1!'!!=!#!!)!!A!#!!*!!A!#!!+!A!!?!!!$1A!!!E!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%(!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#:!=!!?!!!1$EF.&lt;W2F&lt;#ZM&gt;G.M98.T!!!+35VP:'6M)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!E1(!!(A!!%!Z*47^E:7QO&lt;(:D&lt;'&amp;T=Q!!#5F.&lt;W2F&lt;#"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
