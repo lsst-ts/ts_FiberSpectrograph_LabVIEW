@@ -18,11 +18,11 @@
 </String>
 <String>
 <Name>Set</Name>
-<Val>TestSetting</Val>
+<Val>Subset</Val>
 </String>
 <String>
 <Name>Version</Name>
-<Val>6</Val>
+<Val>1</Val>
 </String>
 </Cluster>
 <Cluster>
