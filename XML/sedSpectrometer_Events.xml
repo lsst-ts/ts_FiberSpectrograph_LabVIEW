@@ -155,4 +155,63 @@
         <Units></Units>
         <Count>1</Count>
     </item>
+</SALEvent>
+<SALEvent>
+    <Subsystem>sedSpectrometer</Subsystem>
+    <Version>3.5.1</Version>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_logevent_RejectedCommand</EFDB_Topic>
+    <Alias>RejectedCommand</Alias>
+    <Explanation>http://sal.lsst.org</Explanation>
+    <item>
+        <EFDB_Name>commandValue</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>unsigned short</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+    <item>
+        <EFDB_Name>detailedState</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>unsigned short</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+    <item>
+        <EFDB_Name>timestamp</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>double</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+</SALEvent>
+<SALEvent>
+    <Subsystem>sedSpectrometer</Subsystem>
+    <Version>3.5.1</Version>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_logevent_LoopTimeOutOfRange</EFDB_Topic>
+    <Alias>LoopTimeOutOfRange</Alias>
+    <Explanation>http://sal.lsst.org</Explanation>
+    <item>
+        <EFDB_Name>loopTimeOutOfRange</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>boolean</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+</SALEvent>
+<SALEvent>
+    <Subsystem>sedSpectrometer</Subsystem>
+    <Version>3.5.1</Version>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_logevent_InternalCommand</EFDB_Topic>
+    <Alias>InternalCommand</Alias>
+    <Explanation>http://sal.lsst.org</Explanation>
+    <item>
+        <EFDB_Name>CommandObject</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>byte</IDL_Type>
+        <Units></Units>
+        <Count>1000</Count>
+    </item>
 </SALEvent></SALEventSet>
