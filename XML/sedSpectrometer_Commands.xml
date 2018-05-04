@@ -5,105 +5,16 @@
 <SALCommand>
     <Subsystem>sedSpectrometer</Subsystem>
     <Version>3.5.1</Version>
-    <Author>aanania</Author>
-    <EFDB_Topic>sedSpectrometer_command_setSpectTempSetpoint</EFDB_Topic>
-    <Alias>setSpectTempSetpoint</Alias>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_command_disable</EFDB_Topic>
+    <Alias>disable</Alias>
     <Device></Device>
     <Property></Property>
     <Action></Action>
     <Value></Value>
     <Explanation>http://sal.lsst.org</Explanation>
     <item>
-        <EFDB_Name>spectId</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>unsigned short</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-    <item>
-        <EFDB_Name>setpoint</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>float</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-</SALCommand>
-<SALCommand>
-    <Subsystem>sedSpectrometer</Subsystem>
-    <Version>3.5.1</Version>
-    <Author>aanania</Author>
-    <EFDB_Topic>sedSpectrometer_command_captureSpectImage</EFDB_Topic>
-    <Alias>captureSpectImage</Alias>
-    <Device></Device>
-    <Property></Property>
-    <Action></Action>
-    <Value></Value>
-    <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>spectId</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>unsigned short</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-    <item>
-        <EFDB_Name>intTime</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>float</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-    <item>
-        <EFDB_Name>intDelay</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>double</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-    <item>
-        <EFDB_Name>numAverages</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>unsigned short</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-    <item>
-        <EFDB_Name>numScans</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>int</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-    <item>
-        <EFDB_Name>type</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>string</IDL_Type>
-        <IDL_Size>1</IDL_Size>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-    <item>
-        <EFDB_Name>lamp</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>string</IDL_Type>
-        <IDL_Size>1</IDL_Size>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-</SALCommand>
-<SALCommand>
-    <Subsystem>sedSpectrometer</Subsystem>
-    <Version>3.5.1</Version>
-    <Author>aanania</Author>
-    <EFDB_Topic>sedSpectrometer_command_standby</EFDB_Topic>
-    <Alias>standby</Alias>
-    <Device></Device>
-    <Property></Property>
-    <Action></Action>
-    <Value></Value>
-    <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>standBy</EFDB_Name>
+        <EFDB_Name>state</EFDB_Name>
         <Description></Description>
         <IDL_Type>boolean</IDL_Type>
         <Units></Units>
@@ -113,7 +24,64 @@
 <SALCommand>
     <Subsystem>sedSpectrometer</Subsystem>
     <Version>3.5.1</Version>
-    <Author>aanania</Author>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_command_enable</EFDB_Topic>
+    <Alias>enable</Alias>
+    <Device></Device>
+    <Property></Property>
+    <Action></Action>
+    <Value></Value>
+    <Explanation>http://sal.lsst.org</Explanation>
+    <item>
+        <EFDB_Name>state</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>boolean</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+</SALCommand>
+<SALCommand>
+    <Subsystem>sedSpectrometer</Subsystem>
+    <Version>3.5.1</Version>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_command_exitControl</EFDB_Topic>
+    <Alias>exitControl</Alias>
+    <Device></Device>
+    <Property></Property>
+    <Action></Action>
+    <Value></Value>
+    <Explanation>http://sal.lsst.org</Explanation>
+    <item>
+        <EFDB_Name>state</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>boolean</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+</SALCommand>
+<SALCommand>
+    <Subsystem>sedSpectrometer</Subsystem>
+    <Version>3.5.1</Version>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_command_standby</EFDB_Topic>
+    <Alias>standby</Alias>
+    <Device></Device>
+    <Property></Property>
+    <Action></Action>
+    <Value></Value>
+    <Explanation>http://sal.lsst.org</Explanation>
+    <item>
+        <EFDB_Name>state</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>boolean</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+</SALCommand>
+<SALCommand>
+    <Subsystem>sedSpectrometer</Subsystem>
+    <Version>3.5.1</Version>
+    <Author></Author>
     <EFDB_Topic>sedSpectrometer_command_start</EFDB_Topic>
     <Alias>start</Alias>
     <Device></Device>
@@ -125,7 +93,7 @@
         <EFDB_Name>settingsToApply</EFDB_Name>
         <Description></Description>
         <IDL_Type>string</IDL_Type>
-        <IDL_Size>64</IDL_Size>
+        <IDL_Size>256</IDL_Size>
         <Units></Units>
         <Count>1</Count>
     </item>
@@ -133,7 +101,107 @@
 <SALCommand>
     <Subsystem>sedSpectrometer</Subsystem>
     <Version>3.5.1</Version>
-    <Author>hsundararaman</Author>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_command_enterControl</EFDB_Topic>
+    <Alias>enterControl</Alias>
+    <Device></Device>
+    <Property></Property>
+    <Action></Action>
+    <Value></Value>
+    <Explanation>http://sal.lsst.org</Explanation>
+    <item>
+        <EFDB_Name>state</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>boolean</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+</SALCommand>
+<SALCommand>
+    <Subsystem>sedSpectrometer</Subsystem>
+    <Version>3.5.1</Version>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_command_abort</EFDB_Topic>
+    <Alias>abort</Alias>
+    <Device></Device>
+    <Property></Property>
+    <Action></Action>
+    <Value></Value>
+    <Explanation>http://sal.lsst.org</Explanation>
+    <item>
+        <EFDB_Name>state</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>boolean</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+</SALCommand>
+<SALCommand>
+    <Subsystem>sedSpectrometer</Subsystem>
+    <Version>3.5.1</Version>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_command_SetValue</EFDB_Topic>
+    <Alias>SetValue</Alias>
+    <Device></Device>
+    <Property></Property>
+    <Action></Action>
+    <Value></Value>
+    <Explanation>http://sal.lsst.org</Explanation>
+    <item>
+        <EFDB_Name>parametersandValues</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>string</IDL_Type>
+        <IDL_Size>256</IDL_Size>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+</SALCommand>
+<SALCommand>
+    <Subsystem>sedSpectrometer</Subsystem>
+    <Version>3.5.1</Version>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_command_captureSpectImage</EFDB_Topic>
+    <Alias>captureSpectImage</Alias>
+    <Device></Device>
+    <Property></Property>
+    <Action></Action>
+    <Value></Value>
+    <Explanation>http://sal.lsst.org</Explanation>
+    <item>
+        <EFDB_Name>exposureTime</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>float</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+    <item>
+        <EFDB_Name>integrationTime</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>float</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+    <item>
+        <EFDB_Name>type</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>string</IDL_Type>
+        <IDL_Size>256</IDL_Size>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+    <item>
+        <EFDB_Name>lamp</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>string</IDL_Type>
+        <IDL_Size>256</IDL_Size>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+</SALCommand>
+<SALCommand>
+    <Subsystem>sedSpectrometer</Subsystem>
+    <Version>3.5.1</Version>
+    <Author></Author>
     <EFDB_Topic>sedSpectrometer_command_stopImageCapture</EFDB_Topic>
     <Alias>stopImageCapture</Alias>
     <Device></Device>
@@ -142,26 +210,7 @@
     <Value></Value>
     <Explanation>http://sal.lsst.org</Explanation>
     <item>
-        <EFDB_Name>SpectId</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>unsigned short</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-</SALCommand>
-<SALCommand>
-    <Subsystem>sedSpectrometer</Subsystem>
-    <Version>3.5.1</Version>
-    <Author>aanania</Author>
-    <EFDB_Topic>sedSpectrometer_command_disable</EFDB_Topic>
-    <Alias>disable</Alias>
-    <Device></Device>
-    <Property></Property>
-    <Action></Action>
-    <Value></Value>
-    <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>disable</EFDB_Name>
+        <EFDB_Name>stop</EFDB_Name>
         <Description></Description>
         <IDL_Type>boolean</IDL_Type>
         <Units></Units>
@@ -171,37 +220,18 @@
 <SALCommand>
     <Subsystem>sedSpectrometer</Subsystem>
     <Version>3.5.1</Version>
-    <Author>aanania</Author>
-    <EFDB_Topic>sedSpectrometer_command_enable</EFDB_Topic>
-    <Alias>enable</Alias>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_command_setSpectTempSetpoint</EFDB_Topic>
+    <Alias>setSpectTempSetpoint</Alias>
     <Device></Device>
     <Property></Property>
     <Action></Action>
     <Value></Value>
     <Explanation>http://sal.lsst.org</Explanation>
     <item>
-        <EFDB_Name>enable</EFDB_Name>
+        <EFDB_Name>setpoint</EFDB_Name>
         <Description></Description>
-        <IDL_Type>boolean</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-</SALCommand>
-<SALCommand>
-    <Subsystem>sedSpectrometer</Subsystem>
-    <Version>3.5.1</Version>
-    <Author>aanania</Author>
-    <EFDB_Topic>sedSpectrometer_command_exitControl</EFDB_Topic>
-    <Alias>exitControl</Alias>
-    <Device></Device>
-    <Property></Property>
-    <Action></Action>
-    <Value></Value>
-    <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>exitControl</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>boolean</IDL_Type>
+        <IDL_Type>float</IDL_Type>
         <Units></Units>
         <Count>1</Count>
     </item>

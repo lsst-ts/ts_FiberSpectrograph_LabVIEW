@@ -5,12 +5,12 @@
 <SALEvent>
     <Subsystem>sedSpectrometer</Subsystem>
     <Version>3.5.1</Version>
-    <Author>hsundararaman</Author>
-    <EFDB_Topic>sedSpectrometer_logevent_TimeOut</EFDB_Topic>
-    <Alias>TimeOut</Alias>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_logevent_AppliedSettingsMatchStart</EFDB_Topic>
+    <Alias>AppliedSettingsMatchStart</Alias>
     <Explanation>http://sal.lsst.org</Explanation>
     <item>
-        <EFDB_Name>Timeout</EFDB_Name>
+        <EFDB_Name>appliedSettingsMatchStartIsTrue</EFDB_Name>
         <Description></Description>
         <IDL_Type>boolean</IDL_Type>
         <Units></Units>
@@ -20,14 +20,14 @@
 <SALEvent>
     <Subsystem>sedSpectrometer</Subsystem>
     <Version>3.5.1</Version>
-    <Author>ccontaxis</Author>
-    <EFDB_Topic>sedSpectrometer_logevent_Heartbeat</EFDB_Topic>
-    <Alias>Heartbeat</Alias>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_logevent_ErrorCode</EFDB_Topic>
+    <Alias>ErrorCode</Alias>
     <Explanation>http://sal.lsst.org</Explanation>
     <item>
-        <EFDB_Name>heartbeat</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>boolean</IDL_Type>
+        <EFDB_Name>errorCode</EFDB_Name>
+        <Description>The error code being published.</pre></html></Description>
+        <IDL_Type>long</IDL_Type>
         <Units></Units>
         <Count>1</Count>
     </item>
@@ -35,14 +35,94 @@
 <SALEvent>
     <Subsystem>sedSpectrometer</Subsystem>
     <Version>3.5.1</Version>
-    <Author>ccontaxis</Author>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_logevent_SettingVersions</EFDB_Topic>
+    <Alias>SettingVersions</Alias>
+    <Explanation>http://sal.lsst.org</Explanation>
+    <item>
+        <EFDB_Name>recommendedSettingVersion</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>string</IDL_Type>
+        <IDL_Size>256</IDL_Size>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+</SALEvent>
+<SALEvent>
+    <Subsystem>sedSpectrometer</Subsystem>
+    <Version>3.5.1</Version>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_logevent_SummaryState</EFDB_Topic>
+    <Alias>SummaryState</Alias>
+    <Explanation>http://sal.lsst.org</Explanation>
+    <item>
+        <EFDB_Name>summaryState</EFDB_Name>
+        <Description>An enumeration indicating the subsystem summary state. See the SummaryStateValue enumeration defined in the Typedefs package.</pre></html></Description>
+        <IDL_Type>long</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+        <Enumeration>DisabledState,EnabledState,FaultState,OfflineState,StandbyState</Enumeration>
+    </item>
+</SALEvent>
+<SALEvent>
+    <Subsystem>sedSpectrometer</Subsystem>
+    <Version>3.5.1</Version>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_logevent_DetailedState</EFDB_Topic>
+    <Alias>DetailedState</Alias>
+    <Explanation>http://sal.lsst.org</Explanation>
+    <item>
+        <EFDB_Name>detailedState</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>long</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+        <Enumeration>DisabledState,EnabledState,FaultState,OfflineState,StandbyState</Enumeration>
+    </item>
+</SALEvent>
+<SALEvent>
+    <Subsystem>sedSpectrometer</Subsystem>
+    <Version>3.5.1</Version>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_logevent_LargeFileObjectAvailable</EFDB_Topic>
+    <Alias>LargeFileObjectAvailable</Alias>
+    <Explanation>http://sal.lsst.org</Explanation>
+    <item>
+        <EFDB_Name>URL</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>string</IDL_Type>
+        <IDL_Size>256</IDL_Size>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+    <item>
+        <EFDB_Name>Generator</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>string</IDL_Type>
+        <IDL_Size>256</IDL_Size>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+    <item>
+        <EFDB_Name>Version</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>float</IDL_Type>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+</SALEvent>
+<SALEvent>
+    <Subsystem>sedSpectrometer</Subsystem>
+    <Version>3.5.1</Version>
+    <Author></Author>
     <EFDB_Topic>sedSpectrometer_logevent_MeasuredSpectrum</EFDB_Topic>
     <Alias>MeasuredSpectrum</Alias>
     <Explanation>http://sal.lsst.org</Explanation>
     <item>
-        <EFDB_Name>spectId</EFDB_Name>
+        <EFDB_Name>imageName</EFDB_Name>
         <Description></Description>
-        <IDL_Type>unsigned short</IDL_Type>
+        <IDL_Type>string</IDL_Type>
+        <IDL_Size>256</IDL_Size>
         <Units></Units>
         <Count>1</Count>
     </item>
@@ -50,7 +130,7 @@
         <EFDB_Name>wavelength</EFDB_Name>
         <Description></Description>
         <IDL_Type>double</IDL_Type>
-        <Units>Seconds</Units>
+        <Units></Units>
         <Count>2048</Count>
     </item>
     <item>
@@ -60,205 +140,16 @@
         <Units></Units>
         <Count>2048</Count>
     </item>
-    <item>
-        <EFDB_Name>imageName</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>string</IDL_Type>
-        <IDL_Size>1</IDL_Size>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-    <item>
-        <EFDB_Name>frameNumber</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>int</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-    <item>
-        <EFDB_Name>pixelNumber</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>unsigned long</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-    <item>
-        <EFDB_Name>exposureStartTime</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>double</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-    <item>
-        <EFDB_Name>exposureLength</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>int</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-    <item>
-        <EFDB_Name>SpectSNo</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>string</IDL_Type>
-        <IDL_Size>1</IDL_Size>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-    <item>
-        <EFDB_Name>SpectTemp</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>int</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-    <item>
-        <EFDB_Name>CommandedTemp</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>int</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
 </SALEvent>
 <SALEvent>
     <Subsystem>sedSpectrometer</Subsystem>
     <Version>3.5.1</Version>
-    <Author>ccontaxis</Author>
-    <EFDB_Topic>sedSpectrometer_logevent_SummaryState</EFDB_Topic>
-    <Alias>SummaryState</Alias>
+    <Author></Author>
+    <EFDB_Topic>sedSpectrometer_logevent_Timeout</EFDB_Topic>
+    <Alias>Timeout</Alias>
     <Explanation>http://sal.lsst.org</Explanation>
     <item>
-        <EFDB_Name>summaryState</EFDB_Name>
-        <Description>An enumeration indicating the subsystem summary state. See the SummaryStateValue enumeration defined in the Typedefs package.</Description>
-        <IDL_Type>long</IDL_Type>
-        <Enumeration>DisabledState,EnabledState,FaultState,OfflineState,StandbyState</Enumeration>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-</SALEvent>
-<SALEvent>
-    <Subsystem>sedSpectrometer</Subsystem>
-    <Version>3.5.1</Version>
-    <Author>ccontaxis</Author>
-    <EFDB_Topic>sedSpectrometer_logevent_LoopTimeOutOfRange</EFDB_Topic>
-    <Alias>LoopTimeOutOfRange</Alias>
-    <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>loopTimeOutOfRange</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>boolean</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-</SALEvent>
-<SALEvent>
-    <Subsystem>sedSpectrometer</Subsystem>
-    <Version>3.5.1</Version>
-    <Author>ccontaxis</Author>
-    <EFDB_Topic>sedSpectrometer_logevent_RejectedCommand</EFDB_Topic>
-    <Alias>RejectedCommand</Alias>
-    <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>commandValue</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>unsigned short</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-    <item>
-        <EFDB_Name>detailedState</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>long</IDL_Type>
-        <Enumeration>DisabledState,EnabledState,FaultState,OfflineState,StandbyState</Enumeration>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-    <item>
-        <EFDB_Name>timestamp</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>double</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-</SALEvent>
-<SALEvent>
-    <Subsystem>sedSpectrometer</Subsystem>
-    <Version>3.5.1</Version>
-    <Author>ccontaxis</Author>
-    <EFDB_Topic>sedSpectrometer_logevent_ErrorCode</EFDB_Topic>
-    <Alias>ErrorCode</Alias>
-    <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>errorCode</EFDB_Name>
-        <Description>The error code being published.</Description>
-        <IDL_Type>long</IDL_Type>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-</SALEvent>
-<SALEvent>
-    <Subsystem>sedSpectrometer</Subsystem>
-    <Version>3.5.1</Version>
-    <Author>ccontaxis</Author>
-    <EFDB_Topic>sedSpectrometer_logevent_SettingVersions</EFDB_Topic>
-    <Alias>SettingVersions</Alias>
-    <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>recommendedSettingsVersion</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>string</IDL_Type>
-        <IDL_Size>200</IDL_Size>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-    <item>
-        <EFDB_Name>recommendedSettingsLabels</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>string</IDL_Type>
-        <IDL_Size>200</IDL_Size>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-</SALEvent>
-<SALEvent>
-    <Subsystem>sedSpectrometer</Subsystem>
-    <Version>3.5.1</Version>
-    <Author>ccontaxis</Author>
-    <EFDB_Topic>sedSpectrometer_logevent_DetailedState</EFDB_Topic>
-    <Alias>DetailedState</Alias>
-    <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>detailedState</EFDB_Name>
-        <Description>An enumeration indicating the subsystem detailed state. See the DetailedStateValue enumeration defined in the Typedefs package.</Description>
-        <IDL_Type>long</IDL_Type>
-        <Enumeration>DisabledState,EnabledState,FaultState,OfflineState,StandbyState</Enumeration>
-        <Units></Units>
-        <Count>1</Count>
-    </item>
-</SALEvent>
-<SALEvent>
-    <Subsystem>sedSpectrometer</Subsystem>
-    <Version>3.5.1</Version>
-    <Author>ccontaxis</Author>
-    <EFDB_Topic>sedSpectrometer_logevent_InternalCommand</EFDB_Topic>
-    <Alias>InternalCommand</Alias>
-    <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>CommandObject</EFDB_Name>
-        <Description></Description>
-        <IDL_Type>byte</IDL_Type>
-        <Units></Units>
-        <Count>1000</Count>
-    </item>
-</SALEvent>
-<SALEvent>
-    <Subsystem>sedSpectrometer</Subsystem>
-    <Version>3.5.1</Version>
-    <Author>ccontaxis</Author>
-    <EFDB_Topic>sedSpectrometer_logevent_AppliedSettingsMatchStart</EFDB_Topic>
-    <Alias>AppliedSettingsMatchStart</Alias>
-    <Explanation>http://sal.lsst.org</Explanation>
-    <item>
-        <EFDB_Name>appliedSettingsMatchStartIsTrue</EFDB_Name>
+        <EFDB_Name>timeout</EFDB_Name>
         <Description></Description>
         <IDL_Type>boolean</IDL_Type>
         <Units></Units>
