@@ -40,7 +40,15 @@
     <Alias>SettingVersions</Alias>
     <Explanation>http://sal.lsst.org</Explanation>
     <item>
-        <EFDB_Name>recommendedSettingVersion</EFDB_Name>
+        <EFDB_Name>recommendedSettingsVersion</EFDB_Name>
+        <Description></Description>
+        <IDL_Type>string</IDL_Type>
+        <IDL_Size>256</IDL_Size>
+        <Units></Units>
+        <Count>1</Count>
+    </item>
+    <item>
+        <EFDB_Name>recommendedSettingsLabels</EFDB_Name>
         <Description></Description>
         <IDL_Type>string</IDL_Type>
         <IDL_Size>256</IDL_Size>
