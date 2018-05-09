@@ -24,7 +24,7 @@
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="capturingSpectImage.vi" Type="VI" URL="../capturingSpectImage.vi">
+		<Item Name="captureSpectImage.vi" Type="VI" URL="../captureSpectImage.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*G!!!!%Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#2!=!!?!!!1$EF.&lt;W2F&lt;#ZM&gt;G.M98.T!!!*&lt;7^E:7QA&lt;X6U!%2!=!!?!!!G$&amp;.U982F=SZM&gt;GRJ9B&gt;/&lt;X2*&lt;7&amp;H;7ZH5X2B&gt;'5O&lt;(:D&lt;'&amp;T=Q!!%UZP&gt;%FN97&gt;J&lt;G&gt;4&gt;'&amp;U:3"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!.1!9!"X.Q:7.U371!$5!*!!&gt;J&lt;H25;7VF!!^!#A!);7ZU2'6M98E!!"&amp;!"A!,&lt;H6N18:F=G&amp;H:8-!$U!$!!BO&gt;7V49W&amp;O=Q!!$E!Q`````Q2U?8"F!!!/1$$`````"'RB&lt;8!!!(1!]&gt;&lt;]$6I!!!!#'V."4%R78X.F:&amp;.Q:7.U=G^N:82F=CZM&gt;GRJ9BVD&lt;WVN97ZE8W.B=(2V=G64='6D&gt;%FN97&gt;F,G.U&lt;!!S1&amp;!!"Q!)!!E!#A!,!!Q!$1!/'7.P&lt;7VB&lt;G2@9W&amp;Q&gt;(6S:6.Q:7.U37VB:W5!*%"Q!"Y!!"!/35VP:'6M,GRW9WRB=X-!!!BN&lt;W2F&lt;#"J&lt;A!!2%"Q!"Y!!#9-5X2B&gt;'6T,GRW&lt;'FC&amp;UZP&gt;%FN97&gt;J&lt;G&gt;4&gt;'&amp;U:3ZM&gt;G.M98.T!!!34G^U37VB:WFO:V.U982F)'FO!!"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!0!"!!%1-!!(A!!!U)!!!!!!!!$1I!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!A!!!!+!!!!E!!!!!!"!")!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>

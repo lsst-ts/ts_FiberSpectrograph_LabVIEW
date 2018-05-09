@@ -58,6 +58,37 @@
 				<Item Name="Model.lvclass" Type="LVClass" URL="../../Model/Model/Model.lvclass"/>
 			</Item>
 			<Item Name="SEDSpectrometer" Type="Folder">
+				<Item Name="AVSAPIs" Type="Folder">
+					<Item Name="AVS_Activate.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Activate.vi"/>
+					<Item Name="AVS_Deactivate.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Deactivate.vi"/>
+					<Item Name="AVS_Done.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Done.vi"/>
+					<Item Name="AVS_GetAnalogIn.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetAnalogIn.vi"/>
+					<Item Name="AVS_GetDigIn.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetDigIn.vi"/>
+					<Item Name="AVS_GetHandleFromSerial.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetHandleFromSerial.vi"/>
+					<Item Name="AVS_GetIpConfig.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetIpConfig.vi"/>
+					<Item Name="AVS_GetLambda.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetLambda.vi"/>
+					<Item Name="AVS_GetList.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetList.vi"/>
+					<Item Name="AVS_GetNrOfDevices.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetNrOfDevices.vi"/>
+					<Item Name="AVS_GetNumPixels.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetNumPixels.vi"/>
+					<Item Name="AVS_GetParameter.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetParameter.vi"/>
+					<Item Name="AVS_GetSaturatedPixels.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetSaturatedPixels.vi"/>
+					<Item Name="AVS_GetScopeData.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetScopeData.vi"/>
+					<Item Name="AVS_GetVersionInfo.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetVersionInfo.vi"/>
+					<Item Name="AVS_Init.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Init.vi"/>
+					<Item Name="AVS_Measure.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Measure.vi"/>
+					<Item Name="AVS_PollScan.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_PollScan.vi"/>
+					<Item Name="AVS_PrepareMeasure.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_PrepareMeasure.vi"/>
+					<Item Name="AVS_Register.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_Register.vi"/>
+					<Item Name="AVS_SetAnalogOut.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_SetAnalogOut.vi"/>
+					<Item Name="AVS_SetDigOut.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_SetDigOut.vi"/>
+					<Item Name="AVS_SetParameter.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_SetParameter.vi"/>
+					<Item Name="AVS_SetPrescanMode.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_SetPrescanMode.vi"/>
+					<Item Name="AVS_SetPwmOut.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_SetPwmOut.vi"/>
+					<Item Name="AVS_SetSyncMode.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_SetSyncMode.vi"/>
+					<Item Name="AVS_StopMeasure.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_StopMeasure.vi"/>
+					<Item Name="AVS_UseHighResADC.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_UseHighResADC.vi"/>
+					<Item Name="StartMeasurement.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/StartMeasurement.vi"/>
+				</Item>
 				<Item Name="SEDSpectrometer.lvclass" Type="LVClass" URL="../../ss_sedspectrometer/SEDSpectrometer/SEDSpectrometer.lvclass"/>
 				<Item Name="TestApplication.vi" Type="VI" URL="../../ss_sedspectrometer/TestApplication.vi"/>
 			</Item>
@@ -151,34 +182,6 @@
 				<Item Name="wakeup.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/wakeup.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="AVS_Activate.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Activate.vi"/>
-			<Item Name="AVS_Deactivate.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Deactivate.vi"/>
-			<Item Name="AVS_Done.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Done.vi"/>
-			<Item Name="AVS_GetAnalogIn.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetAnalogIn.vi"/>
-			<Item Name="AVS_GetDigIn.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetDigIn.vi"/>
-			<Item Name="AVS_GetHandleFromSerial.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetHandleFromSerial.vi"/>
-			<Item Name="AVS_GetIpConfig.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetIpConfig.vi"/>
-			<Item Name="AVS_GetLambda.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetLambda.vi"/>
-			<Item Name="AVS_GetList.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetList.vi"/>
-			<Item Name="AVS_GetNrOfDevices.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetNrOfDevices.vi"/>
-			<Item Name="AVS_GetNumPixels.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetNumPixels.vi"/>
-			<Item Name="AVS_GetParameter.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetParameter.vi"/>
-			<Item Name="AVS_GetSaturatedPixels.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetSaturatedPixels.vi"/>
-			<Item Name="AVS_GetScopeData.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetScopeData.vi"/>
-			<Item Name="AVS_GetVersionInfo.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetVersionInfo.vi"/>
-			<Item Name="AVS_Init.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Init.vi"/>
-			<Item Name="AVS_Measure.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Measure.vi"/>
-			<Item Name="AVS_PollScan.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_PollScan.vi"/>
-			<Item Name="AVS_PrepareMeasure.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_PrepareMeasure.vi"/>
-			<Item Name="AVS_Register.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_Register.vi"/>
-			<Item Name="AVS_SetAnalogOut.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_SetAnalogOut.vi"/>
-			<Item Name="AVS_SetDigOut.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_SetDigOut.vi"/>
-			<Item Name="AVS_SetParameter.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_SetParameter.vi"/>
-			<Item Name="AVS_SetPrescanMode.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_SetPrescanMode.vi"/>
-			<Item Name="AVS_SetPwmOut.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_SetPwmOut.vi"/>
-			<Item Name="AVS_SetSyncMode.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_SetSyncMode.vi"/>
-			<Item Name="AVS_StopMeasure.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_StopMeasure.vi"/>
-			<Item Name="AVS_UseHighResADC.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_UseHighResADC.vi"/>
 			<Item Name="AppDT.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/Application/AppDT/AppDT.lvclass"/>
 			<Item Name="Byte_to_DeviceConfigType.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/Byte_to_DeviceConfigType.vi"/>
 			<Item Name="Command.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Command/Command.lvclass"/>
@@ -208,7 +211,6 @@
 			<Item Name="PubSubDataEvent.lvclass" Type="LVClass" URL="../../PubSubDataEvent/PubSubDataEvent.lvclass"/>
 			<Item Name="Rendezvous.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Rendezvous/Rendezvous.lvclass"/>
 			<Item Name="SALLV_sedSpectrometer.lvlib" Type="Library" URL="../../ts_sallv_sedspectrometer/SALLV_sedSpectrometer.lvlib"/>
-			<Item Name="StartMeasurement.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/StartMeasurement.vi"/>
 			<Item Name="TimedLoopListener.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/TimedLoopListener/TimedLoopListener.lvclass"/>
 			<Item Name="TypedefsDataEvents.lvlib" Type="Library" URL="../../TypedefsDataEvents/TypedefsDataEvents.lvlib"/>
 			<Item Name="UserEventBasedController.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/UserEventBasedController/UserEventBasedController.lvclass"/>
