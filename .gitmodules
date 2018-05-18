@@ -10,3 +10,6 @@
 [submodule "ts_sallv_sedspectrometer"]
 	path = ts_sallv_sedspectrometer
 	url = https://stash.lsstcorp.org/scm/ts/ts_sallv_sedspectrometer.git
+[submodule "common_labview_cfitsio"]
+	path = common_labview_cfitsio
+	url = https://stash.lsstcorp.org/scm/ts/common_labview_cfitsio.git
