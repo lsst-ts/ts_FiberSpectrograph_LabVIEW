@@ -22,6 +22,44 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Specific" Type="Folder">
+			<Item Name="CFitsIO" Type="Folder">
+				<Item Name="fitsLib" Type="Folder">
+					<Item Name="Makefile" Type="Document" URL="../../../common_labview_cfitsio/private/fitsLib/Makefile"/>
+					<Item Name="fitsLib.c" Type="Document" URL="../../../common_labview_cfitsio/private/fitsLib/fitsLib.c"/>
+					<Item Name="fitsLib.o" Type="Document" URL="../../../common_labview_cfitsio/private/fitsLib/fitsLib.o"/>
+					<Item Name="libfits_centos.so.4.0" Type="Document" URL="../../../common_labview_cfitsio/private/fitsLib/libfits_centos.so.4.0"/>
+					<Item Name="main.c" Type="Document" URL="../../../common_labview_cfitsio/private/fitsLib/main.c"/>
+				</Item>
+				<Item Name="public" Type="Folder">
+					<Item Name="FITS_CloseFile.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_CloseFile.vi"/>
+					<Item Name="FITS_CreateFile_Simple.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_CreateFile_Simple.vi"/>
+					<Item Name="FITS_CreateImage.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_CreateImage.vi"/>
+					<Item Name="FITS_FormatRecord.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_FormatRecord.vi"/>
+					<Item Name="FITS_GetImgSize.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_GetImgSize.vi"/>
+					<Item Name="FITS_LoadImgSGL.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_LoadImgSGL.vi"/>
+					<Item Name="FITS_OpenFile.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_OpenFile.vi"/>
+					<Item Name="FITS_ReadCard.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_ReadCard.vi"/>
+					<Item Name="FITS_ReadImgSGL.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_ReadImgSGL.vi"/>
+					<Item Name="FITS_SaveImageSGL.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_SaveImageSGL.vi"/>
+					<Item Name="FITS_SaveImageU16.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_SaveImageU16.vi"/>
+					<Item Name="FITS_WriteGeomSingle.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_WriteGeomSingle.vi"/>
+					<Item Name="FITS_WriteImageI32.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_WriteImageI32.vi"/>
+					<Item Name="FITS_WriteImageSGL.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_WriteImageSGL.vi"/>
+					<Item Name="FITS_WriteImageU16.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_WriteImageU16.vi"/>
+					<Item Name="FITS_WriteKeyFromChar.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_WriteKeyFromChar.vi"/>
+				</Item>
+				<Item Name="test" Type="Folder">
+					<Item Name="FITS_Test_Open.vi" Type="VI" URL="../../../common_labview_cfitsio/test/FITS_Test_Open.vi"/>
+					<Item Name="FITS_Test_Read_Keyword.vi" Type="VI" URL="../../../common_labview_cfitsio/test/FITS_Test_Read_Keyword.vi"/>
+					<Item Name="FITS_Test_Record.vi" Type="VI" URL="../../../common_labview_cfitsio/test/FITS_Test_Record.vi"/>
+					<Item Name="FITS_Test_Write.vi" Type="VI" URL="../../../common_labview_cfitsio/test/FITS_Test_Write.vi"/>
+					<Item Name="fits_test.fits" Type="Document" URL="../../../common_labview_cfitsio/test/fits_test.fits"/>
+					<Item Name="hdr.ir" Type="Document" URL="../../../common_labview_cfitsio/test/hdr.ir"/>
+					<Item Name="hdr.mult" Type="Document" URL="../../../common_labview_cfitsio/test/hdr.mult"/>
+					<Item Name="record_test.fits" Type="Document" URL="../../../common_labview_cfitsio/test/record_test.fits"/>
+				</Item>
+				<Item Name="CFitsIO.lvclass" Type="LVClass" URL="../../CFitsIO/CFitsIO.lvclass"/>
+			</Item>
 			<Item Name="CommandFactory" Type="Folder">
 				<Item Name="CommandFactory.lvclass" Type="LVClass" URL="../../CommandFactory/CommandFactory.lvclass"/>
 				<Item Name="ICommandFactory.lvclass" Type="LVClass" URL="../../ICommandFactory/ICommandFactory.lvclass"/>
@@ -140,6 +178,7 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/GetNamedRendezvousPrefix.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
@@ -150,6 +189,7 @@
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
@@ -162,6 +202,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -216,6 +257,7 @@
 			<Item Name="UserEventBasedController.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/UserEventBasedController/UserEventBasedController.lvclass"/>
 			<Item Name="clusterdef.ctl" Type="VI" URL="../../ss_sedspectrometer/VIs/clusterdef.ctl"/>
 			<Item Name="libavs.so" Type="Document" URL="../../ss_sedspectrometer/VIs/libavs.so"/>
+			<Item Name="libfits.so" Type="Document" URL="/usr/local/lib/libfits.so"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
