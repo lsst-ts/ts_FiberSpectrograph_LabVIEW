@@ -219,6 +219,7 @@
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="nitl_modes.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/nitl_modes.ctl"/>
 				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="timing_clust.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/timing_clust.ctl"/>
 				<Item Name="wakeup.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/wakeup.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -258,6 +259,7 @@
 			<Item Name="clusterdef.ctl" Type="VI" URL="../../ss_sedspectrometer/VIs/clusterdef.ctl"/>
 			<Item Name="libavs.so" Type="Document" URL="../../ss_sedspectrometer/VIs/libavs.so"/>
 			<Item Name="libfits.so" Type="Document" URL="/usr/local/lib/libfits.so"/>
+			<Item Name="serializeExampleSetting.vi" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/ConfigurationFileReader/serializeExampleSetting.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
