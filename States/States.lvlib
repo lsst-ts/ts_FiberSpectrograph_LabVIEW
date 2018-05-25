@@ -6,7 +6,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="EnabledSubStates" Type="Folder">
-		<Item Name="CaptureSpectImageState.lvclass" Type="LVClass" URL="../EnabledState/CapturingSpectImage/CaptureSpectImageState.lvclass"/>
+		<Item Name="ImagingState.lvclass" Type="LVClass" URL="../EnabledState/CapturingSpectImage/ImagingState.lvclass"/>
 		<Item Name="NotImagingState.lvclass" Type="LVClass" URL="../EnabledState/NotImaging/NotImagingState.lvclass"/>
 	</Item>
 	<Item Name="DefaultState.lvclass" Type="LVClass" URL="../DefaultState/DefaultState.lvclass"/>
