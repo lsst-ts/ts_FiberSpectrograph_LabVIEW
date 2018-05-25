@@ -25,7 +25,7 @@
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="captureSpectImage.vi" Type="VI" URL="../captureSpectImage.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)`!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#2!=!!?!!!1$EF.&lt;W2F&lt;#ZM&gt;G.M98.T!!!*&lt;7^E:7QA&lt;X6U!%2!=!!?!!!G$&amp;.U982F=SZM&gt;GRJ9B&gt;/&lt;X2*&lt;7&amp;H;7ZH5X2B&gt;'5O&lt;(:D&lt;'&amp;T=Q!!%UZP&gt;%FN97&gt;J&lt;G&gt;4&gt;'&amp;U:3"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!41!E!$'6Y='^T&gt;8*F6'FN:1!!&amp;5!*!!^J&lt;H2F:X*B&gt;'FP&lt;F2J&lt;75!$E!Q`````Q2U?8"F!!!/1$$`````"'RB&lt;8!!!'Y!]&gt;=792Y!!!!#'V."4%R78X.F:&amp;.Q:7.U=G^N:82F=CZM&gt;GRJ9BVD&lt;WVN97ZE8W.B=(2V=G64='6D&gt;%FN97&gt;F,G.U&lt;!!M1&amp;!!"!!)!!E!#A!,'7.P&lt;7VB&lt;G2@9W&amp;Q&gt;(6S:6.Q:7.U37VB:W5!*%"Q!"Y!!"!/35VP:'6M,GRW9WRB=X-!!!BN&lt;W2F&lt;#"J&lt;A!!2%"Q!"Y!!#9-5X2B&gt;'6T,GRW&lt;'FC&amp;UZP&gt;%FN97&gt;J&lt;G&gt;4&gt;'&amp;U:3ZM&gt;G.M98.T!!!34G^U37VB:WFO:V.U982F)'FO!!"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!-!!U!$A-!!(A!!!U)!!!!!!!!$1I!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!A!!!!+!!!!E!!!!!!"!!]!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)O!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#2!=!!?!!!1$EF.&lt;W2F&lt;#ZM&gt;G.M98.T!!!*&lt;7^E:7QA&lt;X6U!%2!=!!?!!!G$&amp;.U982F=SZM&gt;GRJ9B&gt;/&lt;X2*&lt;7&amp;H;7ZH5X2B&gt;'5O&lt;(:D&lt;'&amp;T=Q!!%UZP&gt;%FN97&gt;J&lt;G&gt;4&gt;'&amp;U:3"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!E!$WFO&gt;'6H=G&amp;U;7^O6'FN:1!31$$`````#7FN97&gt;F6(FQ:1!/1$$`````"'RB&lt;8!!!'Q!]&gt;=N#D)!!!!#'V."4%R78X.F:&amp;.Q:7.U=G^N:82F=CZM&gt;GRJ9BVD&lt;WVN97ZE8W.B=(2V=G64='6D&gt;%FN97&gt;F,G.U&lt;!!K1&amp;!!!Q!)!!E!#BFD&lt;WVN97ZE8W.B=(2V=G64='6D&gt;%FN97&gt;F!#2!=!!?!!!1$EF.&lt;W2F&lt;#ZM&gt;G.M98.T!!!)&lt;7^E:7QA;7Y!!%2!=!!?!!!G$&amp;.U982F=SZM&gt;GRJ9B&gt;/&lt;X2*&lt;7&amp;H;7ZH5X2B&gt;'5O&lt;(:D&lt;'&amp;T=Q!!%EZP&gt;%FN97&gt;J&lt;G&gt;4&gt;'&amp;U:3"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!#Q!-!!U$!!"Y!!!.#!!!!!!!!!U+!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!!#A!!!*!!!!!!!1!/!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
@@ -41,6 +41,15 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
+		</Item>
+		<Item Name="disable.vi" Type="VI" URL="../disable.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'.!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#2!=!!?!!!1$EF.&lt;W2F&lt;#ZM&gt;G.M98.T!!!*&lt;7^E:7QA&lt;X6U!%2!=!!?!!!G$&amp;.U982F=SZM&gt;GRJ9B&gt;/&lt;X2*&lt;7&amp;H;7ZH5X2B&gt;'5O&lt;(:D&lt;'&amp;T=Q!!%UZP&gt;%FN97&gt;J&lt;G&gt;4&gt;'&amp;U:3"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!E1(!!(A!!%!Z*47^E:7QO&lt;(:D&lt;'&amp;T=Q!!#'VP:'6M)'FO!!"%1(!!(A!!*AR4&gt;'&amp;U:8-O&lt;(:M;7)84G^U37VB:WFO:V.U982F,GRW9WRB=X-!!"*/&lt;X2*&lt;7&amp;H;7ZH5X2B&gt;'5A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!*!Q!!?!!!$1A!!!!!!!!.#A!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!")!!!#3!!!!!!%!#A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
 	</Item>
 </LVClass>
