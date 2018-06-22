@@ -30,6 +30,14 @@
 					<Item Name="libfits_centos.so.4.0" Type="Document" URL="../../../common_labview_cfitsio/private/fitsLib/libfits_centos.so.4.0"/>
 					<Item Name="main.c" Type="Document" URL="../../../common_labview_cfitsio/private/fitsLib/main.c"/>
 				</Item>
+				<Item Name="md5" Type="Folder">
+					<Item Name="MD5 core.vi" Type="VI" URL="../../CFitsIO/md5/MD5 core.vi"/>
+					<Item Name="MD5 file.vi" Type="VI" URL="../../CFitsIO/md5/MD5 file.vi"/>
+					<Item Name="MD5 format message-digest.vi" Type="VI" URL="../../CFitsIO/md5/MD5 format message-digest.vi"/>
+					<Item Name="MD5 pad.vi" Type="VI" URL="../../CFitsIO/md5/MD5 pad.vi"/>
+					<Item Name="MD5 string.vi" Type="VI" URL="../../CFitsIO/md5/MD5 string.vi"/>
+					<Item Name="md5.llx" Type="Document" URL="../../CFitsIO/md5/md5.llx"/>
+				</Item>
 				<Item Name="public" Type="Folder">
 					<Item Name="FITS_CloseFile.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_CloseFile.vi"/>
 					<Item Name="FITS_CreateFile_Simple.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_CreateFile_Simple.vi"/>
