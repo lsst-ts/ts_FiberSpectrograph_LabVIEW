@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./DLSEDSpectrometer > /dev/null 2>&1 &
+./DtAppSEDSpectrometer > /dev/null 2>&1 &
+./ViewSEDSpectrometer > /dev/null 2>&1 &
+./SALLV_sedSpectrometer_Monitor

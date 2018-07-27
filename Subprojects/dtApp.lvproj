@@ -105,35 +105,35 @@
 			</Item>
 			<Item Name="SEDSpectrometer" Type="Folder">
 				<Item Name="AVSAPIs" Type="Folder">
-					<Item Name="AVS_Activate.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Activate.vi"/>
-					<Item Name="AVS_Deactivate.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Deactivate.vi"/>
-					<Item Name="AVS_Done.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Done.vi"/>
-					<Item Name="AVS_GetAnalogIn.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetAnalogIn.vi"/>
-					<Item Name="AVS_GetDigIn.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetDigIn.vi"/>
+					<Item Name="AVS_Activate.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_Activate.vi"/>
+					<Item Name="AVS_Deactivate.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_Deactivate.vi"/>
+					<Item Name="AVS_Done.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_Done.vi"/>
+					<Item Name="AVS_GetAnalogIn.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetAnalogIn.vi"/>
+					<Item Name="AVS_GetDigIn.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetDigIn.vi"/>
 					<Item Name="AVS_GetHandleFromSerial.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetHandleFromSerial.vi"/>
 					<Item Name="AVS_GetIpConfig.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetIpConfig.vi"/>
-					<Item Name="AVS_GetLambda.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetLambda.vi"/>
-					<Item Name="AVS_GetList.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetList.vi"/>
-					<Item Name="AVS_GetNrOfDevices.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetNrOfDevices.vi"/>
-					<Item Name="AVS_GetNumPixels.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetNumPixels.vi"/>
-					<Item Name="AVS_GetParameter.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetParameter.vi"/>
+					<Item Name="AVS_GetLambda.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetLambda.vi"/>
+					<Item Name="AVS_GetList.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetList.vi"/>
+					<Item Name="AVS_GetNrOfDevices.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetNrOfDevices.vi"/>
+					<Item Name="AVS_GetNumPixels.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetNumPixels.vi"/>
+					<Item Name="AVS_GetParameter.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetParameter.vi"/>
 					<Item Name="AVS_GetSaturatedPixels.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetSaturatedPixels.vi"/>
-					<Item Name="AVS_GetScopeData.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetScopeData.vi"/>
-					<Item Name="AVS_GetVersionInfo.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_GetVersionInfo.vi"/>
-					<Item Name="AVS_Init.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Init.vi"/>
-					<Item Name="AVS_Measure.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_Measure.vi"/>
-					<Item Name="AVS_PollScan.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_PollScan.vi"/>
-					<Item Name="AVS_PrepareMeasure.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_PrepareMeasure.vi"/>
+					<Item Name="AVS_GetScopeData.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetScopeData.vi"/>
+					<Item Name="AVS_GetVersionInfo.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_GetVersionInfo.vi"/>
+					<Item Name="AVS_Init.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_Init.vi"/>
+					<Item Name="AVS_Measure.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_Measure.vi"/>
+					<Item Name="AVS_PollScan.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_PollScan.vi"/>
+					<Item Name="AVS_PrepareMeasure.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_PrepareMeasure.vi"/>
 					<Item Name="AVS_Register.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_Register.vi"/>
-					<Item Name="AVS_SetAnalogOut.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_SetAnalogOut.vi"/>
-					<Item Name="AVS_SetDigOut.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_SetDigOut.vi"/>
-					<Item Name="AVS_SetParameter.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_SetParameter.vi"/>
+					<Item Name="AVS_SetAnalogOut.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_SetAnalogOut.vi"/>
+					<Item Name="AVS_SetDigOut.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_SetDigOut.vi"/>
+					<Item Name="AVS_SetParameter.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_SetParameter.vi"/>
 					<Item Name="AVS_SetPrescanMode.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_SetPrescanMode.vi"/>
-					<Item Name="AVS_SetPwmOut.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_SetPwmOut.vi"/>
+					<Item Name="AVS_SetPwmOut.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_SetPwmOut.vi"/>
 					<Item Name="AVS_SetSyncMode.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_SetSyncMode.vi"/>
-					<Item Name="AVS_StopMeasure.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/AVS_StopMeasure.vi"/>
+					<Item Name="AVS_StopMeasure.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_StopMeasure.vi"/>
 					<Item Name="AVS_UseHighResADC.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_UseHighResADC.vi"/>
-					<Item Name="StartMeasurement.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/StartMeasurement.vi"/>
+					<Item Name="StartMeasurement.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/StartMeasurement.vi"/>
 				</Item>
 				<Item Name="SEDSpectrometer.lvclass" Type="LVClass" URL="../../ss_sedspectrometer/SEDSpectrometer/SEDSpectrometer.lvclass"/>
 				<Item Name="TestApplication.vi" Type="VI" URL="../../ss_sedspectrometer/TestApplication.vi"/>
@@ -244,6 +244,7 @@
 			<Item Name="Controller.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Controller/Controller.lvclass"/>
 			<Item Name="DTTLListener.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/DTTLListener/DTTLListener.lvclass"/>
 			<Item Name="DeviceConfigType_to_Byte.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/DeviceConfigType_to_Byte.vi"/>
+			<Item Name="DeviceConfigType_to_Byte.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/DeviceConfigType_to_Byte.vi"/>
 			<Item Name="FPGAClockConfig.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/ConfigurationHandler/FPGAClockConfig/FPGAClockConfig.lvclass"/>
 			<Item Name="Heartbeat.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Heartbeat/Heartbeat/Heartbeat.lvclass"/>
 			<Item Name="IHeartbeat.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Heartbeat/IHeartbeat/IHeartbeat.lvclass"/>
@@ -252,7 +253,7 @@
 			<Item Name="Invoker.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Invoker/Invoker.lvclass"/>
 			<Item Name="LoopConfig.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/ConfigurationHandler/LoopConfig/LoopConfig.lvclass"/>
 			<Item Name="LoopTimer.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/LoopTimer/LoopTimer/LoopTimer.lvclass"/>
-			<Item Name="MeasConfigType_to_Byte.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/MeasConfigType_to_Byte.vi"/>
+			<Item Name="MeasConfigType_to_Byte.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/MeasConfigType_to_Byte.vi"/>
 			<Item Name="Middleware.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Middleware/Middleware.lvclass"/>
 			<Item Name="MiddlewareProcessEvent.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/MiddlewareProcessEvent/MiddlewareProcessEvent.lvclass"/>
 			<Item Name="MiddlewareProcessEvents.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/MiddlewareProcessEvents.ctl"/>
@@ -269,6 +270,45 @@
 			<Item Name="libfits.so" Type="Document" URL="/usr/local/lib/libfits.so"/>
 			<Item Name="serializeExampleSetting.vi" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/ConfigurationFileReader/serializeExampleSetting.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="DtAppSEDSpectrometer" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{0D5D185F-92B5-11E8-B351-509A4C4F00F1}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{0D5D17B5-92B5-11E8-B351-509A4C4F00F1}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{0D5D2617-92B5-11E8-B351-509A4C4F00F1}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DtAppSEDSpectrometer</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/DtAppSEDSpectrometer</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{0D5D25C5-92B5-11E8-B351-509A4C4F00F1}</Property>
+				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
+				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Destination[0].destName" Type="Str">DtAppSEDSpectrometer</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/DtAppSEDSpectrometer/DtAppSEDSpectrometer</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/DtAppSEDSpectrometer/data</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0444352C-92B5-11E8-8669-509A4C4F00F1}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/dtAppMain.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DtAppSEDSpectrometer</Property>
+				<Property Name="TgtF_internalName" Type="Str">DtAppSEDSpectrometer</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright 2018 </Property>
+				<Property Name="TgtF_productName" Type="Str">DtAppSEDSpectrometer</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{0D5D248C-92B5-11E8-B351-509A4C4F00F1}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DtAppSEDSpectrometer</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
