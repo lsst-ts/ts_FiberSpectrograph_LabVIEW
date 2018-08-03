@@ -1,0 +1,275 @@
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 27 16:06:55 MST 2018
+Description : u_domainNew:Database allocated on heap
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <4038>
+Thread      : spliced 7fd578547700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1532732815.528704444
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 27 16:06:55 MST 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <4038>
+Thread      : spliced 7fd578547700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1532732815.536973833
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 27 16:06:55 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <4038>
+Thread      : spliced 7fd578547700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1532732815.538148927
+========================================================================================
+Report      : WARNING
+Date        : Fri Jul 27 16:06:55 MST 2018
+Description : using network interface enp0s25 (140.252.32.244) selected arbitrarily from: enp0s25, virbr0
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <4038>
+Thread      : ddsi2 7fd574455700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_nwif.c/668/0/1532732815.542020318
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 27 16:06:55 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <4038>
+Thread      : ddsi2 7fd574455700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1532732815.548373367
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 27 16:06:55 MST 2018
+Description : The durability service can by identified by ID: 1093338590
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <4038>
+Thread      : durability 7fd5747c7700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1532732815.654110803
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 27 16:06:59 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <4038>
+Thread      : durability 7fd5747c7700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1532732819.858992372
+========================================================================================
+Report      : WARNING
+Date        : Fri Jul 27 17:30:49 MST 2018
+Description : The number of samples per instance '5000' has surpassed the warning level of '5000' samples per instance.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <4038>
+Thread      : main thread 7fd578523740
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_checkMaxSamplesPerInstanceWarningLevel/v_kernel.c/1151/0/1532737849.119723724
+========================================================================================
+Report      : WARNING
+Date        : Fri Jul 27 17:30:49 MST 2018
+Description : The number of samples '5000' has surpassed the warning level of '5000' samples.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <4038>
+Thread      : main thread 7fd578523740
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_checkMaxSamplesWarningLevel/v_kernel.c/1134/0/1532737849.120026708
+========================================================================================
+Report      : WARNING
+Date        : Mon Jul 30 16:50:03 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 561548495. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <4038>
+Thread      : OSPL Garbage Collector 7fd574aa6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1532994603.513538033
+========================================================================================
+Report      : WARNING
+Date        : Mon Jul 30 16:52:19 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1521545361. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <4038>
+Thread      : OSPL Garbage Collector 7fd574aa6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1532994739.522718578
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 03 13:41:47 MST 2018
+Description : u_domainNew:Database allocated on heap
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <30308>
+Thread      : spliced 7fa66d315700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1533328907.204480624
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 03 13:41:47 MST 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <30308>
+Thread      : spliced 7fa66d315700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1533328907.211622436
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 03 13:41:47 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <30308>
+Thread      : spliced 7fa66d315700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1533328907.212897158
+========================================================================================
+Report      : WARNING
+Date        : Fri Aug 03 13:41:47 MST 2018
+Description : using network interface enp0s25 (140.252.32.244) selected arbitrarily from: enp0s25, virbr0
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <30308>
+Thread      : ddsi2 7fa669223700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_nwif.c/668/0/1533328907.216611651
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 03 13:41:47 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <30308>
+Thread      : ddsi2 7fa669223700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1533328907.223638538
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 03 13:41:47 MST 2018
+Description : The durability service can by identified by ID: 1034486239
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <30308>
+Thread      : durability 7fa669595700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1533328907.324587384
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 03 13:41:53 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <30308>
+Thread      : durability 7fa669595700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1533328913.429410688
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 03 13:42:14 MST 2018
+Description : Termination request (signal 2) received from PID 30308 (self), UID 1005
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <30308>
+Thread      : signalHandler 7fa66a004700
+Internals   : V6.4.140320OSS/24b1387/24b1387/signalHandlerThread/os_signalHandler.c/503/0/1533328934.198020648
+========================================================================================
+Report      : WARNING
+Date        : Fri Aug 03 13:42:24 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1034486239. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <4038>
+Thread      : OSPL Garbage Collector 7fd574aa6700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1533328944.530921202
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 03 13:43:37 MST 2018
+Description : Termination request (signal 1) received from PID 2831, UID 1005
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <4038>
+Thread      : signalHandler 7fd575236700
+Internals   : V6.4.140320OSS/24b1387/24b1387/signalHandlerThread/os_signalHandler.c/503/0/1533329017.536755177
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 03 13:48:37 MST 2018
+Description : u_domainNew:Database allocated on heap
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <13810>
+Thread      : spliced 7fd05354e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1533329317.012890146
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 03 13:48:37 MST 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <13810>
+Thread      : spliced 7fd05354e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1533329317.021709721
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 03 13:48:37 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <13810>
+Thread      : spliced 7fd05354e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1533329317.022579353
+========================================================================================
+Report      : WARNING
+Date        : Fri Aug 03 13:48:37 MST 2018
+Description : using network interface enp0s25 (140.252.32.244) selected arbitrarily from: enp0s25, virbr0
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <13810>
+Thread      : ddsi2 7fd04f45c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_nwif.c/668/0/1533329317.024826427
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 03 13:48:37 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <13810>
+Thread      : ddsi2 7fd04f45c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1533329317.028930525
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 03 13:48:37 MST 2018
+Description : The durability service can by identified by ID: 724926983
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <13810>
+Thread      : durability 7fd04f7ce700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1533329317.037046096
+========================================================================================
+Report      : INFO
+Date        : Fri Aug 03 13:48:41 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <13810>
+Thread      : durability 7fd04f7ce700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1533329321.241586180
