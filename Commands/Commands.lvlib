@@ -16,8 +16,6 @@ The execute methods call corresponding methods on the Context.</Property>
 	<Item Name="disable.lvclass" Type="LVClass" URL="../Disable/disable.lvclass"/>
 	<Item Name="enable.lvclass" Type="LVClass" URL="../Enable/enable.lvclass"/>
 	<Item Name="exit.lvclass" Type="LVClass" URL="../Exit/exit.lvclass"/>
-	<Item Name="setSpectTempSetpoint.lvclass" Type="LVClass" URL="../SetSpectTempSetpoint/setSpectTempSetpoint.lvclass"/>
 	<Item Name="standby.lvclass" Type="LVClass" URL="../GoToStandby/standby.lvclass"/>
 	<Item Name="start.lvclass" Type="LVClass" URL="../Start/start.lvclass"/>
-	<Item Name="stopImageCapture.lvclass" Type="LVClass" URL="../StopImageCapture/stopImageCapture.lvclass"/>
 </Library>

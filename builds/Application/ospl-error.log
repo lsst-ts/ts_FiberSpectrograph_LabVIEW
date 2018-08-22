@@ -1,0 +1,16 @@
+========================================================================================
+Report      : ERROR
+Date        : Tue Aug 21 14:32:22 MST 2018
+Description : c_metaBind failed for Struct <command_captureSpectImage> in scope <sedSpectrometer>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17808>
+Thread      : main thread 7fb4a0a89740
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1534887142.423235167
+========================================================================================
+Report      : ERROR
+Date        : Tue Aug 21 14:32:22 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17808>
+Thread      : main thread 7fb4a0a89740
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1534887142.423468554
