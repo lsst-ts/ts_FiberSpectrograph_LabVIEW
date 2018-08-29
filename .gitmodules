@@ -12,4 +12,4 @@
 	url = https://github.com/lsst-ts/common_labview_cfitsio.git
 [submodule "ComponentTemplateCore"]
 	path = ComponentTemplateCore
-	url = https://github.com/lsst-ts/ct_cmpuserevents.git
+	url = ../ct_cmpuserevents.git
