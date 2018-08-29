@@ -10,6 +10,3 @@
 [submodule "common_labview_cfitsio"]
 	path = common_labview_cfitsio
 	url = https://github.com/lsst-ts/common_labview_cfitsio.git
-[submodule "ComponentTemplateCore"]
-	path = ComponentTemplateCore
-	url = ../ct_cmpuserevents.git
