@@ -1,6 +1,6 @@
 [submodule "ts_sallv_exa"]
 	path = ts_sallv_exa
-	url = https://stash.lsstcorp.org/scm/ts/ts_sallv_exa.git
+	url = https://github.com/lsst-ts/ts_sallv_exa.git
 [submodule "ss_sedspectrometer"]
 	path = ss_sedspectrometer
 	url = https://github.com/lsst-ts/ss_FiberSpectrometer.git
@@ -10,3 +10,6 @@
 [submodule "common_labview_cfitsio"]
 	path = common_labview_cfitsio
 	url = https://github.com/lsst-ts/common_labview_cfitsio.git
+[submodule "ComponentTemplateCore"]
+	path = ComponentTemplateCore
+	url = ../common_ct_coreuserevents.git
