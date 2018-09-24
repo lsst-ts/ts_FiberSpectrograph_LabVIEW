@@ -1,14 +1,14 @@
 ========================================================================================
 Report      : INFO
-Date        : Tue Aug 21 14:32:09 MST 2018
+Date        : Wed Sep 19 22:12:19 MST 2018
 Description : u_domainNew:Database allocated on heap
 Node        : krobisondell.lsst.local
-Process     : SALLV_sedSpectrometer_Monitor <17808>
-Thread      : spliced 7fb4a0aad700
-Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1534887129.935657195
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : spliced 7f0538394700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1537420339.312772584
 ========================================================================================
 Report      : INFO
-Date        : Tue Aug 21 14:32:09 MST 2018
+Date        : Wed Sep 19 22:12:19 MST 2018
 Description : ---------------------------------------------------------------
               -- The service is using the following configuration settings --
               ---------------------------------------------------------------
@@ -21,43 +21,1092 @@ Description : ---------------------------------------------------------------
               Builtin topics       : true
               Priority inheritance : false
 Node        : krobisondell.lsst.local
-Process     : SALLV_sedSpectrometer_Monitor <17808>
-Thread      : spliced 7fb4a0aad700
-Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1534887129.946920596
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : spliced 7f0538394700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1537420339.322192969
 ========================================================================================
 Report      : INFO
-Date        : Tue Aug 21 14:32:09 MST 2018
+Date        : Wed Sep 19 22:12:19 MST 2018
 Description : ++++++++++++++++++++++++++++++++++++++++++++++++
               ++ The service 'splicedaemon' is now operational. 
               ++++++++++++++++++++++++++++++++++++++++++++++++
 Node        : krobisondell.lsst.local
-Process     : SALLV_sedSpectrometer_Monitor <17808>
-Thread      : spliced 7fb4a0aad700
-Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1534887129.948181662
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : spliced 7f0538394700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1537420339.323381215
 ========================================================================================
 Report      : WARNING
-Date        : Tue Aug 21 14:32:09 MST 2018
+Date        : Wed Sep 19 22:12:19 MST 2018
 Description : using network interface enp0s25 (140.252.32.244) selected arbitrarily from: enp0s25, virbr0
 
 Node        : krobisondell.lsst.local
-Process     : SALLV_sedSpectrometer_Monitor <17808>
-Thread      : ddsi2 7fb49c9e0700
-Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_nwif.c/668/0/1534887129.975224996
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : ddsi2 7f053430c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_nwif.c/668/0/1537420339.326670720
 ========================================================================================
 Report      : INFO
-Date        : Tue Aug 21 14:32:09 MST 2018
+Date        : Wed Sep 19 22:12:19 MST 2018
 Description : ++++++++++++++++++++++++++++++++++++++++++++++++
               ++ The service 'ddsi2' is now operational. 
               ++++++++++++++++++++++++++++++++++++++++++++++++
 Node        : krobisondell.lsst.local
-Process     : SALLV_sedSpectrometer_Monitor <17808>
-Thread      : ddsi2 7fb49c9e0700
-Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1534887129.982858308
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : ddsi2 7f053430c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1537420339.334653401
 ========================================================================================
 Report      : INFO
-Date        : Tue Aug 21 14:32:10 MST 2018
-Description : The durability service can by identified by ID: 1532454279
+Date        : Wed Sep 19 22:12:19 MST 2018
+Description : The durability service can by identified by ID: 365272255
 Node        : krobisondell.lsst.local
-Process     : SALLV_sedSpectrometer_Monitor <17808>
-Thread      : durability 7fb49cd96700
-Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1534887130.165478771
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : durability 7f053467e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1537420339.838945482
+========================================================================================
+Report      : INFO
+Date        : Wed Sep 19 22:12:40 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : durability 7f053467e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1537420360.563240219
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 8329212. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.333919729
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 489586607. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.355298924
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 611127403. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.375820832
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 654240024. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.396378447
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 892115779. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.416920428
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 896424924. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.437486990
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 910324457. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.458116103
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1121527457. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.478650974
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1206892849. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.499114480
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1342911834. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.519696017
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1343777166. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.540226338
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1370613894. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.560753979
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1538779820. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.581204963
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1590610216. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.601633650
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1606284933. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.622192724
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1655164529. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.642666419
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1670576813. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.663121197
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1858943839. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.683558529
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1869650477. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.703995831
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1879566220. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.724534482
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1940654305. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.745054035
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1980879125. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.765612792
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:12:49 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1991550375. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : OSPL Garbage Collector 7f053495d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420369.786143924
+========================================================================================
+Report      : INFO
+Date        : Wed Sep 19 22:14:01 MST 2018
+Description : Termination request (signal 2) received from PID 17065 (self), UID 1005
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17065>
+Thread      : signalHandler 7f05350ed700
+Internals   : V6.4.140320OSS/24b1387/24b1387/signalHandlerThread/os_signalHandler.c/503/0/1537420441.009244844
+========================================================================================
+Report      : INFO
+Date        : Wed Sep 19 22:22:06 MST 2018
+Description : u_domainNew:Database allocated on heap
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : spliced 7f62cf2f3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1537420926.091559432
+========================================================================================
+Report      : INFO
+Date        : Wed Sep 19 22:22:06 MST 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : spliced 7f62cf2f3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1537420926.101538106
+========================================================================================
+Report      : INFO
+Date        : Wed Sep 19 22:22:06 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : spliced 7f62cf2f3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1537420926.103084680
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:06 MST 2018
+Description : using network interface enp0s25 (140.252.32.244) selected arbitrarily from: enp0s25, virbr0
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : ddsi2 7f62cb26b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_nwif.c/668/0/1537420926.105585888
+========================================================================================
+Report      : INFO
+Date        : Wed Sep 19 22:22:06 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : ddsi2 7f62cb26b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1537420926.112017787
+========================================================================================
+Report      : INFO
+Date        : Wed Sep 19 22:22:06 MST 2018
+Description : The durability service can by identified by ID: 1075493962
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : durability 7f62cb5dd700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1537420926.618790918
+========================================================================================
+Report      : INFO
+Date        : Wed Sep 19 22:22:27 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : durability 7f62cb5dd700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1537420947.342430529
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 8329212. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.118658604
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 489586607. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.140238227
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 611127403. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.160784264
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 654240024. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.181273588
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 892115779. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.201766462
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 896424924. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.222256415
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 910324457. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.242750185
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1121527457. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.263236089
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1206892849. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.283712901
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1342911834. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.304225377
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1343777166. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.324722734
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1370613894. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.345208359
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1538779820. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.365700229
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1590610216. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.386240416
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1606284933. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.406750767
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1655164529. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.427294426
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1670576813. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.447928748
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1858943839. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.468484848
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1869650477. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.489048011
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1879566220. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.509571207
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1940654305. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.530089191
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1980879125. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.550581345
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:22:36 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1991550375. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : OSPL Garbage Collector 7f62cb8bc700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537420956.571099595
+========================================================================================
+Report      : INFO
+Date        : Wed Sep 19 22:24:18 MST 2018
+Description : Termination request (signal 2) received from PID 39278 (self), UID 1005
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39278>
+Thread      : signalHandler 7f62cc04c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/signalHandlerThread/os_signalHandler.c/503/0/1537421058.248494383
+========================================================================================
+Report      : INFO
+Date        : Wed Sep 19 22:25:58 MST 2018
+Description : u_domainNew:Database allocated on heap
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : spliced 7fc3524e9700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1537421158.989072120
+========================================================================================
+Report      : INFO
+Date        : Wed Sep 19 22:25:58 MST 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : spliced 7fc3524e9700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1537421158.999070081
+========================================================================================
+Report      : INFO
+Date        : Wed Sep 19 22:25:59 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : spliced 7fc3524e9700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1537421159.000365112
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:25:59 MST 2018
+Description : using network interface enp0s25 (140.252.32.244) selected arbitrarily from: enp0s25, virbr0
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : ddsi2 7fc34e461700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_nwif.c/668/0/1537421159.003875781
+========================================================================================
+Report      : INFO
+Date        : Wed Sep 19 22:25:59 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : ddsi2 7fc34e461700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1537421159.010081764
+========================================================================================
+Report      : INFO
+Date        : Wed Sep 19 22:25:59 MST 2018
+Description : The durability service can by identified by ID: 2045855920
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : durability 7fc34e7d3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1537421159.515331061
+========================================================================================
+Report      : INFO
+Date        : Wed Sep 19 22:26:21 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : durability 7fc34e7d3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1537421181.238224786
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 8329212. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.017231000
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 489586607. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.038427800
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 611127403. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.058918611
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 654240024. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.079402150
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 892115779. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.099894443
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 896424924. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.120401051
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 910324457. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.140899193
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1121527457. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.161404678
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1206892849. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.181849079
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1342911834. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.202354808
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1343777166. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.222832156
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1370613894. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.243383267
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1538779820. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.263848808
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1590610216. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.284296279
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1606284933. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.304711893
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1655164529. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.325175290
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1670576813. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.345613552
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1858943839. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.366106488
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1869650477. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.386638025
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1879566220. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.407072760
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1940654305. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.427660467
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1980879125. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.448157893
+========================================================================================
+Report      : WARNING
+Date        : Wed Sep 19 22:26:31 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1991550375. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : OSPL Garbage Collector 7fc34eab2700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537421191.468627628
+========================================================================================
+Report      : INFO
+Date        : Wed Sep 19 22:32:35 MST 2018
+Description : Termination request (signal 2) received from PID 8170 (self), UID 1005
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <8170>
+Thread      : signalHandler 7fc34f242700
+Internals   : V6.4.140320OSS/24b1387/24b1387/signalHandlerThread/os_signalHandler.c/503/0/1537421555.172896357
+========================================================================================
+Report      : INFO
+Date        : Thu Sep 20 10:31:51 MST 2018
+Description : u_domainNew:Database allocated on heap
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : spliced 7f08703e4700
+Internals   : V6.4.140320OSS/24b1387/24b1387/user::u_domain::u_domainNew/u_domain.c/706/0/1537464711.582798741
+========================================================================================
+Report      : INFO
+Date        : Thu Sep 20 10:31:51 MST 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 10240 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : spliced 7f08703e4700
+Internals   : V6.4.140320OSS/24b1387/24b1387/The OpenSplice domain service/u_domain.c/827/0/1537464711.593418329
+========================================================================================
+Report      : INFO
+Date        : Thu Sep 20 10:31:51 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : spliced 7f08703e4700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1537464711.594904510
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:31:51 MST 2018
+Description : using network interface enp0s25 (140.252.32.244) selected arbitrarily from: enp0s25, virbr0
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : ddsi2 7f086c35c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_nwif.c/668/0/1537464711.598556407
+========================================================================================
+Report      : INFO
+Date        : Thu Sep 20 10:31:51 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : ddsi2 7f086c35c700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1537464711.605277574
+========================================================================================
+Report      : INFO
+Date        : Thu Sep 20 10:31:52 MST 2018
+Description : The durability service can by identified by ID: 360850782
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : durability 7f086c6ce700
+Internals   : V6.4.140320OSS/24b1387/24b1387/DurabilityService/d_durability.c/476/0/1537464712.110290771
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:13 MST 2018
+Description : writer 1582255e:5b:1:502 considering reader 7c34a49f:5b:1:1007 non-responsive
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : xmit.user 7f0837fbb700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_transmit.c/787/0/1537464733.661049218
+========================================================================================
+Report      : INFO
+Date        : Thu Sep 20 10:32:13 MST 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'durability' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : durability 7f086c6ce700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_serviceChangeState/v_service.c/329/0/1537464733.834912734
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:14 MST 2018
+Description : writer 1582255e:5b:1:202 considering reader 7c34a49f:5b:1:f07 non-responsive
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : xmit.user 7f0837fbb700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_transmit.c/787/0/1537464734.799358089
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:21 MST 2018
+Description : writer 1582255e:5b:1:202 considering reader 7c34a49f:5b:1:f07 responsive again
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : recv 7f0837fee700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_receive.c/778/0/1537464741.631408200
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:21 MST 2018
+Description : writer 1582255e:5b:1:502 considering reader 7c34a49f:5b:1:1007 responsive again
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : recv 7f0837fee700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_receive.c/778/0/1537464741.631512998
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 8329212. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.597687599
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 489586607. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.624909335
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 611127403. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.645476574
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 654240024. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.665982433
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 879008872. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.686518922
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 892115779. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.707375659
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 896424924. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.728110180
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 910324457. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.748717870
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1121527457. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.769224947
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1206892849. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.789733155
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1342911834. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.810326436
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1343777166. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.830877469
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1370613894. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.851416670
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1538779820. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.871988407
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1573957308. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.892520398
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1590610216. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.913280377
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1606284933. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.933897104
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1655164529. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.954417652
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1670576813. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.974855090
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:23 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1858943839. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464743.995267709
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:24 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1869650477. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464744.015722228
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:24 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1879566220. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464744.036083727
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:24 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1940654305. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464744.056501756
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:24 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1980879125. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464744.077011975
+========================================================================================
+Report      : WARNING
+Date        : Thu Sep 20 10:32:24 MST 2018
+Description : Missed heartbeat for node - heartbeat id : 1991550375. (DCPSPublication state 1)
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : OSPL Garbage Collector 7f086c9ad700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1537464744.097549991
+========================================================================================
+Report      : INFO
+Date        : Thu Sep 20 10:35:53 MST 2018
+Description : Termination request (signal 2) received from PID 31300 (self), UID 1005
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <31300>
+Thread      : signalHandler 7f086d13d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/signalHandlerThread/os_signalHandler.c/503/0/1537464953.153631745

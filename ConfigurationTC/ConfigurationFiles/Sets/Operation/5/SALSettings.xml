@@ -1,0 +1,23 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>SALSettings</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>IPAddress</Name>
+<Val>127.0.0.1</Val>
+</String>
+<U16>
+<Name>Port</Name>
+<Val>0</Val>
+</U16>
+<String>
+<Name>StartupScript</Name>
+<Val></Val>
+</String>
+</Cluster>
+</LvVariant>
+</LVData>
