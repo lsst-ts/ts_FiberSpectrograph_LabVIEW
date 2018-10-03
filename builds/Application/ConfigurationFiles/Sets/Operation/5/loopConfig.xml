@@ -8,7 +8,7 @@
 <NumElts>2</NumElts>
 <DBL>
 <Name>hostLoopPeriod_s</Name>
-<Val>0.30000000000000</Val>
+<Val>1.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>hostLoopPeriodAllowedJitter_percent</Name>
