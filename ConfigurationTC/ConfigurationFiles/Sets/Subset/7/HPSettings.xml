@@ -1,0 +1,23 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>16.0</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>HPSettings</Name>
+<NumElts>2</NumElts>
+<Array>
+<Name>exampleArray</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>Numeric</Name>
+<Val></Val>
+</I32>
+</Array>
+<String>
+<Name>exampleString</Name>
+<Val></Val>
+</String>
+</Cluster>
+</LvVariant>
+</LVData>

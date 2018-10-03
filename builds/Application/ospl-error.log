@@ -1,0 +1,72 @@
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 03 11:41:34 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39441>
+Thread      : OSPL Kernel Manager 7f5eb0dd5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1538592094.079065339
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 03 11:41:34 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39441>
+Thread      : OSPL Kernel Manager 7f5eb0dd5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1538592094.079141404
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 03 11:41:34 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <39441>
+Thread      : OSPL Kernel Manager 7f5eb0dd5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1538592094.079160137
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 03 11:54:42 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <16856>
+Thread      : OSPL Kernel Manager 7f944c294700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1538592882.332908760
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 03 11:54:42 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <16856>
+Thread      : OSPL Kernel Manager 7f944c294700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1538592882.333002911
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 03 11:54:42 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <16856>
+Thread      : OSPL Kernel Manager 7f944c294700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1538592882.333024300
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 03 12:21:26 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <13438>
+Thread      : OSPL Kernel Manager 7fc1ce36a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1538594486.581859802
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 03 12:21:26 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <13438>
+Thread      : OSPL Kernel Manager 7fc1ce36a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1538594486.581960014
+========================================================================================
+Report      : ERROR
+Date        : Wed Oct 03 12:21:26 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <13438>
+Thread      : OSPL Kernel Manager 7fc1ce36a700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1538594486.581983709
