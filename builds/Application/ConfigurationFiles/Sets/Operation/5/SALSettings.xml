@@ -16,7 +16,7 @@
 </U16>
 <String>
 <Name>StartupScript</Name>
-<Val>source /usr/ts_sal/setup.env &amp;&amp; /usr/ts_sal/test/m1m3/cpp/src/SALPipe %d -1</Val>
+<Val></Val>
 </String>
 </Cluster>
 </LvVariant>
