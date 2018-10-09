@@ -133,7 +133,6 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{92635B73-92B4-11E8-B351-509A4C4F00F1}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{92635AD6-92B4-11E8-B351-509A4C4F00F1}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{92636608-92B4-11E8-B351-509A4C4F00F1}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">DLSEDSpectrometer</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -145,9 +144,9 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{926365D1-92B4-11E8-B351-509A4C4F00F1}</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">3</Property>
+				<Property Name="Bld_version.patch" Type="Int">2</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">DLSEDSpectrometer</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/DLSEDSpectrometer/DLSEDSpectrometer</Property>
@@ -156,7 +155,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/DLSEDSpectrometer/data</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4A897603-C7FD-11E8-A7C6-509A4C4F00F1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D036F51A-CCCF-11E8-A7C6-509A4C4F00F1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/dataListenerMain.vi</Property>
