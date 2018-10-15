@@ -6248,3 +6248,138 @@ Node        : krobisondell.lsst.local
 Process     : SALLV_sedSpectrometer_Monitor <37147>
 Thread      : OSPL Garbage Collector 7f7e13bc2700
 Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/2439/0/1539634203.372170861
+========================================================================================
+Report      : WARNING
+Date        : Mon Oct 15 13:11:10 MST 2018
+Description : DATAFRAG(282baf1f:9d:1:2c2 #1 -> 0:0:0:0) - fragmented builtin data not yet supported
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : recv 7f7e13203700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_receive.c/2231/0/1539634270.808660760
+========================================================================================
+Report      : WARNING
+Date        : Mon Oct 15 13:11:10 MST 2018
+Description : DATAFRAG(282baf1f:9d:1:2c2 #1 -> 0:0:0:0) - fragmented builtin data not yet supported
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : recv 7f7e13203700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_receive.c/2231/0/1539634270.808836575
+========================================================================================
+Report      : WARNING
+Date        : Mon Oct 15 13:11:10 MST 2018
+Description : DATAFRAG(282baf1f:9d:1:2c2 #2 -> 0:0:0:0) - fragmented builtin data not yet supported
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : recv 7f7e13203700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_receive.c/2231/0/1539634270.809027265
+========================================================================================
+Report      : WARNING
+Date        : Mon Oct 15 13:11:10 MST 2018
+Description : DATAFRAG(282baf1f:9d:1:2c2 #2 -> 0:0:0:0) - fragmented builtin data not yet supported
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : recv 7f7e13203700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_receive.c/2231/0/1539634270.809091694
+========================================================================================
+Report      : WARNING
+Date        : Mon Oct 15 13:11:10 MST 2018
+Description : DATAFRAG(282baf1f:9d:1:2c2 #3 -> 0:0:0:0) - fragmented builtin data not yet supported
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : recv 7f7e13203700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_receive.c/2231/0/1539634270.809361364
+========================================================================================
+Report      : WARNING
+Date        : Mon Oct 15 13:11:10 MST 2018
+Description : DATAFRAG(282baf1f:9d:1:2c2 #3 -> 0:0:0:0) - fragmented builtin data not yet supported
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : recv 7f7e13203700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_receive.c/2231/0/1539634270.809406479
+========================================================================================
+Report      : WARNING
+Date        : Mon Oct 15 13:11:10 MST 2018
+Description : DATAFRAG(282baf1f:9d:1:2c2 #3 -> 0:0:0:0) - fragmented builtin data not yet supported
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : recv 7f7e13203700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_receive.c/2231/0/1539634270.809429680
+========================================================================================
+Report      : WARNING
+Date        : Mon Oct 15 13:11:10 MST 2018
+Description : DATAFRAG(282baf1f:9d:1:2c2 #3 -> 0:0:0:0) - fragmented builtin data not yet supported
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : recv 7f7e13203700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_receive.c/2231/0/1539634270.809471402
+========================================================================================
+Report      : WARNING
+Date        : Mon Oct 15 13:11:10 MST 2018
+Description : DATAFRAG(282baf1f:9d:1:2c2 #3 -> 0:0:0:0) - fragmented builtin data not yet supported
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : recv 7f7e13203700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_receive.c/2231/0/1539634270.809491832
+========================================================================================
+Report      : WARNING
+Date        : Mon Oct 15 13:11:10 MST 2018
+Description : DATAFRAG(282baf1f:9d:1:2c2 #5 -> 0:0:0:0) - fragmented builtin data not yet supported
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : recv 7f7e13203700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_receive.c/2231/0/1539634270.809673083
+========================================================================================
+Report      : WARNING
+Date        : Mon Oct 15 13:11:10 MST 2018
+Description : DATAFRAG(282baf1f:9d:1:2c2 #5 -> 0:0:0:0) - fragmented builtin data not yet supported
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : recv 7f7e13203700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_receive.c/2231/0/1539634270.809705534
+========================================================================================
+Report      : WARNING
+Date        : Mon Oct 15 13:11:10 MST 2018
+Description : DATAFRAG(282baf1f:9d:1:2c2 #5 -> 0:0:0:0) - fragmented builtin data not yet supported
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : recv 7f7e13203700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_receive.c/2231/0/1539634270.809725097
+========================================================================================
+Report      : WARNING
+Date        : Mon Oct 15 13:11:10 MST 2018
+Description : DATAFRAG(282baf1f:9d:1:2c2 #5 -> 0:0:0:0) - fragmented builtin data not yet supported
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : recv 7f7e13203700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_receive.c/2231/0/1539634270.809764918
+========================================================================================
+Report      : WARNING
+Date        : Mon Oct 15 13:11:10 MST 2018
+Description : DATAFRAG(282baf1f:9d:1:2c2 #5 -> 0:0:0:0) - fragmented builtin data not yet supported
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : recv 7f7e13203700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_receive.c/2231/0/1539634270.809785313
+========================================================================================
+Report      : WARNING
+Date        : Mon Oct 15 13:11:10 MST 2018
+Description : DATAFRAG(282baf1f:9d:1:2c2 #5 -> 0:0:0:0) - fragmented builtin data not yet supported
+
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : recv 7f7e13203700
+Internals   : V6.4.140320OSS/24b1387/24b1387/ddsi2/q_receive.c/2231/0/1539634270.809821947
