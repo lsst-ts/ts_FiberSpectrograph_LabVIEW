@@ -1,0 +1,456 @@
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 10:04:35 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <24371>
+Thread      : OSPL Kernel Manager 7f2430ba5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539277475.971862977
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 10:04:35 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <24371>
+Thread      : OSPL Kernel Manager 7f2430ba5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539277475.971956955
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 10:04:35 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <24371>
+Thread      : OSPL Kernel Manager 7f2430ba5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539277475.971981065
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 10:06:01 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <30707>
+Thread      : OSPL Kernel Manager 7fb8f465d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539277561.438598761
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 10:06:01 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <30707>
+Thread      : OSPL Kernel Manager 7fb8f465d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539277561.439006831
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 10:06:01 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <30707>
+Thread      : OSPL Kernel Manager 7fb8f465d700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539277561.439045682
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 10:07:34 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37767>
+Thread      : OSPL Kernel Manager 7f441456e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539277654.275403143
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 10:07:34 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37767>
+Thread      : OSPL Kernel Manager 7f441456e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539277654.275514412
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 10:07:34 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37767>
+Thread      : OSPL Kernel Manager 7f441456e700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539277654.275537397
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 10:10:40 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <12363>
+Thread      : OSPL Kernel Manager 7fd9d7df3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539277840.895036528
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 10:10:40 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <12363>
+Thread      : OSPL Kernel Manager 7fd9d7df3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539277840.895139498
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 10:10:40 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <12363>
+Thread      : OSPL Kernel Manager 7fd9d7df3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539277840.895161734
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 10:11:50 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539277910.955236931
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 10:11:50 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539277910.955329181
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 10:11:50 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539277910.955348896
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 13:25:50 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <12363>
+Thread      : OSPL Kernel Manager 7fd9d7df3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539289550.997411485
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 13:25:50 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <12363>
+Thread      : OSPL Kernel Manager 7fd9d7df3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539289550.997474535
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 13:25:50 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <12363>
+Thread      : OSPL Kernel Manager 7fd9d7df3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539289550.997495157
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 14:34:39 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <12363>
+Thread      : OSPL Kernel Manager 7fd9d7df3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539293679.385319312
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 14:34:39 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <12363>
+Thread      : OSPL Kernel Manager 7fd9d7df3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539293679.385387866
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 14:34:39 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <12363>
+Thread      : OSPL Kernel Manager 7fd9d7df3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539293679.385410120
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 14:34:39 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <24371>
+Thread      : OSPL Kernel Manager 7f2430ba5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539293679.385822422
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 14:34:39 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <24371>
+Thread      : OSPL Kernel Manager 7f2430ba5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539293679.385881188
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 14:34:39 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <24371>
+Thread      : OSPL Kernel Manager 7f2430ba5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539293679.385905585
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 14:34:39 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539293679.385894219
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 14:34:39 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539293679.385975219
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 14:34:39 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539293679.386002028
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 15:35:01 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539297301.766855208
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 15:35:01 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539297301.766910861
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 15:35:01 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539297301.766931186
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 15:41:01 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539297661.766240045
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 15:41:01 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539297661.766290387
+========================================================================================
+Report      : ERROR
+Date        : Thu Oct 11 15:41:01 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539297661.766309019
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:48:56 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <12363>
+Thread      : OSPL Kernel Manager 7fd9d7df3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539362936.924259537
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:48:56 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <12363>
+Thread      : OSPL Kernel Manager 7fd9d7df3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539362936.924322733
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:48:56 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <12363>
+Thread      : OSPL Kernel Manager 7fd9d7df3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539362936.924342338
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:48:56 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <24371>
+Thread      : OSPL Kernel Manager 7f2430ba5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539362936.944339374
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:48:56 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <24371>
+Thread      : OSPL Kernel Manager 7f2430ba5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539362936.944382567
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:48:56 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <24371>
+Thread      : OSPL Kernel Manager 7f2430ba5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539362936.944397578
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:48:56 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539362936.944532414
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:48:56 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539362936.944580802
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:48:56 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539362936.944597147
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:49:54 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539362994.088468959
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:49:54 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539362994.088513061
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:49:54 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <17660>
+Thread      : OSPL Kernel Manager 7f6002f0b700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539362994.088545565
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:49:54 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <24371>
+Thread      : OSPL Kernel Manager 7f2430ba5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539362994.088617961
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:49:54 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <24371>
+Thread      : OSPL Kernel Manager 7f2430ba5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539362994.088675331
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:49:54 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <24371>
+Thread      : OSPL Kernel Manager 7f2430ba5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539362994.088692152
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:49:54 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <12363>
+Thread      : OSPL Kernel Manager 7fd9d7df3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539362994.089424644
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:49:54 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <12363>
+Thread      : OSPL Kernel Manager 7fd9d7df3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539362994.089476012
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:49:54 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <12363>
+Thread      : OSPL Kernel Manager 7fd9d7df3700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539362994.089496103
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:50:46 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <24371>
+Thread      : OSPL Kernel Manager 7f2430ba5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539363046.965150171
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:50:46 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <24371>
+Thread      : OSPL Kernel Manager 7f2430ba5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539363046.965209073
+========================================================================================
+Report      : ERROR
+Date        : Fri Oct 12 09:50:46 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <24371>
+Thread      : OSPL Kernel Manager 7f2430ba5700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539363046.965242244
+========================================================================================
+Report      : ERROR
+Date        : Mon Oct 15 13:08:12 MST 2018
+Description : c_metaBind failed for Struct <v_readerLifecyclePolicy> in scope <kernelModule>.
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : OSPL Kernel Manager 7f7e13d45700
+Internals   : V6.4.140320OSS/24b1387/24b1387/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2436/0/1539634092.508284578
+========================================================================================
+Report      : ERROR
+Date        : Mon Oct 15 13:08:12 MST 2018
+Description : Deserialize failed
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : OSPL Kernel Manager 7f7e13d45700
+Internals   : V6.4.140320OSS/24b1387/24b1387/Type deserialize/sd_serializerXMLTypeinfo.c/3016/0/1539634092.508383961
+========================================================================================
+Report      : ERROR
+Date        : Mon Oct 15 13:08:12 MST 2018
+Description : Deserialization remote topic failed: (null) at <unknown>
+Node        : krobisondell.lsst.local
+Process     : SALLV_sedSpectrometer_Monitor <37147>
+Thread      : OSPL Kernel Manager 7f7e13d45700
+Internals   : V6.4.140320OSS/24b1387/24b1387/v_spliced/v_spliced.c/495/0/1539634092.508405573
