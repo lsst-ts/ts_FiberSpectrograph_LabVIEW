@@ -13,3 +13,6 @@
 [submodule "ComponentTemplateCore"]
 	path = ComponentTemplateCore
 	url = https://github.com/lsst-ts/common_ct_coreuserevents.git
+[submodule "ts_sallv_FiberSpectrograph"]
+	path = ts_sallv_FiberSpectrograph
+	url = https://github.com/lsst-ts/ts_sallv_FiberSpectrograph.git
