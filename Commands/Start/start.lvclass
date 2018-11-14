@@ -32,7 +32,7 @@
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1352671744</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1353196032</Property>
 			</Item>
 			<Item Name="Read configuration.vi" Type="VI" URL="../Read configuration.vi">
 				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%X!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!-0````].9W^O:GFH&gt;8*B&gt;'FP&lt;A!S1(!!(A!!(AZ$&lt;WVN97ZE=SZM&gt;GRJ9AVT&gt;'&amp;S&gt;#ZM&gt;G.M98.T!!!*5X2B=H1A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-E"Q!"Y!!"Y/1W^N&lt;7&amp;O:(-O&lt;(:M;7).=X2B=H1O&lt;(:D&lt;'&amp;T=Q!!#&amp;.U98*U)'FO!!"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!E!!!!!</Property>
