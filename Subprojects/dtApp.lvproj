@@ -39,22 +39,22 @@
 					<Item Name="md5.llx" Type="Document" URL="../../CFitsIO/md5/md5.llx"/>
 				</Item>
 				<Item Name="public" Type="Folder">
-					<Item Name="FITS_CloseFile.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_CloseFile.vi"/>
-					<Item Name="FITS_CreateFile_Simple.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_CreateFile_Simple.vi"/>
-					<Item Name="FITS_CreateImage.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_CreateImage.vi"/>
-					<Item Name="FITS_FormatRecord.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_FormatRecord.vi"/>
+					<Item Name="FITS_CloseFile.vi" Type="VI" URL="../../common_labview_cfitsio/public/FITS_CloseFile.vi"/>
+					<Item Name="FITS_CreateFile_Simple.vi" Type="VI" URL="../../common_labview_cfitsio/public/FITS_CreateFile_Simple.vi"/>
+					<Item Name="FITS_CreateImage.vi" Type="VI" URL="../../common_labview_cfitsio/public/FITS_CreateImage.vi"/>
+					<Item Name="FITS_FormatRecord.vi" Type="VI" URL="../../common_labview_cfitsio/public/FITS_FormatRecord.vi"/>
 					<Item Name="FITS_GetImgSize.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_GetImgSize.vi"/>
 					<Item Name="FITS_LoadImgSGL.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_LoadImgSGL.vi"/>
-					<Item Name="FITS_OpenFile.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_OpenFile.vi"/>
+					<Item Name="FITS_OpenFile.vi" Type="VI" URL="../../common_labview_cfitsio/public/FITS_OpenFile.vi"/>
 					<Item Name="FITS_ReadCard.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_ReadCard.vi"/>
 					<Item Name="FITS_ReadImgSGL.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_ReadImgSGL.vi"/>
 					<Item Name="FITS_SaveImageSGL.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_SaveImageSGL.vi"/>
 					<Item Name="FITS_SaveImageU16.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_SaveImageU16.vi"/>
 					<Item Name="FITS_WriteGeomSingle.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_WriteGeomSingle.vi"/>
 					<Item Name="FITS_WriteImageI32.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_WriteImageI32.vi"/>
-					<Item Name="FITS_WriteImageSGL.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_WriteImageSGL.vi"/>
+					<Item Name="FITS_WriteImageSGL.vi" Type="VI" URL="../../common_labview_cfitsio/public/FITS_WriteImageSGL.vi"/>
 					<Item Name="FITS_WriteImageU16.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_WriteImageU16.vi"/>
-					<Item Name="FITS_WriteKeyFromChar.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_WriteKeyFromChar.vi"/>
+					<Item Name="FITS_WriteKeyFromChar.vi" Type="VI" URL="../../common_labview_cfitsio/public/FITS_WriteKeyFromChar.vi"/>
 				</Item>
 				<Item Name="test" Type="Folder">
 					<Item Name="FITS_Test_Open.vi" Type="VI" URL="../../../common_labview_cfitsio/test/FITS_Test_Open.vi"/>
@@ -197,7 +197,6 @@
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
-				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
@@ -243,8 +242,12 @@
 			<Item Name="ContextID.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/ContextID/ContextID.lvclass"/>
 			<Item Name="Controller.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Controller/Controller.lvclass"/>
 			<Item Name="DTTLListener.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/DTTLListener/DTTLListener.lvclass"/>
-			<Item Name="DeviceConfigType_to_Byte.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/DeviceConfigType_to_Byte.vi"/>
 			<Item Name="DeviceConfigType_to_Byte.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/DeviceConfigType_to_Byte.vi"/>
+			<Item Name="DeviceConfigType_to_Byte.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/DeviceConfigType_to_Byte.vi"/>
+			<Item Name="FITS_CloseFile.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_CloseFile.vi"/>
+			<Item Name="FITS_CreateFile_Simple.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_CreateFile_Simple.vi"/>
+			<Item Name="FITS_CreateImage.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_CreateImage.vi"/>
+			<Item Name="FITS_WriteImageSGL.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_WriteImageSGL.vi"/>
 			<Item Name="FPGAClockConfig.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/ConfigurationHandler/FPGAClockConfig/FPGAClockConfig.lvclass"/>
 			<Item Name="Heartbeat.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Heartbeat/Heartbeat/Heartbeat.lvclass"/>
 			<Item Name="IHeartbeat.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Heartbeat/IHeartbeat/IHeartbeat.lvclass"/>
@@ -261,13 +264,14 @@
 			<Item Name="ProcessStatusRendezvous.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ProcessStatusRendezvous.ctl"/>
 			<Item Name="PubSubDataEvent.lvclass" Type="LVClass" URL="../../PubSubDataEvent/PubSubDataEvent.lvclass"/>
 			<Item Name="Rendezvous.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Rendezvous/Rendezvous.lvclass"/>
-			<Item Name="SALLV_sedSpectrometer.lvlib" Type="Library" URL="../../ts_sallv_sedspectrometer/SALLV_sedSpectrometer.lvlib"/>
+			<Item Name="SALLV_FiberSpectrograph.lvlib" Type="Library" URL="../../ts_sallv_FiberSpectrograph/SALLV_FiberSpectrograph.lvlib"/>
 			<Item Name="TimedLoopListener.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/TimedLoopListener/TimedLoopListener.lvclass"/>
 			<Item Name="TypedefsDataEvents.lvlib" Type="Library" URL="../../TypedefsDataEvents/TypedefsDataEvents.lvlib"/>
 			<Item Name="UserEventBasedController.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/UserEventBasedController/UserEventBasedController.lvclass"/>
 			<Item Name="clusterdef.ctl" Type="VI" URL="../../ss_sedspectrometer/VIs/clusterdef.ctl"/>
 			<Item Name="libavs.so" Type="Document" URL="../../ss_sedspectrometer/VIs/libavs.so"/>
 			<Item Name="libfits.so" Type="Document" URL="/usr/local/lib/libfits.so"/>
+			<Item Name="libfits_centos.so.4.0" Type="Document" URL="../../common_labview_cfitsio/private/fitsLib/libfits_centos.so.4.0"/>
 			<Item Name="serializeExampleSetting.vi" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/ConfigurationFileReader/serializeExampleSetting.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
