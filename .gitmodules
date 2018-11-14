@@ -4,9 +4,6 @@
 [submodule "ss_sedspectrometer"]
 	path = ss_sedspectrometer
 	url = https://github.com/lsst-ts/ss_FiberSpectrometer.git
-[submodule "ts_sallv_sedspectrometer"]
-	path = ts_sallv_sedspectrometer
-	url = https://github.com/lsst-ts/ts_sallv_FiberSpectrometer.git
 [submodule "common_labview_cfitsio"]
 	path = common_labview_cfitsio
 	url = https://github.com/lsst-ts/common_labview_cfitsio.git
