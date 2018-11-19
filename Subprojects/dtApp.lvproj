@@ -135,7 +135,7 @@
 					<Item Name="AVS_UseHighResADC.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/AVS_UseHighResADC.vi"/>
 					<Item Name="StartMeasurement.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/StartMeasurement.vi"/>
 				</Item>
-				<Item Name="SEDSpectrometer.lvclass" Type="LVClass" URL="../../ss_sedspectrometer/SEDSpectrometer/SEDSpectrometer.lvclass"/>
+				<Item Name="FiberSpectrograph.lvclass" Type="LVClass" URL="../../ss_sedspectrometer/SEDSpectrometer/FiberSpectrograph.lvclass"/>
 				<Item Name="TestApplication.vi" Type="VI" URL="../../ss_sedspectrometer/TestApplication.vi"/>
 			</Item>
 			<Item Name="State" Type="Folder">
@@ -146,7 +146,6 @@
 				<Item Name="IStateFactory.lvclass" Type="LVClass" URL="../../IStateFactory/IStateFactory.lvclass"/>
 				<Item Name="StateFactory.lvclass" Type="LVClass" URL="../../StateFactory/StateFactory.lvclass"/>
 			</Item>
-			<Item Name="SEDSpectrometerTypedefs.lvlib" Type="Library" URL="../../Typedefs/SEDSpectrometerTypedefs.lvlib"/>
 			<Item Name="Settings.lvlib" Type="Library" URL="../../Settings/SettingsTC/Settings.lvlib"/>
 		</Item>
 		<Item Name="zSpecialDependencyDescendants" Type="Folder">
@@ -197,6 +196,7 @@
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
@@ -232,7 +232,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="AppDT.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/Application/AppDT/AppDT.lvclass"/>
-			<Item Name="Byte_to_DeviceConfigType.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/Byte_to_DeviceConfigType.vi"/>
+			<Item Name="Byte_to_DeviceConfigType.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/Byte_to_DeviceConfigType.vi"/>
 			<Item Name="Command.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Command/Command.lvclass"/>
 			<Item Name="CommandEvent.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/CommandEvent/CommandEvent.lvclass"/>
 			<Item Name="CommandEvents.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/CommandEvents.ctl"/>
@@ -243,12 +243,8 @@
 			<Item Name="Controller.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Controller/Controller.lvclass"/>
 			<Item Name="DTTLListener.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/DTTLListener/DTTLListener.lvclass"/>
 			<Item Name="DeviceConfigType_to_Byte.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/DeviceConfigType_to_Byte.vi"/>
-			<Item Name="DeviceConfigType_to_Byte.vi" Type="VI" URL="../../../../Downloads/LabViewSingleChan.llb/DeviceConfigType_to_Byte.vi"/>
-			<Item Name="FITS_CloseFile.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_CloseFile.vi"/>
-			<Item Name="FITS_CreateFile_Simple.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_CreateFile_Simple.vi"/>
-			<Item Name="FITS_CreateImage.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_CreateImage.vi"/>
-			<Item Name="FITS_WriteImageSGL.vi" Type="VI" URL="../../../common_labview_cfitsio/public/FITS_WriteImageSGL.vi"/>
 			<Item Name="FPGAClockConfig.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/ConfigurationHandler/FPGAClockConfig/FPGAClockConfig.lvclass"/>
+			<Item Name="FiberSpectrographTypedefs.lvlib" Type="Library" URL="../../Typedefs/FiberSpectrographTypedefs.lvlib"/>
 			<Item Name="Heartbeat.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Heartbeat/Heartbeat/Heartbeat.lvclass"/>
 			<Item Name="IHeartbeat.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Heartbeat/IHeartbeat/IHeartbeat.lvclass"/>
 			<Item Name="ILoopTimer.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/LoopTimer/ILoopTimer/ILoopTimer.lvclass"/>
