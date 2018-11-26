@@ -27,8 +27,8 @@
 		<Item Name="ViewElements" Type="Folder">
 			<Item Name="sedSpectrometerViewElements.lvlib" Type="Library" URL="../../View/ViewElements/sedSpectrometerViewElements.lvlib"/>
 		</Item>
+		<Item Name="FiberSpectrographViewMain.vi" Type="VI" URL="../../FiberSpectrographViewMain.vi"/>
 		<Item Name="ViewThisComponent.lvclass" Type="LVClass" URL="../../ViewThisComponent/ViewThisComponent.lvclass"/>
-		<Item Name="sedSpectrometerViewMain.vi" Type="VI" URL="../../sedSpectrometerViewMain.vi"/>
 		<Item Name="viewMainMenu.rtm" Type="Document" URL="../../View/viewMainMenu.rtm"/>
 		<Item Name="warningsConfigDialog.vi" Type="VI" URL="../../ComponentTemplateCore/GUI/WarningsConfigDialog/warningsConfigDialog.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -130,6 +130,7 @@
 			<Item Name="ConfigurationTypedefs.lvlib" Type="Library" URL="../../ConfigurationTC/ConfigurationTypedefs/ConfigurationTypedefs.lvlib"/>
 			<Item Name="Context.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Context/Context.lvclass"/>
 			<Item Name="ContextID.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/ContextID/ContextID.lvclass"/>
+			<Item Name="FiberSpectrographTypedefs.lvlib" Type="Library" URL="../../Typedefs/FiberSpectrographTypedefs.lvlib"/>
 			<Item Name="IContextThisComponent.lvclass" Type="LVClass" URL="../../IContextThisComponent/IContextThisComponent.lvclass"/>
 			<Item Name="Internet.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/Internet/Internet.lvclass"/>
 			<Item Name="Middleware.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Middleware/Middleware.lvclass"/>
@@ -141,8 +142,7 @@
 			<Item Name="ProgrammaticInitialization.lvclass" Type="LVClass" URL="../../MiddlewareSALThisComponent/ProgrammaticInitialization/ProgrammaticInitialization.lvclass"/>
 			<Item Name="PubSubDataEvent.lvclass" Type="LVClass" URL="../../PubSubDataEvent/PubSubDataEvent.lvclass"/>
 			<Item Name="Rendezvous.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Rendezvous/Rendezvous.lvclass"/>
-			<Item Name="SALLV_sedSpectrometer.lvlib" Type="Library" URL="../../ts_sallv_sedspectrometer/SALLV_sedSpectrometer.lvlib"/>
-			<Item Name="SEDSpectrometerTypedefs.lvlib" Type="Library" URL="../../Typedefs/SEDSpectrometerTypedefs.lvlib"/>
+			<Item Name="SALLV_FiberSpectrograph.lvlib" Type="Library" URL="../../ts_sallv_FiberSpectrograph/SALLV_FiberSpectrograph.lvlib"/>
 			<Item Name="Settings.lvlib" Type="Library" URL="../../Settings/SettingsTC/Settings.lvlib"/>
 			<Item Name="SharedVariableHandler.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/SharedVariableHandler/SharedVariableHandler.lvclass"/>
 			<Item Name="Subpanel.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Subpanel/Subpanel.lvclass"/>
@@ -152,45 +152,44 @@
 			<Item Name="ViewUserEvent.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ViewUserEvent.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="ViewSEDSpectrometer" Type="EXE">
+			<Item Name="ViewFiberSpectrograph" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{12562388-92B6-11E8-B351-509A4C4F00F1}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{125622CC-92B6-11E8-B351-509A4C4F00F1}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{1256321D-92B6-11E8-B351-509A4C4F00F1}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">ViewSEDSpectrometer</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ViewFiberSpectrograph</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/ViewSEDSpectrometer</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/ViewFiberSpectrograph</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{125631CB-92B6-11E8-B351-509A4C4F00F1}</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">5</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">ViewSEDSpectrometer</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ViewSEDSpectrometer/ViewSEDSpectrometer</Property>
+				<Property Name="Destination[0].destName" Type="Str">ViewFiberSpectrograph</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ViewFiberSpectrograph/ViewFiberSpectrograph</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ViewSEDSpectrometer/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ViewFiberSpectrograph/data</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1BEE722E-BD5B-11E8-A7C6-509A4C4F00F1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{063E2A15-F26C-11E8-A7C6-509A4C4F00F1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/sedSpectrometerViewMain.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FiberSpectrographViewMain.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">ViewSEDSpectrometer</Property>
-				<Property Name="TgtF_internalName" Type="Str">ViewSEDSpectrometer</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">ViewFiberSpectrograph</Property>
+				<Property Name="TgtF_internalName" Type="Str">ViewFiberSpectrograph</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright 2018 </Property>
-				<Property Name="TgtF_productName" Type="Str">ViewSEDSpectrometer</Property>
+				<Property Name="TgtF_productName" Type="Str">ViewFiberSpectrograph</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{12563091-92B6-11E8-B351-509A4C4F00F1}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">ViewSEDSpectrometer</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">ViewFiberSpectrograph</Property>
 			</Item>
 		</Item>
 	</Item>
