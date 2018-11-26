@@ -271,45 +271,44 @@
 			<Item Name="serializeExampleSetting.vi" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/ConfigurationFileReader/serializeExampleSetting.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="DtAppSEDSpectrometer" Type="EXE">
+			<Item Name="DtAppFiberSpectrograph" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{0D5D185F-92B5-11E8-B351-509A4C4F00F1}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{0D5D17B5-92B5-11E8-B351-509A4C4F00F1}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{0D5D2617-92B5-11E8-B351-509A4C4F00F1}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">DtAppSEDSpectrometer</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DtAppFiberSpectrograph</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/DtAppSEDSpectrometer</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/DtAppFiberSpectrograph</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0D5D25C5-92B5-11E8-B351-509A4C4F00F1}</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">5</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">DtAppSEDSpectrometer</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/DtAppSEDSpectrometer/DtAppSEDSpectrometer</Property>
+				<Property Name="Destination[0].destName" Type="Str">DtAppFiberSpectrograph</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/DtAppFiberSpectrograph/DtAppFiberSpectrograph</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/DtAppSEDSpectrometer/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/DtAppFiberSpectrograph/data</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{79C6744B-BD5B-11E8-A7C6-509A4C4F00F1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{65AA407C-F26B-11E8-A7C6-509A4C4F00F1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/dtAppMain.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">DtAppSEDSpectrometer</Property>
-				<Property Name="TgtF_internalName" Type="Str">DtAppSEDSpectrometer</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DtAppFiberSpectrograph</Property>
+				<Property Name="TgtF_internalName" Type="Str">DtAppFiberSpectrograph</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright 2018 </Property>
-				<Property Name="TgtF_productName" Type="Str">DtAppSEDSpectrometer</Property>
+				<Property Name="TgtF_productName" Type="Str">DtAppFiberSpectrograph</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{0D5D248C-92B5-11E8-B351-509A4C4F00F1}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">DtAppSEDSpectrometer</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DtAppFiberSpectrograph</Property>
 			</Item>
 		</Item>
 	</Item>

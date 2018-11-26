@@ -150,47 +150,47 @@
 			<Item Name="TypedefsDataEvents.lvlib" Type="Library" URL="../../TypedefsDataEvents/TypedefsDataEvents.lvlib"/>
 			<Item Name="View.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/View/View.lvclass"/>
 			<Item Name="ViewUserEvent.ctl" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Typedefs/ViewUserEvent.ctl"/>
+			<Item Name="command_captureSpectImage.ctl" Type="VI" URL="../../ts_sallv_sedspectrometer/DataTypes/command_captureSpectImage.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="ViewSEDSpectrometer" Type="EXE">
+			<Item Name="ViewFiberSpectrograph" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{12562388-92B6-11E8-B351-509A4C4F00F1}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{125622CC-92B6-11E8-B351-509A4C4F00F1}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{1256321D-92B6-11E8-B351-509A4C4F00F1}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">ViewSEDSpectrometer</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ViewFiberSpectrograph</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/ViewSEDSpectrometer</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/ViewFiberSpectrograph</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{125631CB-92B6-11E8-B351-509A4C4F00F1}</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">5</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">ViewSEDSpectrometer</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ViewSEDSpectrometer/ViewSEDSpectrometer</Property>
+				<Property Name="Destination[0].destName" Type="Str">ViewFiberSpectrograph</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ViewFiberSpectrograph/ViewFiberSpectrograph</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ViewSEDSpectrometer/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ViewFiberSpectrograph/data</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1BEE722E-BD5B-11E8-A7C6-509A4C4F00F1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{063E2A15-F26C-11E8-A7C6-509A4C4F00F1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FiberSpectrographViewMain.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">ViewSEDSpectrometer</Property>
-				<Property Name="TgtF_internalName" Type="Str">ViewSEDSpectrometer</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">ViewFiberSpectrograph</Property>
+				<Property Name="TgtF_internalName" Type="Str">ViewFiberSpectrograph</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright 2018 </Property>
-				<Property Name="TgtF_productName" Type="Str">ViewSEDSpectrometer</Property>
+				<Property Name="TgtF_productName" Type="Str">ViewFiberSpectrograph</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{12563091-92B6-11E8-B351-509A4C4F00F1}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">ViewSEDSpectrometer</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">ViewFiberSpectrograph</Property>
 			</Item>
 		</Item>
 	</Item>
