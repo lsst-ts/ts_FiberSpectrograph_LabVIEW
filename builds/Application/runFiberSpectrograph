@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+./DLFiberSpectrograph > /dev/null 2>&1 &
+./DtAppFiberSpectrograph > /dev/null 2>&1 &
+./ViewFiberSpectrograph > /dev/null 2>&1 &
+./SALLV_FiberSpectrograph_Monitor &
+
+cd /home/harini/TCS/SEDSpectrum
+python3 -m http.server --bind 140.252.32.244 8000
+echo "started server"
