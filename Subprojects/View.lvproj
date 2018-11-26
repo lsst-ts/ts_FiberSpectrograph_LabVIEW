@@ -27,8 +27,8 @@
 		<Item Name="ViewElements" Type="Folder">
 			<Item Name="sedSpectrometerViewElements.lvlib" Type="Library" URL="../../View/ViewElements/sedSpectrometerViewElements.lvlib"/>
 		</Item>
+		<Item Name="FiberSpectrographViewMain.vi" Type="VI" URL="../../FiberSpectrographViewMain.vi"/>
 		<Item Name="ViewThisComponent.lvclass" Type="LVClass" URL="../../ViewThisComponent/ViewThisComponent.lvclass"/>
-		<Item Name="sedSpectrometerViewMain.vi" Type="VI" URL="../../sedSpectrometerViewMain.vi"/>
 		<Item Name="viewMainMenu.rtm" Type="Document" URL="../../View/viewMainMenu.rtm"/>
 		<Item Name="warningsConfigDialog.vi" Type="VI" URL="../../ComponentTemplateCore/GUI/WarningsConfigDialog/warningsConfigDialog.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -182,7 +182,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{1BEE722E-BD5B-11E8-A7C6-509A4C4F00F1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/sedSpectrometerViewMain.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FiberSpectrographViewMain.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">ViewSEDSpectrometer</Property>
