@@ -169,7 +169,8 @@
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">5</Property>
+				<Property Name="Bld_version.minor" Type="Int">6</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">ViewFiberSpectrograph</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/ViewFiberSpectrograph/ViewFiberSpectrograph</Property>
@@ -178,7 +179,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/ViewFiberSpectrograph/data</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{063E2A15-F26C-11E8-A7C6-509A4C4F00F1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{902C3EA8-F416-11E8-A7C6-509A4C4F00F1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FiberSpectrographViewMain.vi</Property>
