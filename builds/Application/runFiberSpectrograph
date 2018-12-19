@@ -7,5 +7,5 @@
 ./SALLV_FiberSpectrograph_Monitor &
 
 cd /home/harini/TCS/SEDSpectrum
-python3 -m http.server --bind 140.252.32.244 8000
+python3 -m http.server --bind 140.252.33.82 8000
 echo "started server"
