@@ -196,7 +196,6 @@
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
-				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
@@ -242,6 +241,7 @@
 			<Item Name="ContextID.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/ContextID/ContextID.lvclass"/>
 			<Item Name="Controller.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/Controller/Controller.lvclass"/>
 			<Item Name="DTTLListener.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/DTTLListener/DTTLListener.lvclass"/>
+			<Item Name="DeviceConfigType_to_Byte.vi" Type="VI" URL="../../../tcs/ss_FiberSpectrograph/VIs/DeviceConfigType_to_Byte.vi"/>
 			<Item Name="DeviceConfigType_to_Byte.vi" Type="VI" URL="../../ss_sedspectrometer/VIs/DeviceConfigType_to_Byte.vi"/>
 			<Item Name="FPGAClockConfig.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModelRT/ConfigurationHandler/FPGAClockConfig/FPGAClockConfig.lvclass"/>
 			<Item Name="FiberSpectrographTypedefs.lvlib" Type="Library" URL="../../Typedefs/FiberSpectrographTypedefs.lvlib"/>
@@ -266,8 +266,6 @@
 			<Item Name="UserEventBasedController.lvclass" Type="LVClass" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/UserEventBasedController/UserEventBasedController.lvclass"/>
 			<Item Name="clusterdef.ctl" Type="VI" URL="../../ss_sedspectrometer/VIs/clusterdef.ctl"/>
 			<Item Name="libavs.so" Type="Document" URL="../../ss_sedspectrometer/VIs/libavs.so"/>
-			<Item Name="libfits.so" Type="Document" URL="/usr/local/lib/libfits.so"/>
-			<Item Name="libfits_centos.so.4.0" Type="Document" URL="../../common_labview_cfitsio/private/fitsLib/libfits_centos.so.4.0"/>
 			<Item Name="serializeExampleSetting.vi" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/ConfigurationFileReader/serializeExampleSetting.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
