@@ -267,7 +267,6 @@
 			<Item Name="clusterdef.ctl" Type="VI" URL="../../ss_sedspectrometer/VIs/clusterdef.ctl"/>
 			<Item Name="libavs.so" Type="Document" URL="../../ss_sedspectrometer/VIs/libavs.so"/>
 			<Item Name="libfits.so" Type="Document" URL="/usr/local/lib/libfits.so"/>
-			<Item Name="libfits_centos.so.4.0" Type="Document" URL="../../common_labview_cfitsio/private/fitsLib/libfits_centos.so.4.0"/>
 			<Item Name="serializeExampleSetting.vi" Type="VI" URL="../../ComponentTemplateCore/ComponentModel/ComponentModel/ConfigurationFileReader/serializeExampleSetting.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
